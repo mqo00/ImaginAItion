@@ -1,0 +1,6 @@
+.main-container {
+  padding-left: clamp(0rem, 15vw, 30rem);
+  padding-right: clamp(0rem, 15vw, 30rem);
+  padding-top: clamp(0rem, 5vh, 5rem);
+  padding-bottom: clamp(0rem, 10vh, 10rem);
+}

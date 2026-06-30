@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    # no longer expose the port externally; only reachable on the internal Docker network
+    expose:
+      - "5001"
+    environment:
+      - ENVIRONMENT=production
+      - BACKEND_URL=${BACKEND_URL:-http://localhost}
+    volumes:
+      - ./backend:/app
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    # no longer expose the port externally
+    expose:
+      - "5173"
+    environment:
+      # the frontend calls the API via relative paths; Nginx proxies them
+      - VITE_API_URL=
+      - VITE_ENVIRONMENT=production
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"  # expose only port 80
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - frontend
+      - backend
+    restart: unless-stopped
+

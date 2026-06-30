@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[url('./assets/background.png')] bg-cover bg-center bg-no-repeat bg-fixed h-screen w-screen;
+  }
+}
+

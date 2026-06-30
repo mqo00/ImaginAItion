@@ -1,0 +1,47 @@
+# Ignore node_modules and build files from frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.cache/
+frontend/.vite/
+frontend/.env
+
+# Ignore Python virtual environment
+backend/venv/
+backend/__pycache__/
+backend/.pytest_cache/
+
+# Ignore build artifacts
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/.mypy_cache/
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore environment files (keep .env.example committed)
+.env
+.env.production
+.env.local
+backend/.env
+backend/.env.local
+backend/.DS_Store
+
+# Ignore Docker-related files
+docker-compose.override.yml
+*.dockerfile
+*.tar
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore backend generated files
+backend/generated_images/
