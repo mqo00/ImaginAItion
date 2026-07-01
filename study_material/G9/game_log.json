@@ -1,0 +1,1122 @@
+{
+  "group_id": "G9",
+  "start_timestamp": "2025-08-30T02:06:35.057062Z",
+  "end_timestamp": "2025-08-30T02:43:29.281593Z",
+  "total_rounds": 6,
+  "final_scores": {
+    "G9-P2": {
+      "total_score": 1,
+      "round_scores": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 1
+      }
+    },
+    "G9-P1": {
+      "total_score": 4,
+      "round_scores": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 0,
+        "5": 1,
+        "6": 0
+      }
+    },
+    "G9-P3": {
+      "total_score": 7,
+      "round_scores": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 2,
+        "5": 1,
+        "6": 1
+      }
+    }
+  },
+  "player_actions": [
+    {
+      "timestamp": "2025-08-30T02:07:13.800264Z",
+      "round_num": 1,
+      "player_id": "G9-P3",
+      "action_type": "prompt_image",
+      "prompt": "高加索男性",
+      "image_path": "images/20250830020713-img-1-G9-P3-prompt_image-高-加-索.png",
+      "prompt_tokens": [
+        "高",
+        "加",
+        "索",
+        "男性"
+      ],
+      "prompt_tok_length": 4,
+      "votes_received": [
+        "G9-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 15,
+      "reference_image_path": "/static/reference_images/a_man.png",
+      "reference_image_prompt": "A man",
+      "reference_image_categories": [
+        "demographic",
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-30T02:07:18.743378Z",
+      "round_num": 1,
+      "player_id": "G9-P2",
+      "action_type": "prompt_image",
+      "prompt": "一个白人男的，蓝衣服圆领衫。背景是棕色的，很多头发",
+      "image_path": "images/20250830020718-img-1-G9-P2-prompt_image-一个-白-人.png",
+      "prompt_tokens": [
+        "一个",
+        "白",
+        "人",
+        "男",
+        "的",
+        "，",
+        "蓝",
+        "衣",
+        "服",
+        "圆",
+        "领",
+        "�",
+        "�",
+        "。",
+        "背景",
+        "是",
+        "�",
+        "�",
+        "色",
+        "的",
+        "，",
+        "很多",
+        "头",
+        "发"
+      ],
+      "prompt_tok_length": 24,
+      "votes_received": [
+        "G9-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 15,
+      "reference_image_path": "/static/reference_images/a_man.png",
+      "reference_image_prompt": "A man",
+      "reference_image_categories": [
+        "demographic",
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-30T02:07:55.937743Z",
+      "round_num": 1,
+      "player_id": "G9-P1",
+      "action_type": "prompt_image",
+      "prompt": "Vertical handsome young beard white man, bust shot, dark blue short sleeves against a beige background. Vertical",
+      "image_path": "images/20250830020755-img-1-G9-P1-prompt_image-Vertical-handsome-young.png",
+      "prompt_tokens": [
+        "Vertical",
+        " handsome",
+        " young",
+        " beard",
+        " white",
+        " man",
+        ",",
+        " bust",
+        " shot",
+        ",",
+        " dark",
+        " blue",
+        " short",
+        " sleeves",
+        " against",
+        " a",
+        " beige",
+        " background",
+        ".",
+        " Vertical"
+      ],
+      "prompt_tok_length": 20,
+      "votes_received": [
+        "G9-P2"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 15,
+      "reference_image_path": "/static/reference_images/a_man.png",
+      "reference_image_prompt": "A man",
+      "reference_image_categories": [
+        "demographic",
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-30T02:08:05.475797Z",
+      "round_num": 1,
+      "player_id": "G9-P1",
+      "action_type": "vote",
+      "voted_for_id": "G9-P3",
+      "vote_timestamp": "2025-08-30T02:08:05.475797Z"
+    },
+    {
+      "timestamp": "2025-08-30T02:08:06.830400Z",
+      "round_num": 1,
+      "player_id": "G9-P2",
+      "action_type": "vote",
+      "voted_for_id": "G9-P1",
+      "vote_timestamp": "2025-08-30T02:08:06.830400Z"
+    },
+    {
+      "timestamp": "2025-08-30T02:08:09.577954Z",
+      "round_num": 1,
+      "player_id": "G9-P3",
+      "action_type": "vote",
+      "voted_for_id": "G9-P2",
+      "vote_timestamp": "2025-08-30T02:08:09.577954Z"
+    },
+    {
+      "timestamp": "2025-08-30T02:10:35.404573Z",
+      "round_num": 1,
+      "player_id": "G9-P1",
+      "action_type": "quick_draw",
+      "prompt": "Vertical smiling white caucasian young bearded man, bust shot, dark blue short sleeves against a beige background.",
+      "image_path": "images/20250830021035-img-1-G9-P1-quick_draw-Vertical-smiling-white.png",
+      "prompt_tokens": [
+        "Vertical",
+        " smiling",
+        " white",
+        " cauc",
+        "asian",
+        " young",
+        " be",
+        "arded",
+        " man",
+        ",",
+        " bust",
+        " shot",
+        ",",
+        " dark",
+        " blue",
+        " short",
+        " sleeves",
+        " against",
+        " a",
+        " beige",
+        " background",
+        "."
+      ],
+      "prompt_tok_length": 22,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-30T02:11:40.884254Z",
+      "round_num": 1,
+      "player_id": "G9-P3",
+      "action_type": "quick_draw",
+      "prompt": "vertical这个描述很有意思",
+      "image_path": "images/20250830021140-img-1-G9-P3-quick_draw-vertical-这个-描述.png",
+      "prompt_tokens": [
+        "vertical",
+        "这个",
+        "描述",
+        "很",
+        "有",
+        "意思"
+      ],
+      "prompt_tok_length": 6,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-30T02:16:49.359123Z",
+      "round_num": 2,
+      "player_id": "G9-P2",
+      "action_type": "prompt_image",
+      "prompt": "一个宇航员骑马在地球外面",
+      "image_path": "images/20250830021649-img-2-G9-P2-prompt_image-一个-宇-航.png",
+      "prompt_tokens": [
+        "一个",
+        "宇",
+        "航",
+        "员",
+        "骑",
+        "马",
+        "在",
+        "地",
+        "球",
+        "外",
+        "面"
+      ],
+      "prompt_tok_length": 11,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 26,
+      "reference_image_path": "/static/reference_images/a_horse_riding_an_astronaut.png",
+      "reference_image_prompt": "A horse riding an astronaut",
+      "reference_image_categories": [
+        "co-occurrence"
+      ],
+      "represented_category_in_game": "co-occurrence"
+    },
+    {
+      "timestamp": "2025-08-30T02:17:17.398249Z",
+      "round_num": 2,
+      "player_id": "G9-P3",
+      "action_type": "prompt_image",
+      "prompt": "宇航员骑着马，在太空中，背景是地球的四分之一圆",
+      "image_path": "images/20250830021717-img-2-G9-P3-prompt_image-宇-航-员.png",
+      "prompt_tokens": [
+        "宇",
+        "航",
+        "员",
+        "骑",
+        "着",
+        "马",
+        "，在",
+        "太",
+        "空",
+        "中",
+        "，",
+        "背景",
+        "是",
+        "地",
+        "球",
+        "的",
+        "四",
+        "分",
+        "之一",
+        "圆"
+      ],
+      "prompt_tok_length": 20,
+      "votes_received": [
+        "G9-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 26,
+      "reference_image_path": "/static/reference_images/a_horse_riding_an_astronaut.png",
+      "reference_image_prompt": "A horse riding an astronaut",
+      "reference_image_categories": [
+        "co-occurrence"
+      ],
+      "represented_category_in_game": "co-occurrence"
+    },
+    {
+      "timestamp": "2025-08-30T02:17:28.678770Z",
+      "round_num": 2,
+      "player_id": "G9-P1",
+      "action_type": "prompt_image",
+      "prompt": "astronaut riding on a brown horse, in dark blue sky, with a blue earth underneath lower right direction in distance. Oil painting",
+      "image_path": "images/20250830021728-img-2-G9-P1-prompt_image-astr-onaut-riding.png",
+      "prompt_tokens": [
+        "astr",
+        "onaut",
+        " riding",
+        " on",
+        " a",
+        " brown",
+        " horse",
+        ",",
+        " in",
+        " dark",
+        " blue",
+        " sky",
+        ",",
+        " with",
+        " a",
+        " blue",
+        " earth",
+        " underneath",
+        " lower",
+        " right",
+        " direction",
+        " in",
+        " distance",
+        ".",
+        " Oil",
+        " painting"
+      ],
+      "prompt_tok_length": 26,
+      "votes_received": [
+        "G9-P2",
+        "G9-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 26,
+      "reference_image_path": "/static/reference_images/a_horse_riding_an_astronaut.png",
+      "reference_image_prompt": "A horse riding an astronaut",
+      "reference_image_categories": [
+        "co-occurrence"
+      ],
+      "represented_category_in_game": "co-occurrence"
+    },
+    {
+      "timestamp": "2025-08-30T02:17:34.544955Z",
+      "round_num": 2,
+      "player_id": "G9-P2",
+      "action_type": "vote",
+      "voted_for_id": "G9-P1",
+      "vote_timestamp": "2025-08-30T02:17:34.544955Z"
+    },
+    {
+      "timestamp": "2025-08-30T02:17:37.293697Z",
+      "round_num": 2,
+      "player_id": "G9-P3",
+      "action_type": "vote",
+      "voted_for_id": "G9-P1",
+      "vote_timestamp": "2025-08-30T02:17:37.293697Z"
+    },
+    {
+      "timestamp": "2025-08-30T02:17:39.906751Z",
+      "round_num": 2,
+      "player_id": "G9-P1",
+      "action_type": "vote",
+      "voted_for_id": "G9-P3",
+      "vote_timestamp": "2025-08-30T02:17:39.906751Z"
+    },
+    {
+      "timestamp": "2025-08-30T02:19:41.635731Z",
+      "round_num": 2,
+      "player_id": "G9-P1",
+      "action_type": "quick_draw",
+      "prompt": "A horse riding an astronaut",
+      "image_path": "images/20250830021941-img-2-G9-P1-quick_draw-A-horse-riding.png",
+      "prompt_tokens": [
+        "A",
+        " horse",
+        " riding",
+        " an",
+        " astronaut"
+      ],
+      "prompt_tok_length": 5,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-30T02:22:48.121091Z",
+      "round_num": 3,
+      "player_id": "G9-P2",
+      "action_type": "prompt_image",
+      "prompt": "一个卡通奶牛",
+      "image_path": "images/20250830022248-img-3-G9-P2-prompt_image-一个-卡-通.png",
+      "prompt_tokens": [
+        "一个",
+        "卡",
+        "通",
+        "奶",
+        "牛"
+      ],
+      "prompt_tok_length": 5,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 10,
+      "reference_image_path": "/static/reference_images/a_pretty_cow_in_pictionary_style.png",
+      "reference_image_prompt": "A pretty cow in Pictionary style",
+      "reference_image_categories": [
+        "realism"
+      ],
+      "represented_category_in_game": "realism"
+    },
+    {
+      "timestamp": "2025-08-30T02:23:23.726514Z",
+      "round_num": 3,
+      "player_id": "G9-P1",
+      "action_type": "prompt_image",
+      "prompt": "蜡笔画 涂色线稿 奶牛 站在绿色草地上 右上角有一朵黄色小花",
+      "image_path": "images/20250830022323-img-3-G9-P1-prompt_image-笔.png",
+      "prompt_tokens": [
+        "�",
+        "�",
+        "笔",
+        "画",
+        " �",
+        "�",
+        "色",
+        "线",
+        "稿",
+        " �",
+        "�",
+        "牛",
+        " ",
+        "站",
+        "在",
+        "绿色",
+        "草",
+        "地",
+        "上",
+        " ",
+        "右",
+        "上",
+        "角",
+        "有",
+        "一",
+        "�",
+        "�",
+        "黄色",
+        "小",
+        "花"
+      ],
+      "prompt_tok_length": 30,
+      "votes_received": [
+        "G9-P2",
+        "G9-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 10,
+      "reference_image_path": "/static/reference_images/a_pretty_cow_in_pictionary_style.png",
+      "reference_image_prompt": "A pretty cow in Pictionary style",
+      "reference_image_categories": [
+        "realism"
+      ],
+      "represented_category_in_game": "realism"
+    },
+    {
+      "timestamp": "2025-08-30T02:23:44.289927Z",
+      "round_num": 3,
+      "player_id": "G9-P3",
+      "action_type": "prompt_image",
+      "prompt": "动画风的奶牛，白色背景，地上少许的草，右上角有花",
+      "image_path": "images/20250830022344-img-3-G9-P3-prompt_image-动画-风-的.png",
+      "prompt_tokens": [
+        "动画",
+        "风",
+        "的",
+        "奶",
+        "牛",
+        "，",
+        "白",
+        "色",
+        "背景",
+        "，",
+        "地",
+        "上",
+        "少",
+        "许",
+        "的",
+        "草",
+        "，",
+        "右",
+        "上",
+        "角",
+        "有",
+        "花"
+      ],
+      "prompt_tok_length": 22,
+      "votes_received": [
+        "G9-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 10,
+      "reference_image_path": "/static/reference_images/a_pretty_cow_in_pictionary_style.png",
+      "reference_image_prompt": "A pretty cow in Pictionary style",
+      "reference_image_categories": [
+        "realism"
+      ],
+      "represented_category_in_game": "realism"
+    },
+    {
+      "timestamp": "2025-08-30T02:23:50.676548Z",
+      "round_num": 3,
+      "player_id": "G9-P1",
+      "action_type": "vote",
+      "voted_for_id": "G9-P3",
+      "vote_timestamp": "2025-08-30T02:23:50.676548Z"
+    },
+    {
+      "timestamp": "2025-08-30T02:23:51.489141Z",
+      "round_num": 3,
+      "player_id": "G9-P2",
+      "action_type": "vote",
+      "voted_for_id": "G9-P1",
+      "vote_timestamp": "2025-08-30T02:23:51.489141Z"
+    },
+    {
+      "timestamp": "2025-08-30T02:23:52.713077Z",
+      "round_num": 3,
+      "player_id": "G9-P3",
+      "action_type": "vote",
+      "voted_for_id": "G9-P1",
+      "vote_timestamp": "2025-08-30T02:23:52.713077Z"
+    },
+    {
+      "timestamp": "2025-08-30T02:26:11.004497Z",
+      "round_num": 3,
+      "player_id": "G9-P1",
+      "action_type": "quick_draw",
+      "prompt": "漂亮奶牛",
+      "image_path": "images/20250830022611-img-3-G9-P1-quick_draw-漂亮-奶-牛.png",
+      "prompt_tokens": [
+        "漂亮",
+        "奶",
+        "牛"
+      ],
+      "prompt_tok_length": 3,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-30T02:26:52.522004Z",
+      "round_num": 3,
+      "player_id": "G9-P3",
+      "action_type": "quick_draw",
+      "prompt": "A pretty cow in Pictionary style",
+      "image_path": "images/20250830022652-img-3-G9-P3-quick_draw-A-pretty-cow.png",
+      "prompt_tokens": [
+        "A",
+        " pretty",
+        " cow",
+        " in",
+        " P",
+        "ictionary",
+        " style"
+      ],
+      "prompt_tok_length": 7,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-30T02:27:58.236980Z",
+      "round_num": 4,
+      "player_id": "G9-P1",
+      "action_type": "prompt_image",
+      "prompt": "hihi",
+      "image_path": "images/20250830022758-img-4-G9-P1-prompt_image-h-ihi.png",
+      "prompt_tokens": [
+        "h",
+        "ihi"
+      ],
+      "prompt_tok_length": 2,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 15,
+      "reference_image_path": "/static/reference_images/a_man.png",
+      "reference_image_prompt": "A man",
+      "reference_image_categories": [
+        "demographic",
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-30T02:28:20.321956Z",
+      "round_num": 4,
+      "player_id": "G9-P2",
+      "action_type": "prompt_image",
+      "prompt": "白人男笑，蓝色衣服。",
+      "image_path": "images/20250830022820-img-4-G9-P2-prompt_image-白-人-男.png",
+      "prompt_tokens": [
+        "白",
+        "人",
+        "男",
+        "笑",
+        "，",
+        "蓝",
+        "色",
+        "衣",
+        "服",
+        "。"
+      ],
+      "prompt_tok_length": 10,
+      "votes_received": [
+        "G9-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 15,
+      "reference_image_path": "/static/reference_images/a_man.png",
+      "reference_image_prompt": "A man",
+      "reference_image_categories": [
+        "demographic",
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-30T02:28:35.763471Z",
+      "round_num": 4,
+      "player_id": "G9-P3",
+      "action_type": "prompt_image",
+      "prompt": "高加索男性，蓝色短袖",
+      "image_path": "images/20250830022835-img-4-G9-P3-prompt_image-高-加-索.png",
+      "prompt_tokens": [
+        "高",
+        "加",
+        "索",
+        "男性",
+        "，",
+        "蓝",
+        "色",
+        "短",
+        "袖"
+      ],
+      "prompt_tok_length": 9,
+      "votes_received": [
+        "G9-P2",
+        "G9-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 15,
+      "reference_image_path": "/static/reference_images/a_man.png",
+      "reference_image_prompt": "A man",
+      "reference_image_categories": [
+        "demographic",
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-30T02:28:41.227261Z",
+      "round_num": 4,
+      "player_id": "G9-P2",
+      "action_type": "vote",
+      "voted_for_id": "G9-P3",
+      "vote_timestamp": "2025-08-30T02:28:41.227261Z"
+    },
+    {
+      "timestamp": "2025-08-30T02:28:43.635253Z",
+      "round_num": 4,
+      "player_id": "G9-P3",
+      "action_type": "vote",
+      "voted_for_id": "G9-P2",
+      "vote_timestamp": "2025-08-30T02:28:43.635253Z"
+    },
+    {
+      "timestamp": "2025-08-30T02:28:43.899846Z",
+      "round_num": 4,
+      "player_id": "G9-P1",
+      "action_type": "vote",
+      "voted_for_id": "G9-P3",
+      "vote_timestamp": "2025-08-30T02:28:43.899846Z"
+    },
+    {
+      "timestamp": "2025-08-30T02:31:15.140865Z",
+      "round_num": 5,
+      "player_id": "G9-P3",
+      "action_type": "prompt_image",
+      "prompt": "绿色模糊背景，三朵花在下面，上面五彩蝴蝶",
+      "image_path": "images/20250830023115-img-5-G9-P3-prompt_image-绿色-模.png",
+      "prompt_tokens": [
+        "绿色",
+        "模",
+        "�",
+        "�",
+        "背景",
+        "，",
+        "三",
+        "�",
+        "�",
+        "花",
+        "在",
+        "下面",
+        "，上",
+        "面",
+        "五",
+        "彩",
+        "�",
+        "�",
+        "蝶"
+      ],
+      "prompt_tok_length": 19,
+      "votes_received": [
+        "G9-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 22,
+      "reference_image_path": "/static/reference_images/there_are_three_colorful_flowers_a_short_distance_away_there_are_eight_little_butterflies.JPG",
+      "reference_image_prompt": "There are three colorful flowers. A short distance away, there are eight little butterflies.",
+      "reference_image_categories": [
+        "number & spatial"
+      ],
+      "represented_category_in_game": "number & spatial"
+    },
+    {
+      "timestamp": "2025-08-30T02:31:17.343958Z",
+      "round_num": 5,
+      "player_id": "G9-P2",
+      "action_type": "prompt_image",
+      "prompt": "三朵花上9个蝴蝶，都彩色",
+      "image_path": "images/20250830023117-img-5-G9-P2-prompt_image-三.png",
+      "prompt_tokens": [
+        "三",
+        "�",
+        "�",
+        "花",
+        "上",
+        "9",
+        "个",
+        "�",
+        "�",
+        "蝶",
+        "，都",
+        "彩",
+        "色"
+      ],
+      "prompt_tok_length": 13,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 22,
+      "reference_image_path": "/static/reference_images/there_are_three_colorful_flowers_a_short_distance_away_there_are_eight_little_butterflies.JPG",
+      "reference_image_prompt": "There are three colorful flowers. A short distance away, there are eight little butterflies.",
+      "reference_image_categories": [
+        "number & spatial"
+      ],
+      "represented_category_in_game": "number & spatial"
+    },
+    {
+      "timestamp": "2025-08-30T02:31:22.469951Z",
+      "round_num": 5,
+      "player_id": "G9-P1",
+      "action_type": "prompt_image",
+      "prompt": "pink orange yellow flowers with colorful butterflies multiple sizes above in the air, against a blurry green grass ba",
+      "image_path": "images/20250830023122-img-5-G9-P1-prompt_image-pink-orange-yellow.png",
+      "prompt_tokens": [
+        "pink",
+        " orange",
+        " yellow",
+        " flowers",
+        " with",
+        " colorful",
+        " butterflies",
+        " multiple",
+        " sizes",
+        " above",
+        " in",
+        " the",
+        " air",
+        ",",
+        " against",
+        " a",
+        " blurry",
+        " green",
+        " grass",
+        " ba"
+      ],
+      "prompt_tok_length": 20,
+      "votes_received": [
+        "G9-P3",
+        "G9-P2"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 22,
+      "reference_image_path": "/static/reference_images/there_are_three_colorful_flowers_a_short_distance_away_there_are_eight_little_butterflies.JPG",
+      "reference_image_prompt": "There are three colorful flowers. A short distance away, there are eight little butterflies.",
+      "reference_image_categories": [
+        "number & spatial"
+      ],
+      "represented_category_in_game": "number & spatial"
+    },
+    {
+      "timestamp": "2025-08-30T02:31:23.807134Z",
+      "round_num": 5,
+      "player_id": "G9-P3",
+      "action_type": "vote",
+      "voted_for_id": "G9-P1",
+      "vote_timestamp": "2025-08-30T02:31:23.807134Z"
+    },
+    {
+      "timestamp": "2025-08-30T02:31:23.943441Z",
+      "round_num": 5,
+      "player_id": "G9-P2",
+      "action_type": "vote",
+      "voted_for_id": "G9-P1",
+      "vote_timestamp": "2025-08-30T02:31:23.943441Z"
+    },
+    {
+      "timestamp": "2025-08-30T02:31:24.029187Z",
+      "round_num": 5,
+      "player_id": "G9-P1",
+      "action_type": "vote",
+      "voted_for_id": "G9-P3",
+      "vote_timestamp": "2025-08-30T02:31:24.029187Z"
+    },
+    {
+      "timestamp": "2025-08-30T02:34:09.064167Z",
+      "round_num": 5,
+      "player_id": "G9-P3",
+      "action_type": "quick_draw",
+      "prompt": "There are three colorful flowers. A short distance away, there are eight little butterflies.",
+      "image_path": "images/20250830023409-img-5-G9-P3-quick_draw-There-are-three.png",
+      "prompt_tokens": [
+        "There",
+        " are",
+        " three",
+        " colorful",
+        " flowers",
+        ".",
+        " A",
+        " short",
+        " distance",
+        " away",
+        ",",
+        " there",
+        " are",
+        " eight",
+        " little",
+        " butterflies",
+        "."
+      ],
+      "prompt_tok_length": 17,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-30T02:35:47.883104Z",
+      "round_num": 5,
+      "player_id": "G9-P1",
+      "action_type": "quick_draw",
+      "prompt": "three flowers pink orange yellow with 9 colorful butterflies multiple sizes above in the air, against a blurry green grass ba",
+      "image_path": "images/20250830023547-img-5-G9-P1-quick_draw-three-flowers-pink.png",
+      "prompt_tokens": [
+        "three",
+        " flowers",
+        " pink",
+        " orange",
+        " yellow",
+        " with",
+        " ",
+        "9",
+        " colorful",
+        " butterflies",
+        " multiple",
+        " sizes",
+        " above",
+        " in",
+        " the",
+        " air",
+        ",",
+        " against",
+        " a",
+        " blurry",
+        " green",
+        " grass",
+        " ba"
+      ],
+      "prompt_tok_length": 23,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-30T02:39:04.774658Z",
+      "round_num": 6,
+      "player_id": "G9-P1",
+      "action_type": "prompt_image",
+      "prompt": "白男 侧身位 车盖打开 钳子修车",
+      "image_path": "images/20250830023904-img-6-G9-P1-prompt_image-白-男.png",
+      "prompt_tokens": [
+        "白",
+        "男",
+        " ",
+        "侧",
+        "身",
+        "位",
+        " ",
+        "车",
+        "盖",
+        "打开",
+        " �",
+        "�",
+        "子",
+        "修",
+        "车"
+      ],
+      "prompt_tok_length": 15,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 18,
+      "reference_image_path": "/static/reference_images/person_fixing_a_car_engine.png",
+      "reference_image_prompt": "Person fixing a car engine",
+      "reference_image_categories": [
+        "biological"
+      ],
+      "represented_category_in_game": "biological"
+    },
+    {
+      "timestamp": "2025-08-30T02:39:05.222793Z",
+      "round_num": 6,
+      "player_id": "G9-P2",
+      "action_type": "prompt_image",
+      "prompt": "白男黑体桖在修引擎，引擎盖打开，写实风格",
+      "image_path": "images/20250830023905-img-6-G9-P2-prompt_image-白-男-黑.png",
+      "prompt_tokens": [
+        "白",
+        "男",
+        "黑",
+        "体",
+        "�",
+        "�",
+        "在",
+        "修",
+        "引",
+        "�",
+        "�",
+        "，引",
+        "�",
+        "�",
+        "盖",
+        "打开",
+        "，",
+        "写",
+        "实",
+        "风",
+        "格"
+      ],
+      "prompt_tok_length": 21,
+      "votes_received": [
+        "G9-P1",
+        "G9-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 18,
+      "reference_image_path": "/static/reference_images/person_fixing_a_car_engine.png",
+      "reference_image_prompt": "Person fixing a car engine",
+      "reference_image_categories": [
+        "biological"
+      ],
+      "represented_category_in_game": "biological"
+    },
+    {
+      "timestamp": "2025-08-30T02:39:43.682926Z",
+      "round_num": 6,
+      "player_id": "G9-P3",
+      "action_type": "prompt_image",
+      "prompt": "高加索男性用扳手，修理汽车前机盖子",
+      "image_path": "images/20250830023943-img-6-G9-P3-prompt_image-高-加-索.png",
+      "prompt_tokens": [
+        "高",
+        "加",
+        "索",
+        "男性",
+        "用",
+        "�",
+        "�",
+        "手",
+        "，",
+        "修",
+        "理",
+        "汽车",
+        "前",
+        "机",
+        "盖",
+        "子"
+      ],
+      "prompt_tok_length": 16,
+      "votes_received": [
+        "G9-P2"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 18,
+      "reference_image_path": "/static/reference_images/person_fixing_a_car_engine.png",
+      "reference_image_prompt": "Person fixing a car engine",
+      "reference_image_categories": [
+        "biological"
+      ],
+      "represented_category_in_game": "biological"
+    },
+    {
+      "timestamp": "2025-08-30T02:39:51.922052Z",
+      "round_num": 6,
+      "player_id": "G9-P2",
+      "action_type": "vote",
+      "voted_for_id": "G9-P3",
+      "vote_timestamp": "2025-08-30T02:39:51.922052Z"
+    },
+    {
+      "timestamp": "2025-08-30T02:40:02.188563Z",
+      "round_num": 6,
+      "player_id": "G9-P1",
+      "action_type": "vote",
+      "voted_for_id": "G9-P2",
+      "vote_timestamp": "2025-08-30T02:40:02.188563Z"
+    },
+    {
+      "timestamp": "2025-08-30T02:40:03.283220Z",
+      "round_num": 6,
+      "player_id": "G9-P3",
+      "action_type": "vote",
+      "voted_for_id": "G9-P2",
+      "vote_timestamp": "2025-08-30T02:40:03.283220Z"
+    },
+    {
+      "timestamp": "2025-08-30T02:41:38.322128Z",
+      "round_num": 6,
+      "player_id": "G9-P1",
+      "action_type": "quick_draw",
+      "prompt": "高加索男性 黑色T恤 侧身位 车盖打开 钳子修车",
+      "image_path": "images/20250830024138-img-6-G9-P1-quick_draw-高-加-索.png",
+      "prompt_tokens": [
+        "高",
+        "加",
+        "索",
+        "男性",
+        " 黑",
+        "色",
+        "T",
+        "�",
+        "�",
+        " ",
+        "侧",
+        "身",
+        "位",
+        " ",
+        "车",
+        "盖",
+        "打开",
+        " �",
+        "�",
+        "子",
+        "修",
+        "车"
+      ],
+      "prompt_tok_length": 22,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-30T02:41:57.880745Z",
+      "round_num": 6,
+      "player_id": "G9-P3",
+      "action_type": "quick_draw",
+      "prompt": "Person fixing a car engine",
+      "image_path": "images/20250830024157-img-6-G9-P3-quick_draw-Person-fixing-a.png",
+      "prompt_tokens": [
+        "Person",
+        " fixing",
+        " a",
+        " car",
+        " engine"
+      ],
+      "prompt_tok_length": 5,
+      "generation_success": true,
+      "error_message": null
+    }
+  ]
+}

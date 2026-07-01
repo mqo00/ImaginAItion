@@ -1,0 +1,1182 @@
+{
+  "group_id": "G10",
+  "start_timestamp": "2025-08-30T18:05:54.890935Z",
+  "end_timestamp": "2025-08-30T18:52:15.895459Z",
+  "total_rounds": 6,
+  "final_scores": {
+    "G10-P3": {
+      "total_score": 7,
+      "round_scores": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 2,
+        "6": 1
+      }
+    },
+    "G10-P2": {
+      "total_score": 2,
+      "round_scores": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 1,
+        "6": 0
+      }
+    },
+    "G10-P1": {
+      "total_score": 4,
+      "round_scores": {
+        "1": 1,
+        "2": 1,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "6": 1
+      }
+    }
+  },
+  "player_actions": [
+    {
+      "timestamp": "2025-08-30T18:06:55.764041Z",
+      "round_num": 1,
+      "player_id": "G10-P1",
+      "action_type": "prompt_image",
+      "prompt": "genrate a image of an astronaut riding a horse with earth bein in the right dopwn corner",
+      "image_path": "images/20250830180655-img-1-G10-P1-prompt_image-gen-rate-a.png",
+      "prompt_tokens": [
+        "gen",
+        "rate",
+        " a",
+        " image",
+        " of",
+        " an",
+        " astronaut",
+        " riding",
+        " a",
+        " horse",
+        " with",
+        " earth",
+        " bein",
+        " in",
+        " the",
+        " right",
+        " dop",
+        "wn",
+        " corner"
+      ],
+      "prompt_tok_length": 19,
+      "votes_received": [
+        "G10-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 26,
+      "reference_image_path": "/static/reference_images/a_horse_riding_an_astronaut.png",
+      "reference_image_prompt": "A horse riding an astronaut",
+      "reference_image_categories": [
+        "co-occurrence"
+      ],
+      "represented_category_in_game": "co-occurrence"
+    },
+    {
+      "timestamp": "2025-08-30T18:07:08.452707Z",
+      "round_num": 1,
+      "player_id": "G10-P2",
+      "action_type": "prompt_image",
+      "prompt": "an astronaut rides a house in the space",
+      "image_path": "images/20250830180708-img-1-G10-P2-prompt_image-an-astronaut-rides.png",
+      "prompt_tokens": [
+        "an",
+        " astronaut",
+        " rides",
+        " a",
+        " house",
+        " in",
+        " the",
+        " space"
+      ],
+      "prompt_tok_length": 8,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 26,
+      "reference_image_path": "/static/reference_images/a_horse_riding_an_astronaut.png",
+      "reference_image_prompt": "A horse riding an astronaut",
+      "reference_image_categories": [
+        "co-occurrence"
+      ],
+      "represented_category_in_game": "co-occurrence"
+    },
+    {
+      "timestamp": "2025-08-30T18:07:17.491874Z",
+      "round_num": 1,
+      "player_id": "G10-P3",
+      "action_type": "prompt_image",
+      "prompt": "An astronaut riding a horse in space, with a view of Earth covering the background of the bottom right corner",
+      "image_path": "images/20250830180717-img-1-G10-P3-prompt_image-An-astronaut-riding.png",
+      "prompt_tokens": [
+        "An",
+        " astronaut",
+        " riding",
+        " a",
+        " horse",
+        " in",
+        " space",
+        ",",
+        " with",
+        " a",
+        " view",
+        " of",
+        " Earth",
+        " covering",
+        " the",
+        " background",
+        " of",
+        " the",
+        " bottom",
+        " right",
+        " corner"
+      ],
+      "prompt_tok_length": 21,
+      "votes_received": [
+        "G10-P2",
+        "G10-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 26,
+      "reference_image_path": "/static/reference_images/a_horse_riding_an_astronaut.png",
+      "reference_image_prompt": "A horse riding an astronaut",
+      "reference_image_categories": [
+        "co-occurrence"
+      ],
+      "represented_category_in_game": "co-occurrence"
+    },
+    {
+      "timestamp": "2025-08-30T18:07:22.010163Z",
+      "round_num": 1,
+      "player_id": "G10-P2",
+      "action_type": "vote",
+      "voted_for_id": "G10-P3",
+      "vote_timestamp": "2025-08-30T18:07:22.010163Z"
+    },
+    {
+      "timestamp": "2025-08-30T18:07:22.896209Z",
+      "round_num": 1,
+      "player_id": "G10-P3",
+      "action_type": "vote",
+      "voted_for_id": "G10-P1",
+      "vote_timestamp": "2025-08-30T18:07:22.896209Z"
+    },
+    {
+      "timestamp": "2025-08-30T18:07:23.974505Z",
+      "round_num": 1,
+      "player_id": "G10-P1",
+      "action_type": "vote",
+      "voted_for_id": "G10-P3",
+      "vote_timestamp": "2025-08-30T18:07:23.974505Z"
+    },
+    {
+      "timestamp": "2025-08-30T18:09:49.781610Z",
+      "round_num": 1,
+      "player_id": "G10-P3",
+      "action_type": "quick_draw",
+      "prompt": "an astronaut riding a horse",
+      "image_path": "images/20250830180949-img-1-G10-P3-quick_draw-an-astronaut-riding.png",
+      "prompt_tokens": [
+        "an",
+        " astronaut",
+        " riding",
+        " a",
+        " horse"
+      ],
+      "prompt_tok_length": 5,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-30T18:10:09.799566Z",
+      "round_num": 1,
+      "player_id": "G10-P2",
+      "action_type": "quick_draw",
+      "prompt": "an astronaut rides a horse in the space",
+      "image_path": "images/20250830181009-img-1-G10-P2-quick_draw-an-astronaut-rides.png",
+      "prompt_tokens": [
+        "an",
+        " astronaut",
+        " rides",
+        " a",
+        " horse",
+        " in",
+        " the",
+        " space"
+      ],
+      "prompt_tok_length": 8,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-30T18:10:31.320639Z",
+      "round_num": 1,
+      "player_id": "G10-P1",
+      "action_type": "quick_draw",
+      "prompt": "astronaut riding a horse in space",
+      "image_path": "images/20250830181031-img-1-G10-P1-quick_draw-astr-onaut-riding.png",
+      "prompt_tokens": [
+        "astr",
+        "onaut",
+        " riding",
+        " a",
+        " horse",
+        " in",
+        " space"
+      ],
+      "prompt_tok_length": 7,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-30T18:15:03.159786Z",
+      "round_num": 2,
+      "player_id": "G10-P3",
+      "action_type": "prompt_image",
+      "prompt": "man wearing a blue singlet with \"BLIND 261\" on it running through a finish line. He is wearing sunglasses",
+      "image_path": "images/20250830181503-img-2-G10-P3-prompt_image-man-wearing-a.png",
+      "prompt_tokens": [
+        "man",
+        " wearing",
+        " a",
+        " blue",
+        " sing",
+        "let",
+        " with",
+        " \"",
+        "BL",
+        "IND",
+        " ",
+        "261",
+        "\"",
+        " on",
+        " it",
+        " running",
+        " through",
+        " a",
+        " finish",
+        " line",
+        ".",
+        " He",
+        " is",
+        " wearing",
+        " sunglasses"
+      ],
+      "prompt_tok_length": 25,
+      "votes_received": [
+        "G10-P2",
+        "G10-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 8,
+      "reference_image_path": "/static/reference_images/a_blind_athlete_crossing_finish_line_in_race.png",
+      "reference_image_prompt": "A blind athlete crossing finish line in race",
+      "reference_image_categories": [
+        "biological"
+      ],
+      "represented_category_in_game": "biological"
+    },
+    {
+      "timestamp": "2025-08-30T18:15:16.519475Z",
+      "round_num": 2,
+      "player_id": "G10-P2",
+      "action_type": "prompt_image",
+      "prompt": "a blind runner in a blue shirt is reaching the winner line",
+      "image_path": "images/20250830181516-img-2-G10-P2-prompt_image-a-blind-runner.png",
+      "prompt_tokens": [
+        "a",
+        " blind",
+        " runner",
+        " in",
+        " a",
+        " blue",
+        " shirt",
+        " is",
+        " reaching",
+        " the",
+        " winner",
+        " line"
+      ],
+      "prompt_tok_length": 12,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 8,
+      "reference_image_path": "/static/reference_images/a_blind_athlete_crossing_finish_line_in_race.png",
+      "reference_image_prompt": "A blind athlete crossing finish line in race",
+      "reference_image_categories": [
+        "biological"
+      ],
+      "represented_category_in_game": "biological"
+    },
+    {
+      "timestamp": "2025-08-30T18:15:23.183958Z",
+      "round_num": 2,
+      "player_id": "G10-P1",
+      "action_type": "prompt_image",
+      "prompt": "athl;ete just finishin a race on a track wearing sports glasses wearing a blue tshirt",
+      "image_path": "images/20250830181523-img-2-G10-P1-prompt_image-ath-l.png",
+      "prompt_tokens": [
+        "ath",
+        "l",
+        ";",
+        "ete",
+        " just",
+        " finish",
+        "in",
+        " a",
+        " race",
+        " on",
+        " a",
+        " track",
+        " wearing",
+        " sports",
+        " glasses",
+        " wearing",
+        " a",
+        " blue",
+        " tsh",
+        "irt"
+      ],
+      "prompt_tok_length": 20,
+      "votes_received": [
+        "G10-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 8,
+      "reference_image_path": "/static/reference_images/a_blind_athlete_crossing_finish_line_in_race.png",
+      "reference_image_prompt": "A blind athlete crossing finish line in race",
+      "reference_image_categories": [
+        "biological"
+      ],
+      "represented_category_in_game": "biological"
+    },
+    {
+      "timestamp": "2025-08-30T18:15:27.079052Z",
+      "round_num": 2,
+      "player_id": "G10-P2",
+      "action_type": "vote",
+      "voted_for_id": "G10-P3",
+      "vote_timestamp": "2025-08-30T18:15:27.079052Z"
+    },
+    {
+      "timestamp": "2025-08-30T18:15:35.081293Z",
+      "round_num": 2,
+      "player_id": "G10-P1",
+      "action_type": "vote",
+      "voted_for_id": "G10-P3",
+      "vote_timestamp": "2025-08-30T18:15:35.081293Z"
+    },
+    {
+      "timestamp": "2025-08-30T18:15:45.322628Z",
+      "round_num": 2,
+      "player_id": "G10-P3",
+      "action_type": "vote",
+      "voted_for_id": "G10-P1",
+      "vote_timestamp": "2025-08-30T18:15:45.322628Z"
+    },
+    {
+      "timestamp": "2025-08-30T18:17:47.830557Z",
+      "round_num": 2,
+      "player_id": "G10-P1",
+      "action_type": "quick_draw",
+      "prompt": "A blind athlete crossing finish line in race",
+      "image_path": "images/20250830181747-img-2-G10-P1-quick_draw-A-blind-athlete.png",
+      "prompt_tokens": [
+        "A",
+        " blind",
+        " athlete",
+        " crossing",
+        " finish",
+        " line",
+        " in",
+        " race"
+      ],
+      "prompt_tok_length": 8,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-30T18:18:08.304786Z",
+      "round_num": 2,
+      "player_id": "G10-P3",
+      "action_type": "quick_draw",
+      "prompt": "a blind athlete finishing a race on the track",
+      "image_path": "images/20250830181808-img-2-G10-P3-quick_draw-a-blind-athlete.png",
+      "prompt_tokens": [
+        "a",
+        " blind",
+        " athlete",
+        " finishing",
+        " a",
+        " race",
+        " on",
+        " the",
+        " track"
+      ],
+      "prompt_tok_length": 9,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-30T18:22:42.383551Z",
+      "round_num": 3,
+      "player_id": "G10-P3",
+      "action_type": "prompt_image",
+      "prompt": "An asian female doctor named Dr. Li standing cross armed for a professional headshot with a rocket blue behind her",
+      "image_path": "images/20250830182242-img-3-G10-P3-prompt_image-An-asian-female.png",
+      "prompt_tokens": [
+        "An",
+        " asian",
+        " female",
+        " doctor",
+        " named",
+        " Dr",
+        ".",
+        " Li",
+        " standing",
+        " cross",
+        " armed",
+        " for",
+        " a",
+        " professional",
+        " head",
+        "shot",
+        " with",
+        " a",
+        " rocket",
+        " blue",
+        " behind",
+        " her"
+      ],
+      "prompt_tok_length": 22,
+      "votes_received": [
+        "G10-P2",
+        "G10-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 20,
+      "reference_image_path": "/static/reference_images/meet_dr_li_a_rocket_scientist_from_new_york.png",
+      "reference_image_prompt": "Meet Dr. Li, a rocket scientist from New York",
+      "reference_image_categories": [
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-30T18:22:46.352565Z",
+      "round_num": 3,
+      "player_id": "G10-P1",
+      "action_type": "prompt_image",
+      "prompt": "asian scientist waring prescription glasses in la coat posing close to in front of a rocket blueprint on a wall",
+      "image_path": "images/20250830182246-img-3-G10-P1-prompt_image-asian-scientist-war.png",
+      "prompt_tokens": [
+        "asian",
+        " scientist",
+        " war",
+        "ing",
+        " prescription",
+        " glasses",
+        " in",
+        " la",
+        " coat",
+        " posing",
+        " close",
+        " to",
+        " in",
+        " front",
+        " of",
+        " a",
+        " rocket",
+        " blueprint",
+        " on",
+        " a",
+        " wall"
+      ],
+      "prompt_tok_length": 21,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 20,
+      "reference_image_path": "/static/reference_images/meet_dr_li_a_rocket_scientist_from_new_york.png",
+      "reference_image_prompt": "Meet Dr. Li, a rocket scientist from New York",
+      "reference_image_categories": [
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-30T18:23:03.616816Z",
+      "round_num": 3,
+      "player_id": "G10-P2",
+      "action_type": "prompt_image",
+      "prompt": "a headshot of \"Dr.Li\", a women in lab suite working at nasa",
+      "image_path": "images/20250830182303-img-3-G10-P2-prompt_image-a-head-shot.png",
+      "prompt_tokens": [
+        "a",
+        " head",
+        "shot",
+        " of",
+        " \"",
+        "Dr",
+        ".L",
+        "i",
+        "\",",
+        " a",
+        " women",
+        " in",
+        " lab",
+        " suite",
+        " working",
+        " at",
+        " nasa"
+      ],
+      "prompt_tok_length": 17,
+      "votes_received": [
+        "G10-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 20,
+      "reference_image_path": "/static/reference_images/meet_dr_li_a_rocket_scientist_from_new_york.png",
+      "reference_image_prompt": "Meet Dr. Li, a rocket scientist from New York",
+      "reference_image_categories": [
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-30T18:23:08.441732Z",
+      "round_num": 3,
+      "player_id": "G10-P2",
+      "action_type": "vote",
+      "voted_for_id": "G10-P3",
+      "vote_timestamp": "2025-08-30T18:23:08.441732Z"
+    },
+    {
+      "timestamp": "2025-08-30T18:23:12.021561Z",
+      "round_num": 3,
+      "player_id": "G10-P3",
+      "action_type": "vote",
+      "voted_for_id": "G10-P2",
+      "vote_timestamp": "2025-08-30T18:23:12.021561Z"
+    },
+    {
+      "timestamp": "2025-08-30T18:23:16.353296Z",
+      "round_num": 3,
+      "player_id": "G10-P1",
+      "action_type": "vote",
+      "voted_for_id": "G10-P3",
+      "vote_timestamp": "2025-08-30T18:23:16.353296Z"
+    },
+    {
+      "timestamp": "2025-08-30T18:27:21.399913Z",
+      "round_num": 3,
+      "player_id": "G10-P3",
+      "action_type": "quick_draw",
+      "prompt": "A professional headshot of a rocket scientist from New York",
+      "image_path": "images/20250830182721-img-3-G10-P3-quick_draw-A-professional-head.png",
+      "prompt_tokens": [
+        "A",
+        " professional",
+        " head",
+        "shot",
+        " of",
+        " a",
+        " rocket",
+        " scientist",
+        " from",
+        " New",
+        " York"
+      ],
+      "prompt_tok_length": 11,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-30T18:31:28.923398Z",
+      "round_num": 4,
+      "player_id": "G10-P3",
+      "action_type": "prompt_image",
+      "prompt": "A closeup portrait shot of a sad cow on a dirt field",
+      "image_path": "images/20250830183128-img-4-G10-P3-prompt_image-A-close-up.png",
+      "prompt_tokens": [
+        "A",
+        " close",
+        "up",
+        " portrait",
+        " shot",
+        " of",
+        " a",
+        " sad",
+        " cow",
+        " on",
+        " a",
+        " dirt",
+        " field"
+      ],
+      "prompt_tok_length": 13,
+      "votes_received": [
+        "G10-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 14,
+      "reference_image_path": "/static/reference_images/a_sad_cow.png",
+      "reference_image_prompt": "A sad cow",
+      "reference_image_categories": [
+        "realism"
+      ],
+      "represented_category_in_game": "realism"
+    },
+    {
+      "timestamp": "2025-08-30T18:31:38.817914Z",
+      "round_num": 4,
+      "player_id": "G10-P2",
+      "action_type": "prompt_image",
+      "prompt": "a close shot of a cow",
+      "image_path": "images/20250830183138-img-4-G10-P2-prompt_image-a-close-shot.png",
+      "prompt_tokens": [
+        "a",
+        " close",
+        " shot",
+        " of",
+        " a",
+        " cow"
+      ],
+      "prompt_tok_length": 6,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 14,
+      "reference_image_path": "/static/reference_images/a_sad_cow.png",
+      "reference_image_prompt": "A sad cow",
+      "reference_image_categories": [
+        "realism"
+      ],
+      "represented_category_in_game": "realism"
+    },
+    {
+      "timestamp": "2025-08-30T18:31:43.211996Z",
+      "round_num": 4,
+      "player_id": "G10-P1",
+      "action_type": "prompt_image",
+      "prompt": "close up shot of a cow with black and white texture looking directly at us",
+      "image_path": "images/20250830183143-img-4-G10-P1-prompt_image-close-up-shot.png",
+      "prompt_tokens": [
+        "close",
+        " up",
+        " shot",
+        " of",
+        " a",
+        " cow",
+        " with",
+        " black",
+        " and",
+        " white",
+        " texture",
+        " looking",
+        " directly",
+        " at",
+        " us"
+      ],
+      "prompt_tok_length": 15,
+      "votes_received": [
+        "G10-P2",
+        "G10-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 14,
+      "reference_image_path": "/static/reference_images/a_sad_cow.png",
+      "reference_image_prompt": "A sad cow",
+      "reference_image_categories": [
+        "realism"
+      ],
+      "represented_category_in_game": "realism"
+    },
+    {
+      "timestamp": "2025-08-30T18:31:45.965623Z",
+      "round_num": 4,
+      "player_id": "G10-P2",
+      "action_type": "vote",
+      "voted_for_id": "G10-P1",
+      "vote_timestamp": "2025-08-30T18:31:45.965623Z"
+    },
+    {
+      "timestamp": "2025-08-30T18:31:50.651873Z",
+      "round_num": 4,
+      "player_id": "G10-P3",
+      "action_type": "vote",
+      "voted_for_id": "G10-P1",
+      "vote_timestamp": "2025-08-30T18:31:50.651873Z"
+    },
+    {
+      "timestamp": "2025-08-30T18:31:55.217688Z",
+      "round_num": 4,
+      "player_id": "G10-P1",
+      "action_type": "vote",
+      "voted_for_id": "G10-P3",
+      "vote_timestamp": "2025-08-30T18:31:55.217688Z"
+    },
+    {
+      "timestamp": "2025-08-30T18:33:01.421306Z",
+      "round_num": 4,
+      "player_id": "G10-P2",
+      "action_type": "quick_draw",
+      "prompt": "A sad cow",
+      "image_path": "images/20250830183301-img-4-G10-P2-quick_draw-A-sad-cow.png",
+      "prompt_tokens": [
+        "A",
+        " sad",
+        " cow"
+      ],
+      "prompt_tok_length": 3,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-30T18:33:44.813302Z",
+      "round_num": 4,
+      "player_id": "G10-P2",
+      "action_type": "quick_draw",
+      "prompt": "a sad female cow",
+      "image_path": "images/20250830183344-img-4-G10-P2-quick_draw-a-sad-female.png",
+      "prompt_tokens": [
+        "a",
+        " sad",
+        " female",
+        " cow"
+      ],
+      "prompt_tok_length": 4,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-30T18:34:32.642035Z",
+      "round_num": 4,
+      "player_id": "G10-P1",
+      "action_type": "quick_draw",
+      "prompt": "A sad cow",
+      "image_path": "images/20250830183432-img-4-G10-P1-quick_draw-A-sad-cow.png",
+      "prompt_tokens": [
+        "A",
+        " sad",
+        " cow"
+      ],
+      "prompt_tok_length": 3,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-30T18:34:54.104883Z",
+      "round_num": 4,
+      "player_id": "G10-P3",
+      "action_type": "quick_draw",
+      "prompt": "a sad cow",
+      "image_path": "images/20250830183454-img-4-G10-P3-quick_draw-a-sad-cow.png",
+      "prompt_tokens": [
+        "a",
+        " sad",
+        " cow"
+      ],
+      "prompt_tok_length": 3,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-30T18:39:27.404905Z",
+      "round_num": 5,
+      "player_id": "G10-P3",
+      "action_type": "prompt_image",
+      "prompt": "a starry night sky",
+      "image_path": "images/20250830183927-img-5-G10-P3-prompt_image-a-star-ry.png",
+      "prompt_tokens": [
+        "a",
+        " star",
+        "ry",
+        " night",
+        " sky"
+      ],
+      "prompt_tok_length": 5,
+      "votes_received": [
+        "G10-P2",
+        "G10-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 25,
+      "reference_image_path": "/static/reference_images/there_are_4_stars_a_little_farther_away_there_are_14_stars.JPG",
+      "reference_image_prompt": "There are 4 stars. A little farther away, there are 14 stars.",
+      "reference_image_categories": [
+        "number & spatial"
+      ],
+      "represented_category_in_game": "number & spatial"
+    },
+    {
+      "timestamp": "2025-08-30T18:39:34.062837Z",
+      "round_num": 5,
+      "player_id": "G10-P1",
+      "action_type": "prompt_image",
+      "prompt": "starry night with some star twinkling on left side",
+      "image_path": "images/20250830183934-img-5-G10-P1-prompt_image-star-ry-night.png",
+      "prompt_tokens": [
+        "star",
+        "ry",
+        " night",
+        " with",
+        " some",
+        " star",
+        " tw",
+        "ink",
+        "ling",
+        " on",
+        " left",
+        " side"
+      ],
+      "prompt_tok_length": 12,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 25,
+      "reference_image_path": "/static/reference_images/there_are_4_stars_a_little_farther_away_there_are_14_stars.JPG",
+      "reference_image_prompt": "There are 4 stars. A little farther away, there are 14 stars.",
+      "reference_image_categories": [
+        "number & spatial"
+      ],
+      "represented_category_in_game": "number & spatial"
+    },
+    {
+      "timestamp": "2025-08-30T18:39:52.542160Z",
+      "round_num": 5,
+      "player_id": "G10-P2",
+      "action_type": "prompt_image",
+      "prompt": "looking at stars in the sky",
+      "image_path": "images/20250830183952-img-5-G10-P2-prompt_image-looking-at-stars.png",
+      "prompt_tokens": [
+        "looking",
+        " at",
+        " stars",
+        " in",
+        " the",
+        " sky"
+      ],
+      "prompt_tok_length": 6,
+      "votes_received": [
+        "G10-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 25,
+      "reference_image_path": "/static/reference_images/there_are_4_stars_a_little_farther_away_there_are_14_stars.JPG",
+      "reference_image_prompt": "There are 4 stars. A little farther away, there are 14 stars.",
+      "reference_image_categories": [
+        "number & spatial"
+      ],
+      "represented_category_in_game": "number & spatial"
+    },
+    {
+      "timestamp": "2025-08-30T18:39:56.828185Z",
+      "round_num": 5,
+      "player_id": "G10-P2",
+      "action_type": "vote",
+      "voted_for_id": "G10-P3",
+      "vote_timestamp": "2025-08-30T18:39:56.828185Z"
+    },
+    {
+      "timestamp": "2025-08-30T18:39:57.701335Z",
+      "round_num": 5,
+      "player_id": "G10-P1",
+      "action_type": "vote",
+      "voted_for_id": "G10-P3",
+      "vote_timestamp": "2025-08-30T18:39:57.701335Z"
+    },
+    {
+      "timestamp": "2025-08-30T18:40:03.565163Z",
+      "round_num": 5,
+      "player_id": "G10-P3",
+      "action_type": "vote",
+      "voted_for_id": "G10-P2",
+      "vote_timestamp": "2025-08-30T18:40:03.565163Z"
+    },
+    {
+      "timestamp": "2025-08-30T18:41:01.098678Z",
+      "round_num": 5,
+      "player_id": "G10-P1",
+      "action_type": "quick_draw",
+      "prompt": "There are 4 stars. A little farther away, there are 14 stars.",
+      "image_path": "images/20250830184101-img-5-G10-P1-quick_draw-There-are.png",
+      "prompt_tokens": [
+        "There",
+        " are",
+        " ",
+        "4",
+        " stars",
+        ".",
+        " A",
+        " little",
+        " farther",
+        " away",
+        ",",
+        " there",
+        " are",
+        " ",
+        "14",
+        " stars",
+        "."
+      ],
+      "prompt_tok_length": 17,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-30T18:41:21.624131Z",
+      "round_num": 5,
+      "player_id": "G10-P3",
+      "action_type": "quick_draw",
+      "prompt": "4 big stars and 14 smalls stars in the night sky",
+      "image_path": "images/20250830184121-img-5-G10-P3-quick_draw-4-big-stars.png",
+      "prompt_tokens": [
+        "4",
+        " big",
+        " stars",
+        " and",
+        " ",
+        "14",
+        " small",
+        "s",
+        " stars",
+        " in",
+        " the",
+        " night",
+        " sky"
+      ],
+      "prompt_tok_length": 13,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-30T18:41:40.549843Z",
+      "round_num": 5,
+      "player_id": "G10-P2",
+      "action_type": "quick_draw",
+      "prompt": "starry night",
+      "image_path": "images/20250830184140-img-5-G10-P2-quick_draw-star-ry-night.png",
+      "prompt_tokens": [
+        "star",
+        "ry",
+        " night"
+      ],
+      "prompt_tok_length": 3,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-30T18:46:18.268389Z",
+      "round_num": 6,
+      "player_id": "G10-P1",
+      "action_type": "prompt_image",
+      "prompt": "happy full bearded guy in a t-shirt",
+      "image_path": "images/20250830184618-img-6-G10-P1-prompt_image-happy-full-be.png",
+      "prompt_tokens": [
+        "happy",
+        " full",
+        " be",
+        "arded",
+        " guy",
+        " in",
+        " a",
+        " t",
+        "-shirt"
+      ],
+      "prompt_tok_length": 9,
+      "votes_received": [
+        "G10-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 15,
+      "reference_image_path": "/static/reference_images/a_man.png",
+      "reference_image_prompt": "A man",
+      "reference_image_categories": [
+        "demographic",
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "demographic"
+    },
+    {
+      "timestamp": "2025-08-30T18:46:22.805045Z",
+      "round_num": 6,
+      "player_id": "G10-P3",
+      "action_type": "prompt_image",
+      "prompt": "A white cis male with a brown beard smiling with a blue t shirt in a portrait picture",
+      "image_path": "images/20250830184622-img-6-G10-P3-prompt_image-A-white-cis.png",
+      "prompt_tokens": [
+        "A",
+        " white",
+        " cis",
+        " male",
+        " with",
+        " a",
+        " brown",
+        " beard",
+        " smiling",
+        " with",
+        " a",
+        " blue",
+        " t",
+        " shirt",
+        " in",
+        " a",
+        " portrait",
+        " picture"
+      ],
+      "prompt_tok_length": 18,
+      "votes_received": [
+        "G10-P2",
+        "G10-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 15,
+      "reference_image_path": "/static/reference_images/a_man.png",
+      "reference_image_prompt": "A man",
+      "reference_image_categories": [
+        "demographic",
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "demographic"
+    },
+    {
+      "timestamp": "2025-08-30T18:46:51.575451Z",
+      "round_num": 6,
+      "player_id": "G10-P2",
+      "action_type": "prompt_image",
+      "prompt": "a man in blue shirt smiles",
+      "image_path": "images/20250830184651-img-6-G10-P2-prompt_image-a-man-in.png",
+      "prompt_tokens": [
+        "a",
+        " man",
+        " in",
+        " blue",
+        " shirt",
+        " smiles"
+      ],
+      "prompt_tok_length": 6,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 15,
+      "reference_image_path": "/static/reference_images/a_man.png",
+      "reference_image_prompt": "A man",
+      "reference_image_categories": [
+        "demographic",
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "demographic"
+    },
+    {
+      "timestamp": "2025-08-30T18:46:58.499487Z",
+      "round_num": 6,
+      "player_id": "G10-P2",
+      "action_type": "vote",
+      "voted_for_id": "G10-P3",
+      "vote_timestamp": "2025-08-30T18:46:58.499487Z"
+    },
+    {
+      "timestamp": "2025-08-30T18:47:01.098955Z",
+      "round_num": 6,
+      "player_id": "G10-P1",
+      "action_type": "vote",
+      "voted_for_id": "G10-P3",
+      "vote_timestamp": "2025-08-30T18:47:01.098955Z"
+    },
+    {
+      "timestamp": "2025-08-30T18:47:08.585741Z",
+      "round_num": 6,
+      "player_id": "G10-P3",
+      "action_type": "vote",
+      "voted_for_id": "G10-P1",
+      "vote_timestamp": "2025-08-30T18:47:08.585741Z"
+    },
+    {
+      "timestamp": "2025-08-30T18:47:53.119372Z",
+      "round_num": 6,
+      "player_id": "G10-P3",
+      "action_type": "quick_draw",
+      "prompt": "a man",
+      "image_path": "images/20250830184753-img-6-G10-P3-quick_draw-a-man.png",
+      "prompt_tokens": [
+        "a",
+        " man"
+      ],
+      "prompt_tok_length": 2,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-30T18:48:17.226430Z",
+      "round_num": 6,
+      "player_id": "G10-P1",
+      "action_type": "quick_draw",
+      "prompt": "A man",
+      "image_path": "images/20250830184817-img-6-G10-P1-quick_draw-A-man.png",
+      "prompt_tokens": [
+        "A",
+        " man"
+      ],
+      "prompt_tok_length": 2,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-30T18:48:33.311617Z",
+      "round_num": 6,
+      "player_id": "G10-P2",
+      "action_type": "quick_draw",
+      "prompt": "a woman",
+      "image_path": "images/20250830184833-img-6-G10-P2-quick_draw-a-woman.png",
+      "prompt_tokens": [
+        "a",
+        " woman"
+      ],
+      "prompt_tok_length": 2,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-30T18:48:51.599615Z",
+      "round_num": 6,
+      "player_id": "G10-P3",
+      "action_type": "quick_draw",
+      "prompt": "a woman",
+      "image_path": "images/20250830184851-img-6-G10-P3-quick_draw-a-woman.png",
+      "prompt_tokens": [
+        "a",
+        " woman"
+      ],
+      "prompt_tok_length": 2,
+      "generation_success": true,
+      "error_message": null
+    }
+  ]
+}

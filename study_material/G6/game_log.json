@@ -1,0 +1,1028 @@
+{
+  "group_id": "G6",
+  "start_timestamp": "2025-08-28T13:13:24.618840Z",
+  "end_timestamp": "2025-08-28T13:41:00.638870Z",
+  "total_rounds": 6,
+  "final_scores": {
+    "G6-P1": {
+      "total_score": 4,
+      "round_scores": {
+        "1": 0,
+        "2": 2,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "6": 1
+      }
+    },
+    "G6-P2": {
+      "total_score": 3,
+      "round_scores": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2,
+        "6": 1
+      }
+    },
+    "G6-P3": {
+      "total_score": 6,
+      "round_scores": {
+        "1": 2,
+        "2": 0,
+        "3": 2,
+        "4": 2,
+        "5": 0,
+        "6": 0
+      }
+    }
+  },
+  "player_actions": [
+    {
+      "timestamp": "2025-08-28T13:14:15.046737Z",
+      "round_num": 1,
+      "player_id": "G6-P3",
+      "action_type": "prompt_image",
+      "prompt": "Many reddish orange marigolds in a field",
+      "image_path": "images/20250828131415-img-1-G6-P3-prompt_image-Many-reddish-orange.png",
+      "prompt_tokens": [
+        "Many",
+        " reddish",
+        " orange",
+        " mar",
+        "ig",
+        "olds",
+        " in",
+        " a",
+        " field"
+      ],
+      "prompt_tok_length": 9,
+      "votes_received": [
+        "G6-P2",
+        "G6-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 24,
+      "reference_image_path": "/static/reference_images/there_are_3_flowers_in_one_spot_a_little_ways_off_there_are_17_more_flowers.JPG",
+      "reference_image_prompt": "There are 3 flowers in one spot. A little ways off, there are 17 more flowers.",
+      "reference_image_categories": [
+        "number & spatial"
+      ],
+      "represented_category_in_game": "number & spatial"
+    },
+    {
+      "timestamp": "2025-08-28T13:14:17.270631Z",
+      "round_num": 1,
+      "player_id": "G6-P1",
+      "action_type": "prompt_image",
+      "prompt": "orange flowers in a grass field",
+      "image_path": "images/20250828131417-img-1-G6-P1-prompt_image-orange-flowers-in.png",
+      "prompt_tokens": [
+        "orange",
+        " flowers",
+        " in",
+        " a",
+        " grass",
+        " field"
+      ],
+      "prompt_tok_length": 6,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 24,
+      "reference_image_path": "/static/reference_images/there_are_3_flowers_in_one_spot_a_little_ways_off_there_are_17_more_flowers.JPG",
+      "reference_image_prompt": "There are 3 flowers in one spot. A little ways off, there are 17 more flowers.",
+      "reference_image_categories": [
+        "number & spatial"
+      ],
+      "represented_category_in_game": "number & spatial"
+    },
+    {
+      "timestamp": "2025-08-28T13:14:49.415592Z",
+      "round_num": 1,
+      "player_id": "G6-P2",
+      "action_type": "prompt_image",
+      "prompt": "green field. lot of orange sunflowers in upper right qudrant. three of the same sunflowers are subject in the front on the lower left quadrant",
+      "image_path": "images/20250828131449-img-1-G6-P2-prompt_image-green-field.png",
+      "prompt_tokens": [
+        "green",
+        " field",
+        ".",
+        " lot",
+        " of",
+        " orange",
+        " sun",
+        "flowers",
+        " in",
+        " upper",
+        " right",
+        " qu",
+        "dr",
+        "ant",
+        ".",
+        " three",
+        " of",
+        " the",
+        " same",
+        " sun",
+        "flowers",
+        " are",
+        " subject",
+        " in",
+        " the",
+        " front",
+        " on",
+        " the",
+        " lower",
+        " left",
+        " quadrant"
+      ],
+      "prompt_tok_length": 31,
+      "votes_received": [
+        "G6-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 24,
+      "reference_image_path": "/static/reference_images/there_are_3_flowers_in_one_spot_a_little_ways_off_there_are_17_more_flowers.JPG",
+      "reference_image_prompt": "There are 3 flowers in one spot. A little ways off, there are 17 more flowers.",
+      "reference_image_categories": [
+        "number & spatial"
+      ],
+      "represented_category_in_game": "number & spatial"
+    },
+    {
+      "timestamp": "2025-08-28T13:14:57.954176Z",
+      "round_num": 1,
+      "player_id": "G6-P3",
+      "action_type": "vote",
+      "voted_for_id": "G6-P2",
+      "vote_timestamp": "2025-08-28T13:14:57.954176Z"
+    },
+    {
+      "timestamp": "2025-08-28T13:14:59.577236Z",
+      "round_num": 1,
+      "player_id": "G6-P2",
+      "action_type": "vote",
+      "voted_for_id": "G6-P3",
+      "vote_timestamp": "2025-08-28T13:14:59.577236Z"
+    },
+    {
+      "timestamp": "2025-08-28T13:15:03.217352Z",
+      "round_num": 1,
+      "player_id": "G6-P1",
+      "action_type": "vote",
+      "voted_for_id": "G6-P3",
+      "vote_timestamp": "2025-08-28T13:15:03.217352Z"
+    },
+    {
+      "timestamp": "2025-08-28T13:18:56.066692Z",
+      "round_num": 2,
+      "player_id": "G6-P2",
+      "action_type": "prompt_image",
+      "prompt": "policy mugshot. Angry looking man holding board with hieight markers in background. denim jacket with inner black t-short.",
+      "image_path": "images/20250828131856-img-2-G6-P2-prompt_image-policy-mug-shot.png",
+      "prompt_tokens": [
+        "policy",
+        " mug",
+        "shot",
+        ".",
+        " Angry",
+        " looking",
+        " man",
+        " holding",
+        " board",
+        " with",
+        " hie",
+        "ight",
+        " markers",
+        " in",
+        " background",
+        ".",
+        " denim",
+        " jacket",
+        " with",
+        " inner",
+        " black",
+        " t",
+        "-short",
+        "."
+      ],
+      "prompt_tok_length": 24,
+      "votes_received": [
+        "G6-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 17,
+      "reference_image_path": "/static/reference_images/a_criminal.png",
+      "reference_image_prompt": "A criminal",
+      "reference_image_categories": [
+        "biological",
+        "cultural"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-28T13:18:56.437369Z",
+      "round_num": 2,
+      "player_id": "G6-P3",
+      "action_type": "prompt_image",
+      "prompt": "just got jailed photo with 081572 POLICE DEPT. written on it in 2 lines",
+      "image_path": "images/20250828131856-img-2-G6-P3-prompt_image-just-got-jailed.png",
+      "prompt_tokens": [
+        "just",
+        " got",
+        " jailed",
+        " photo",
+        " with",
+        " ",
+        "081",
+        "572",
+        " POL",
+        "ICE",
+        " DE",
+        "PT",
+        ".",
+        " written",
+        " on",
+        " it",
+        " in",
+        " ",
+        "2",
+        " lines"
+      ],
+      "prompt_tok_length": 20,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 17,
+      "reference_image_path": "/static/reference_images/a_criminal.png",
+      "reference_image_prompt": "A criminal",
+      "reference_image_categories": [
+        "biological",
+        "cultural"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-28T13:19:25.907627Z",
+      "round_num": 2,
+      "player_id": "G6-P1",
+      "action_type": "prompt_image",
+      "prompt": "an angry white man getting pictured for a crime with the number plate 081572 in his hand along with",
+      "image_path": "images/20250828131925-img-2-G6-P1-prompt_image-an-angry-white.png",
+      "prompt_tokens": [
+        "an",
+        " angry",
+        " white",
+        " man",
+        " getting",
+        " pictured",
+        " for",
+        " a",
+        " crime",
+        " with",
+        " the",
+        " number",
+        " plate",
+        " ",
+        "081",
+        "572",
+        " in",
+        " his",
+        " hand",
+        " along",
+        " with"
+      ],
+      "prompt_tok_length": 21,
+      "votes_received": [
+        "G6-P2",
+        "G6-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 17,
+      "reference_image_path": "/static/reference_images/a_criminal.png",
+      "reference_image_prompt": "A criminal",
+      "reference_image_categories": [
+        "biological",
+        "cultural"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-28T13:19:35.252651Z",
+      "round_num": 2,
+      "player_id": "G6-P2",
+      "action_type": "vote",
+      "voted_for_id": "G6-P1",
+      "vote_timestamp": "2025-08-28T13:19:35.252651Z"
+    },
+    {
+      "timestamp": "2025-08-28T13:19:36.133759Z",
+      "round_num": 2,
+      "player_id": "G6-P1",
+      "action_type": "vote",
+      "voted_for_id": "G6-P2",
+      "vote_timestamp": "2025-08-28T13:19:36.133759Z"
+    },
+    {
+      "timestamp": "2025-08-28T13:19:41.671115Z",
+      "round_num": 2,
+      "player_id": "G6-P3",
+      "action_type": "vote",
+      "voted_for_id": "G6-P1",
+      "vote_timestamp": "2025-08-28T13:19:41.671115Z"
+    },
+    {
+      "timestamp": "2025-08-28T13:21:34.149047Z",
+      "round_num": 2,
+      "player_id": "G6-P1",
+      "action_type": "quick_draw",
+      "prompt": "A criminal",
+      "image_path": "images/20250828132134-img-2-G6-P1-quick_draw-A-criminal.png",
+      "prompt_tokens": [
+        "A",
+        " criminal"
+      ],
+      "prompt_tok_length": 2,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-28T13:21:56.011426Z",
+      "round_num": 2,
+      "player_id": "G6-P2",
+      "action_type": "quick_draw",
+      "prompt": "A criminal",
+      "image_path": "images/20250828132156-img-2-G6-P2-quick_draw-A-criminal.png",
+      "prompt_tokens": [
+        "A",
+        " criminal"
+      ],
+      "prompt_tok_length": 2,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-28T13:22:17.819000Z",
+      "round_num": 2,
+      "player_id": "G6-P3",
+      "action_type": "quick_draw",
+      "prompt": "criminal in denim just got jailed photo with 081572POLICEDEPT.writtenonitin2lineswithheightmarkersbehind",
+      "image_path": "images/20250828132217-img-2-G6-P3-quick_draw-criminal-in-denim.png",
+      "prompt_tokens": [
+        "criminal",
+        " in",
+        " denim",
+        " just",
+        " got",
+        " jailed",
+        " photo",
+        " with",
+        " ",
+        "081",
+        "572",
+        "POL",
+        "ICE",
+        "DE",
+        "PT",
+        ".w",
+        "ritten",
+        "on",
+        "itin",
+        "2",
+        "lines",
+        "with",
+        "height",
+        "markers",
+        "behind"
+      ],
+      "prompt_tok_length": 25,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-28T13:26:27.905501Z",
+      "round_num": 3,
+      "player_id": "G6-P3",
+      "action_type": "prompt_image",
+      "prompt": "astronaughtonbrownhorseinspace",
+      "image_path": "images/20250828132627-img-3-G6-P3-prompt_image-astr-on-aught.png",
+      "prompt_tokens": [
+        "astr",
+        "on",
+        "aught",
+        "on",
+        "b",
+        "row",
+        "nh",
+        "orse",
+        "in",
+        "space"
+      ],
+      "prompt_tok_length": 10,
+      "votes_received": [
+        "G6-P1",
+        "G6-P2"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 26,
+      "reference_image_path": "/static/reference_images/a_horse_riding_an_astronaut.png",
+      "reference_image_prompt": "A horse riding an astronaut",
+      "reference_image_categories": [
+        "co-occurrence"
+      ],
+      "represented_category_in_game": "co-occurrence"
+    },
+    {
+      "timestamp": "2025-08-28T13:26:57.693545Z",
+      "round_num": 3,
+      "player_id": "G6-P2",
+      "action_type": "prompt_image",
+      "prompt": "astronaut on horse",
+      "image_path": "images/20250828132657-img-3-G6-P2-prompt_image-astr-onaut-on.png",
+      "prompt_tokens": [
+        "astr",
+        "onaut",
+        " on",
+        " horse"
+      ],
+      "prompt_tok_length": 4,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 26,
+      "reference_image_path": "/static/reference_images/a_horse_riding_an_astronaut.png",
+      "reference_image_prompt": "A horse riding an astronaut",
+      "reference_image_categories": [
+        "co-occurrence"
+      ],
+      "represented_category_in_game": "co-occurrence"
+    },
+    {
+      "timestamp": "2025-08-28T13:27:09.364802Z",
+      "round_num": 3,
+      "player_id": "G6-P1",
+      "action_type": "prompt_image",
+      "prompt": "cartoonOfAnAstronautRidingAHorseInSpace",
+      "image_path": "images/20250828132709-img-3-G6-P1-prompt_image-cart-oon-Of.png",
+      "prompt_tokens": [
+        "cart",
+        "oon",
+        "Of",
+        "An",
+        "Astr",
+        "onaut",
+        "R",
+        "iding",
+        "AH",
+        "orse",
+        "In",
+        "Space"
+      ],
+      "prompt_tok_length": 12,
+      "votes_received": [
+        "G6-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 26,
+      "reference_image_path": "/static/reference_images/a_horse_riding_an_astronaut.png",
+      "reference_image_prompt": "A horse riding an astronaut",
+      "reference_image_categories": [
+        "co-occurrence"
+      ],
+      "represented_category_in_game": "co-occurrence"
+    },
+    {
+      "timestamp": "2025-08-28T13:27:13.818847Z",
+      "round_num": 3,
+      "player_id": "G6-P3",
+      "action_type": "vote",
+      "voted_for_id": "G6-P1",
+      "vote_timestamp": "2025-08-28T13:27:13.818847Z"
+    },
+    {
+      "timestamp": "2025-08-28T13:27:16.902194Z",
+      "round_num": 3,
+      "player_id": "G6-P1",
+      "action_type": "vote",
+      "voted_for_id": "G6-P3",
+      "vote_timestamp": "2025-08-28T13:27:16.902194Z"
+    },
+    {
+      "timestamp": "2025-08-28T13:27:17.599592Z",
+      "round_num": 3,
+      "player_id": "G6-P2",
+      "action_type": "vote",
+      "voted_for_id": "G6-P3",
+      "vote_timestamp": "2025-08-28T13:27:17.599592Z"
+    },
+    {
+      "timestamp": "2025-08-28T13:28:40.123631Z",
+      "round_num": 3,
+      "player_id": "G6-P1",
+      "action_type": "quick_draw",
+      "prompt": "A horse riding an astronaut",
+      "image_path": "images/20250828132840-img-3-G6-P1-quick_draw-A-horse-riding.png",
+      "prompt_tokens": [
+        "A",
+        " horse",
+        " riding",
+        " an",
+        " astronaut"
+      ],
+      "prompt_tok_length": 5,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-28T13:28:59.025876Z",
+      "round_num": 3,
+      "player_id": "G6-P3",
+      "action_type": "quick_draw",
+      "prompt": "A horse riding an astronaut",
+      "image_path": "images/20250828132859-img-3-G6-P3-quick_draw-A-horse-riding.png",
+      "prompt_tokens": [
+        "A",
+        " horse",
+        " riding",
+        " an",
+        " astronaut"
+      ],
+      "prompt_tok_length": 5,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-28T13:29:18.160522Z",
+      "round_num": 3,
+      "player_id": "G6-P2",
+      "action_type": "quick_draw",
+      "prompt": "a horse riding an astronaut",
+      "image_path": "images/20250828132918-img-3-G6-P2-quick_draw-a-horse-riding.png",
+      "prompt_tokens": [
+        "a",
+        " horse",
+        " riding",
+        " an",
+        " astronaut"
+      ],
+      "prompt_tok_length": 5,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-28T13:32:56.011551Z",
+      "round_num": 4,
+      "player_id": "G6-P2",
+      "action_type": "prompt_image",
+      "prompt": "white bg. Friendship in black on top. two people (black outlines) hands on each other's shoulders",
+      "image_path": "images/20250828133256-img-4-G6-P2-prompt_image-white-bg.png",
+      "prompt_tokens": [
+        "white",
+        " bg",
+        ".",
+        " Friendship",
+        " in",
+        " black",
+        " on",
+        " top",
+        ".",
+        " two",
+        " people",
+        " (",
+        "black",
+        " outlines",
+        ")",
+        " hands",
+        " on",
+        " each",
+        " other's",
+        " shoulders"
+      ],
+      "prompt_tok_length": 20,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 12,
+      "reference_image_path": "/static/reference_images/friendship_as_a_simple_drawing.png",
+      "reference_image_prompt": "Friendship as a simple drawing",
+      "reference_image_categories": [
+        "realism"
+      ],
+      "represented_category_in_game": "realism"
+    },
+    {
+      "timestamp": "2025-08-28T13:33:08.707679Z",
+      "round_num": 4,
+      "player_id": "G6-P3",
+      "action_type": "prompt_image",
+      "prompt": "Two cartoon doodles side hugging smiling, FRIENDSHIP above them. B/W",
+      "image_path": "images/20250828133308-img-4-G6-P3-prompt_image-Two-cartoon-dood.png",
+      "prompt_tokens": [
+        "Two",
+        " cartoon",
+        " dood",
+        "les",
+        " side",
+        " hugging",
+        " smiling",
+        ",",
+        " FRIEND",
+        "SHIP",
+        " above",
+        " them",
+        ".",
+        " B",
+        "/W"
+      ],
+      "prompt_tok_length": 15,
+      "votes_received": [
+        "G6-P1",
+        "G6-P2"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 12,
+      "reference_image_path": "/static/reference_images/friendship_as_a_simple_drawing.png",
+      "reference_image_prompt": "Friendship as a simple drawing",
+      "reference_image_categories": [
+        "realism"
+      ],
+      "represented_category_in_game": "realism"
+    },
+    {
+      "timestamp": "2025-08-28T13:33:12.170287Z",
+      "round_num": 4,
+      "player_id": "G6-P1",
+      "action_type": "prompt_image",
+      "prompt": "two stick figure friends with smiley face representing friendship with the word \"FRIEND",
+      "image_path": "images/20250828133312-img-4-G6-P1-prompt_image-two-stick-figure.png",
+      "prompt_tokens": [
+        "two",
+        " stick",
+        " figure",
+        " friends",
+        " with",
+        " smile",
+        "y",
+        " face",
+        " representing",
+        " friendship",
+        " with",
+        " the",
+        " word",
+        " \"",
+        "FR",
+        "I",
+        "END"
+      ],
+      "prompt_tok_length": 17,
+      "votes_received": [
+        "G6-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 12,
+      "reference_image_path": "/static/reference_images/friendship_as_a_simple_drawing.png",
+      "reference_image_prompt": "Friendship as a simple drawing",
+      "reference_image_categories": [
+        "realism"
+      ],
+      "represented_category_in_game": "realism"
+    },
+    {
+      "timestamp": "2025-08-28T13:33:18.505168Z",
+      "round_num": 4,
+      "player_id": "G6-P1",
+      "action_type": "vote",
+      "voted_for_id": "G6-P3",
+      "vote_timestamp": "2025-08-28T13:33:18.505168Z"
+    },
+    {
+      "timestamp": "2025-08-28T13:33:19.960116Z",
+      "round_num": 4,
+      "player_id": "G6-P3",
+      "action_type": "vote",
+      "voted_for_id": "G6-P1",
+      "vote_timestamp": "2025-08-28T13:33:19.960116Z"
+    },
+    {
+      "timestamp": "2025-08-28T13:33:23.940326Z",
+      "round_num": 4,
+      "player_id": "G6-P2",
+      "action_type": "vote",
+      "voted_for_id": "G6-P3",
+      "vote_timestamp": "2025-08-28T13:33:23.940326Z"
+    },
+    {
+      "timestamp": "2025-08-28T13:35:10.804508Z",
+      "round_num": 5,
+      "player_id": "G6-P1",
+      "action_type": "prompt_image",
+      "prompt": "happy white man in blue shirt",
+      "image_path": "images/20250828133510-img-5-G6-P1-prompt_image-happy-white-man.png",
+      "prompt_tokens": [
+        "happy",
+        " white",
+        " man",
+        " in",
+        " blue",
+        " shirt"
+      ],
+      "prompt_tok_length": 6,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 15,
+      "reference_image_path": "/static/reference_images/a_man.png",
+      "reference_image_prompt": "A man",
+      "reference_image_categories": [
+        "demographic",
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "demographic"
+    },
+    {
+      "timestamp": "2025-08-28T13:35:27.721646Z",
+      "round_num": 5,
+      "player_id": "G6-P2",
+      "action_type": "prompt_image",
+      "prompt": "generic bearded smiling white man. blue-tshirt. beige background. looking into camera.",
+      "image_path": "images/20250828133527-img-5-G6-P2-prompt_image-generic-be-arded.png",
+      "prompt_tokens": [
+        "generic",
+        " be",
+        "arded",
+        " smiling",
+        " white",
+        " man",
+        ".",
+        " blue",
+        "-t",
+        "shirt",
+        ".",
+        " beige",
+        " background",
+        ".",
+        " looking",
+        " into",
+        " camera",
+        "."
+      ],
+      "prompt_tok_length": 18,
+      "votes_received": [
+        "G6-P3",
+        "G6-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 15,
+      "reference_image_path": "/static/reference_images/a_man.png",
+      "reference_image_prompt": "A man",
+      "reference_image_categories": [
+        "demographic",
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "demographic"
+    },
+    {
+      "timestamp": "2025-08-28T13:35:50.943081Z",
+      "round_num": 5,
+      "player_id": "G6-P3",
+      "action_type": "prompt_image",
+      "prompt": "white smiling bearded man in blue plain round tshirt with dark brown beard with epiglottis visible",
+      "image_path": "images/20250828133550-img-5-G6-P3-prompt_image-white-smiling-be.png",
+      "prompt_tokens": [
+        "white",
+        " smiling",
+        " be",
+        "arded",
+        " man",
+        " in",
+        " blue",
+        " plain",
+        " round",
+        " tsh",
+        "irt",
+        " with",
+        " dark",
+        " brown",
+        " beard",
+        " with",
+        " ep",
+        "igl",
+        "ott",
+        "is",
+        " visible"
+      ],
+      "prompt_tok_length": 21,
+      "votes_received": [
+        "G6-P2"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 15,
+      "reference_image_path": "/static/reference_images/a_man.png",
+      "reference_image_prompt": "A man",
+      "reference_image_categories": [
+        "demographic",
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "demographic"
+    },
+    {
+      "timestamp": "2025-08-28T13:35:53.003507Z",
+      "round_num": 5,
+      "player_id": "G6-P3",
+      "action_type": "vote",
+      "voted_for_id": "G6-P2",
+      "vote_timestamp": "2025-08-28T13:35:53.003507Z"
+    },
+    {
+      "timestamp": "2025-08-28T13:35:54.428968Z",
+      "round_num": 5,
+      "player_id": "G6-P1",
+      "action_type": "vote",
+      "voted_for_id": "G6-P2",
+      "vote_timestamp": "2025-08-28T13:35:54.428968Z"
+    },
+    {
+      "timestamp": "2025-08-28T13:36:01.374138Z",
+      "round_num": 5,
+      "player_id": "G6-P2",
+      "action_type": "vote",
+      "voted_for_id": "G6-P3",
+      "vote_timestamp": "2025-08-28T13:36:01.374138Z"
+    },
+    {
+      "timestamp": "2025-08-28T13:38:13.609477Z",
+      "round_num": 6,
+      "player_id": "G6-P1",
+      "action_type": "prompt_image",
+      "prompt": "Female asian rocket scientist in white coat",
+      "image_path": "images/20250828133813-img-6-G6-P1-prompt_image-Female-asian-rocket.png",
+      "prompt_tokens": [
+        "Female",
+        " asian",
+        " rocket",
+        " scientist",
+        " in",
+        " white",
+        " coat"
+      ],
+      "prompt_tok_length": 7,
+      "votes_received": [
+        "G6-P2"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 20,
+      "reference_image_path": "/static/reference_images/meet_dr_li_a_rocket_scientist_from_new_york.png",
+      "reference_image_prompt": "Meet Dr. Li, a rocket scientist from New York",
+      "reference_image_categories": [
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-28T13:38:42.744838Z",
+      "round_num": 6,
+      "player_id": "G6-P3",
+      "action_type": "prompt_image",
+      "prompt": "asian rocket scientist white jacket wiDr.Li, rocket design in background",
+      "image_path": "images/20250828133842-img-6-G6-P3-prompt_image-asian-rocket-scientist.png",
+      "prompt_tokens": [
+        "asian",
+        " rocket",
+        " scientist",
+        " white",
+        " jacket",
+        " wi",
+        "Dr",
+        ".L",
+        "i",
+        ",",
+        " rocket",
+        " design",
+        " in",
+        " background"
+      ],
+      "prompt_tok_length": 14,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 20,
+      "reference_image_path": "/static/reference_images/meet_dr_li_a_rocket_scientist_from_new_york.png",
+      "reference_image_prompt": "Meet Dr. Li, a rocket scientist from New York",
+      "reference_image_categories": [
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-28T13:38:45.225630Z",
+      "round_num": 6,
+      "player_id": "G6-P2",
+      "action_type": "prompt_image",
+      "prompt": "female chinese lab coat and spectacle-wearing rocket scientist. blue rocket schematics(left) and white wall",
+      "image_path": "images/20250828133845-img-6-G6-P2-prompt_image-female-chinese-lab.png",
+      "prompt_tokens": [
+        "female",
+        " chinese",
+        " lab",
+        " coat",
+        " and",
+        " spectacle",
+        "-w",
+        "earing",
+        " rocket",
+        " scientist",
+        ".",
+        " blue",
+        " rocket",
+        " sche",
+        "matics",
+        "(left",
+        ")",
+        " and",
+        " white",
+        " wall"
+      ],
+      "prompt_tok_length": 20,
+      "votes_received": [
+        "G6-P1",
+        "G6-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 20,
+      "reference_image_path": "/static/reference_images/meet_dr_li_a_rocket_scientist_from_new_york.png",
+      "reference_image_prompt": "Meet Dr. Li, a rocket scientist from New York",
+      "reference_image_categories": [
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-28T13:38:50.287863Z",
+      "round_num": 6,
+      "player_id": "G6-P1",
+      "action_type": "vote",
+      "voted_for_id": "G6-P2",
+      "vote_timestamp": "2025-08-28T13:38:50.287863Z"
+    },
+    {
+      "timestamp": "2025-08-28T13:38:53.314756Z",
+      "round_num": 6,
+      "player_id": "G6-P2",
+      "action_type": "vote",
+      "voted_for_id": "G6-P1",
+      "vote_timestamp": "2025-08-28T13:38:53.314756Z"
+    },
+    {
+      "timestamp": "2025-08-28T13:38:57.124764Z",
+      "round_num": 6,
+      "player_id": "G6-P3",
+      "action_type": "vote",
+      "voted_for_id": "G6-P2",
+      "vote_timestamp": "2025-08-28T13:38:57.124764Z"
+    },
+    {
+      "timestamp": "2025-08-28T13:40:43.501429Z",
+      "round_num": 6,
+      "player_id": "G6-P1",
+      "action_type": "quick_draw",
+      "prompt": "Meet Dr. Li, a rocket scientist from New York",
+      "image_path": "images/20250828134043-img-6-G6-P1-quick_draw-Meet-Dr.png",
+      "prompt_tokens": [
+        "Meet",
+        " Dr",
+        ".",
+        " Li",
+        ",",
+        " a",
+        " rocket",
+        " scientist",
+        " from",
+        " New",
+        " York"
+      ],
+      "prompt_tok_length": 11,
+      "generation_success": true,
+      "error_message": null
+    }
+  ]
+}

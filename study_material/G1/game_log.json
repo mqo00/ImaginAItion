@@ -1,0 +1,932 @@
+{
+  "group_id": "G1",
+  "start_timestamp": "2025-08-22T20:07:52.125018Z",
+  "end_timestamp": "2025-08-22T20:37:55.450317Z",
+  "total_rounds": 6,
+  "final_scores": {
+    "G1-P2": {
+      "total_score": 4,
+      "round_scores": {
+        "1": 1,
+        "2": 1,
+        "3": 0,
+        "4": 1,
+        "5": 1,
+        "6": 0
+      }
+    },
+    "G1-P1": {
+      "total_score": 3,
+      "round_scores": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 1,
+        "5": 0,
+        "6": 1
+      }
+    },
+    "G1-P3": {
+      "total_score": 7,
+      "round_scores": {
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "4": 0,
+        "5": 2,
+        "6": 1
+      }
+    }
+  },
+  "player_actions": [
+    {
+      "timestamp": "2025-08-22T20:09:21.662240Z",
+      "round_num": 1,
+      "player_id": "G1-P2",
+      "action_type": "prompt_image",
+      "prompt": "a female Asian Dr. Li with black glasses in white robe, with a rocket on the wall, in confident pose",
+      "image_path": "images/20250822200921-img-1-G1-P2-prompt_image-a-female-Asian.png",
+      "prompt_tokens": [
+        "a",
+        " female",
+        " Asian",
+        " Dr",
+        ".",
+        " Li",
+        " with",
+        " black",
+        " glasses",
+        " in",
+        " white",
+        " robe",
+        ",",
+        " with",
+        " a",
+        " rocket",
+        " on",
+        " the",
+        " wall",
+        ",",
+        " in",
+        " confident",
+        " pose"
+      ],
+      "prompt_tok_length": 23,
+      "votes_received": [
+        "G1-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 20,
+      "reference_image_path": "/static/reference_images/meet_dr_li_a_rocket_scientist_from_new_york.png",
+      "reference_image_prompt": "Meet Dr. Li, a rocket scientist from New York",
+      "reference_image_categories": [
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-22T20:09:23.555743Z",
+      "round_num": 1,
+      "player_id": "G1-P1",
+      "action_type": "prompt_image",
+      "prompt": "asian woman rocket scientist Dr. Li",
+      "image_path": "images/20250822200923-img-1-G1-P1-prompt_image-asian-woman-rocket.png",
+      "prompt_tokens": [
+        "asian",
+        " woman",
+        " rocket",
+        " scientist",
+        " Dr",
+        ".",
+        " Li"
+      ],
+      "prompt_tok_length": 7,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 20,
+      "reference_image_path": "/static/reference_images/meet_dr_li_a_rocket_scientist_from_new_york.png",
+      "reference_image_prompt": "Meet Dr. Li, a rocket scientist from New York",
+      "reference_image_categories": [
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-22T20:09:23.828327Z",
+      "round_num": 1,
+      "player_id": "G1-P3",
+      "action_type": "prompt_image",
+      "prompt": "an asian female wears doctor clothing, with \"Dr. Li\" on the clothing. black glasses. rocket design blueprint at background",
+      "image_path": "images/20250822200923-img-1-G1-P3-prompt_image-an-asian-female.png",
+      "prompt_tokens": [
+        "an",
+        " asian",
+        " female",
+        " wears",
+        " doctor",
+        " clothing",
+        ",",
+        " with",
+        " \"",
+        "Dr",
+        ".",
+        " Li",
+        "\"",
+        " on",
+        " the",
+        " clothing",
+        ".",
+        " black",
+        " glasses",
+        ".",
+        " rocket",
+        " design",
+        " blueprint",
+        " at",
+        " background"
+      ],
+      "prompt_tok_length": 25,
+      "votes_received": [
+        "G1-P2",
+        "G1-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 20,
+      "reference_image_path": "/static/reference_images/meet_dr_li_a_rocket_scientist_from_new_york.png",
+      "reference_image_prompt": "Meet Dr. Li, a rocket scientist from New York",
+      "reference_image_categories": [
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-22T20:09:31.290266Z",
+      "round_num": 1,
+      "player_id": "G1-P2",
+      "action_type": "vote",
+      "voted_for_id": "G1-P3",
+      "vote_timestamp": "2025-08-22T20:09:31.290266Z"
+    },
+    {
+      "timestamp": "2025-08-22T20:09:33.368785Z",
+      "round_num": 1,
+      "player_id": "G1-P1",
+      "action_type": "vote",
+      "voted_for_id": "G1-P3",
+      "vote_timestamp": "2025-08-22T20:09:33.368785Z"
+    },
+    {
+      "timestamp": "2025-08-22T20:09:37.487581Z",
+      "round_num": 1,
+      "player_id": "G1-P3",
+      "action_type": "vote",
+      "voted_for_id": "G1-P2",
+      "vote_timestamp": "2025-08-22T20:09:37.487581Z"
+    },
+    {
+      "timestamp": "2025-08-22T20:15:18.166637Z",
+      "round_num": 1,
+      "player_id": "G1-P3",
+      "action_type": "quick_draw",
+      "prompt": "Meet Dr. Li, a rocket scientist from New York",
+      "image_path": "images/20250822201518-img-1-G1-P3-quick_draw-Meet-Dr.png",
+      "prompt_tokens": [
+        "Meet",
+        " Dr",
+        ".",
+        " Li",
+        ",",
+        " a",
+        " rocket",
+        " scientist",
+        " from",
+        " New",
+        " York"
+      ],
+      "prompt_tok_length": 11,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-22T20:15:43.223155Z",
+      "round_num": 1,
+      "player_id": "G1-P2",
+      "action_type": "quick_draw",
+      "prompt": "Meet Dr. Li, a rocket scientist from New York",
+      "image_path": "images/20250822201543-img-1-G1-P2-quick_draw-Meet-Dr.png",
+      "prompt_tokens": [
+        "Meet",
+        " Dr",
+        ".",
+        " Li",
+        ",",
+        " a",
+        " rocket",
+        " scientist",
+        " from",
+        " New",
+        " York"
+      ],
+      "prompt_tok_length": 11,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-22T20:16:05.150767Z",
+      "round_num": 1,
+      "player_id": "G1-P1",
+      "action_type": "quick_draw",
+      "prompt": "Meet Dr. Li, a rocket scientist from New York",
+      "image_path": "images/20250822201605-img-1-G1-P1-quick_draw-Meet-Dr.png",
+      "prompt_tokens": [
+        "Meet",
+        " Dr",
+        ".",
+        " Li",
+        ",",
+        " a",
+        " rocket",
+        " scientist",
+        " from",
+        " New",
+        " York"
+      ],
+      "prompt_tok_length": 11,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-22T20:21:17.282755Z",
+      "round_num": 2,
+      "player_id": "G1-P1",
+      "action_type": "prompt_image",
+      "prompt": "White man, short hair, black suit tie at desk with paper in office building",
+      "image_path": "images/20250822202117-img-2-G1-P1-prompt_image-White-man.png",
+      "prompt_tokens": [
+        "White",
+        " man",
+        ",",
+        " short",
+        " hair",
+        ",",
+        " black",
+        " suit",
+        " tie",
+        " at",
+        " desk",
+        " with",
+        " paper",
+        " in",
+        " office",
+        " building"
+      ],
+      "prompt_tok_length": 16,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 6,
+      "reference_image_path": "/static/reference_images/ceo.png",
+      "reference_image_prompt": "CEO",
+      "reference_image_categories": [
+        "biological",
+        "demographic"
+      ],
+      "represented_category_in_game": "demographic"
+    },
+    {
+      "timestamp": "2025-08-22T20:21:17.673828Z",
+      "round_num": 2,
+      "player_id": "G1-P2",
+      "action_type": "prompt_image",
+      "prompt": "a middle aged 45 yr white guy in dark suits sitting in front of a table, with a piece of paper on the table, fingers crossed against each other,",
+      "image_path": "images/20250822202117-img-2-G1-P2-prompt_image-a-middle-aged.png",
+      "prompt_tokens": [
+        "a",
+        " middle",
+        " aged",
+        " ",
+        "45",
+        " yr",
+        " white",
+        " guy",
+        " in",
+        " dark",
+        " suits",
+        " sitting",
+        " in",
+        " front",
+        " of",
+        " a",
+        " table",
+        ",",
+        " with",
+        " a",
+        " piece",
+        " of",
+        " paper",
+        " on",
+        " the",
+        " table",
+        ",",
+        " fingers",
+        " crossed",
+        " against",
+        " each",
+        " other",
+        ","
+      ],
+      "prompt_tok_length": 33,
+      "votes_received": [
+        "G1-P3",
+        "G1-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 6,
+      "reference_image_path": "/static/reference_images/ceo.png",
+      "reference_image_prompt": "CEO",
+      "reference_image_categories": [
+        "biological",
+        "demographic"
+      ],
+      "represented_category_in_game": "demographic"
+    },
+    {
+      "timestamp": "2025-08-22T20:21:18.077151Z",
+      "round_num": 2,
+      "player_id": "G1-P3",
+      "action_type": "prompt_image",
+      "prompt": "white man, 50 years old. in black suit. sitting. his hand on a paper on desk.",
+      "image_path": "images/20250822202118-img-2-G1-P3-prompt_image-white-man.png",
+      "prompt_tokens": [
+        "white",
+        " man",
+        ",",
+        " ",
+        "50",
+        " years",
+        " old",
+        ".",
+        " in",
+        " black",
+        " suit",
+        ".",
+        " sitting",
+        ".",
+        " his",
+        " hand",
+        " on",
+        " a",
+        " paper",
+        " on",
+        " desk",
+        "."
+      ],
+      "prompt_tok_length": 22,
+      "votes_received": [
+        "G1-P2"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 6,
+      "reference_image_path": "/static/reference_images/ceo.png",
+      "reference_image_prompt": "CEO",
+      "reference_image_categories": [
+        "biological",
+        "demographic"
+      ],
+      "represented_category_in_game": "demographic"
+    },
+    {
+      "timestamp": "2025-08-22T20:21:23.259290Z",
+      "round_num": 2,
+      "player_id": "G1-P3",
+      "action_type": "vote",
+      "voted_for_id": "G1-P2",
+      "vote_timestamp": "2025-08-22T20:21:23.259290Z"
+    },
+    {
+      "timestamp": "2025-08-22T20:21:27.594026Z",
+      "round_num": 2,
+      "player_id": "G1-P2",
+      "action_type": "vote",
+      "voted_for_id": "G1-P3",
+      "vote_timestamp": "2025-08-22T20:21:27.594026Z"
+    },
+    {
+      "timestamp": "2025-08-22T20:21:29.721550Z",
+      "round_num": 2,
+      "player_id": "G1-P1",
+      "action_type": "vote",
+      "voted_for_id": "G1-P2",
+      "vote_timestamp": "2025-08-22T20:21:29.721550Z"
+    },
+    {
+      "timestamp": "2025-08-22T20:22:51.165070Z",
+      "round_num": 2,
+      "player_id": "G1-P2",
+      "action_type": "quick_draw",
+      "prompt": "CEO",
+      "image_path": "images/20250822202251-img-2-G1-P2-quick_draw-CEO.png",
+      "prompt_tokens": [
+        "CEO"
+      ],
+      "prompt_tok_length": 1,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-22T20:25:08.935220Z",
+      "round_num": 3,
+      "player_id": "G1-P2",
+      "action_type": "prompt_image",
+      "prompt": "a car mechanic guy muscular fixing car engine very focused facial expression",
+      "image_path": "images/20250822202508-img-3-G1-P2-prompt_image-a-car-mechanic.png",
+      "prompt_tokens": [
+        "a",
+        " car",
+        " mechanic",
+        " guy",
+        " muscular",
+        " fixing",
+        " car",
+        " engine",
+        " very",
+        " focused",
+        " facial",
+        " expression"
+      ],
+      "prompt_tok_length": 12,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 18,
+      "reference_image_path": "/static/reference_images/person_fixing_a_car_engine.png",
+      "reference_image_prompt": "Person fixing a car engine",
+      "reference_image_categories": [
+        "biological"
+      ],
+      "represented_category_in_game": "biological"
+    },
+    {
+      "timestamp": "2025-08-22T20:25:40.344260Z",
+      "round_num": 3,
+      "player_id": "G1-P3",
+      "action_type": "prompt_image",
+      "prompt": "man fixing car",
+      "image_path": "images/20250822202540-img-3-G1-P3-prompt_image-man-fixing-car.png",
+      "prompt_tokens": [
+        "man",
+        " fixing",
+        " car"
+      ],
+      "prompt_tok_length": 3,
+      "votes_received": [
+        "G1-P2",
+        "G1-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 18,
+      "reference_image_path": "/static/reference_images/person_fixing_a_car_engine.png",
+      "reference_image_prompt": "Person fixing a car engine",
+      "reference_image_categories": [
+        "biological"
+      ],
+      "represented_category_in_game": "biological"
+    },
+    {
+      "timestamp": "2025-08-22T20:25:41.663888Z",
+      "round_num": 3,
+      "player_id": "G1-P1",
+      "action_type": "prompt_image",
+      "prompt": "male mechanic fixing engine of black car on roadside",
+      "image_path": "images/20250822202541-img-3-G1-P1-prompt_image-male-mechanic-fixing.png",
+      "prompt_tokens": [
+        "male",
+        " mechanic",
+        " fixing",
+        " engine",
+        " of",
+        " black",
+        " car",
+        " on",
+        " roadside"
+      ],
+      "prompt_tok_length": 9,
+      "votes_received": [
+        "G1-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 18,
+      "reference_image_path": "/static/reference_images/person_fixing_a_car_engine.png",
+      "reference_image_prompt": "Person fixing a car engine",
+      "reference_image_categories": [
+        "biological"
+      ],
+      "represented_category_in_game": "biological"
+    },
+    {
+      "timestamp": "2025-08-22T20:25:45.563569Z",
+      "round_num": 3,
+      "player_id": "G1-P2",
+      "action_type": "vote",
+      "voted_for_id": "G1-P3",
+      "vote_timestamp": "2025-08-22T20:25:45.563569Z"
+    },
+    {
+      "timestamp": "2025-08-22T20:25:48.297834Z",
+      "round_num": 3,
+      "player_id": "G1-P3",
+      "action_type": "vote",
+      "voted_for_id": "G1-P1",
+      "vote_timestamp": "2025-08-22T20:25:48.297834Z"
+    },
+    {
+      "timestamp": "2025-08-22T20:25:48.554657Z",
+      "round_num": 3,
+      "player_id": "G1-P1",
+      "action_type": "vote",
+      "voted_for_id": "G1-P3",
+      "vote_timestamp": "2025-08-22T20:25:48.554657Z"
+    },
+    {
+      "timestamp": "2025-08-22T20:27:09.537999Z",
+      "round_num": 3,
+      "player_id": "G1-P2",
+      "action_type": "quick_draw",
+      "prompt": "person fixing a car engine",
+      "image_path": "images/20250822202709-img-3-G1-P2-quick_draw-person-fixing-a.png",
+      "prompt_tokens": [
+        "person",
+        " fixing",
+        " a",
+        " car",
+        " engine"
+      ],
+      "prompt_tok_length": 5,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-22T20:29:41.828141Z",
+      "round_num": 4,
+      "player_id": "G1-P3",
+      "action_type": "prompt_image",
+      "prompt": "four interviewers taking note",
+      "image_path": "images/20250822202941-img-4-G1-P3-prompt_image-four-interview-ers.png",
+      "prompt_tokens": [
+        "four",
+        " interview",
+        "ers",
+        " taking",
+        " note"
+      ],
+      "prompt_tok_length": 5,
+      "votes_received": [
+        "G1-P2"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 27,
+      "reference_image_path": "/static/reference_images/serious_people_taking_notes.png",
+      "reference_image_prompt": "Serious people taking notes",
+      "reference_image_categories": [
+        "biological",
+        "demographic"
+      ],
+      "represented_category_in_game": "demographic"
+    },
+    {
+      "timestamp": "2025-08-22T20:29:44.426294Z",
+      "round_num": 4,
+      "player_id": "G1-P2",
+      "action_type": "prompt_image",
+      "prompt": "four people taking notes",
+      "image_path": "images/20250822202944-img-4-G1-P2-prompt_image-four-people-taking.png",
+      "prompt_tokens": [
+        "four",
+        " people",
+        " taking",
+        " notes"
+      ],
+      "prompt_tok_length": 4,
+      "votes_received": [
+        "G1-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 27,
+      "reference_image_path": "/static/reference_images/serious_people_taking_notes.png",
+      "reference_image_prompt": "Serious people taking notes",
+      "reference_image_categories": [
+        "biological",
+        "demographic"
+      ],
+      "represented_category_in_game": "demographic"
+    },
+    {
+      "timestamp": "2025-08-22T20:30:02.770929Z",
+      "round_num": 4,
+      "player_id": "G1-P1",
+      "action_type": "prompt_image",
+      "prompt": "business team taking notes",
+      "image_path": "images/20250822203002-img-4-G1-P1-prompt_image-business-team-taking.png",
+      "prompt_tokens": [
+        "business",
+        " team",
+        " taking",
+        " notes"
+      ],
+      "prompt_tok_length": 4,
+      "votes_received": [
+        "G1-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 27,
+      "reference_image_path": "/static/reference_images/serious_people_taking_notes.png",
+      "reference_image_prompt": "Serious people taking notes",
+      "reference_image_categories": [
+        "biological",
+        "demographic"
+      ],
+      "represented_category_in_game": "demographic"
+    },
+    {
+      "timestamp": "2025-08-22T20:30:10.653951Z",
+      "round_num": 4,
+      "player_id": "G1-P3",
+      "action_type": "vote",
+      "voted_for_id": "G1-P1",
+      "vote_timestamp": "2025-08-22T20:30:10.653951Z"
+    },
+    {
+      "timestamp": "2025-08-22T20:30:15.512744Z",
+      "round_num": 4,
+      "player_id": "G1-P2",
+      "action_type": "vote",
+      "voted_for_id": "G1-P3",
+      "vote_timestamp": "2025-08-22T20:30:15.512744Z"
+    },
+    {
+      "timestamp": "2025-08-22T20:30:20.911549Z",
+      "round_num": 4,
+      "player_id": "G1-P1",
+      "action_type": "vote",
+      "voted_for_id": "G1-P2",
+      "vote_timestamp": "2025-08-22T20:30:20.911549Z"
+    },
+    {
+      "timestamp": "2025-08-22T20:32:38.659408Z",
+      "round_num": 5,
+      "player_id": "G1-P3",
+      "action_type": "prompt_image",
+      "prompt": "shark",
+      "image_path": "images/20250822203238-img-5-G1-P3-prompt_image-sh-ark.png",
+      "prompt_tokens": [
+        "sh",
+        "ark"
+      ],
+      "prompt_tok_length": 2,
+      "votes_received": [
+        "G1-P2",
+        "G1-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 28,
+      "reference_image_path": "/static/reference_images/a_soft_robot_that_can_swim_like_a_shark.png",
+      "reference_image_prompt": "A soft robot that can swim like a shark",
+      "reference_image_categories": [
+        "realism"
+      ],
+      "represented_category_in_game": "realism"
+    },
+    {
+      "timestamp": "2025-08-22T20:32:51.626250Z",
+      "round_num": 5,
+      "player_id": "G1-P2",
+      "action_type": "prompt_image",
+      "prompt": "a shark",
+      "image_path": "images/20250822203251-img-5-G1-P2-prompt_image-a-shark.png",
+      "prompt_tokens": [
+        "a",
+        " shark"
+      ],
+      "prompt_tok_length": 2,
+      "votes_received": [
+        "G1-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 28,
+      "reference_image_path": "/static/reference_images/a_soft_robot_that_can_swim_like_a_shark.png",
+      "reference_image_prompt": "A soft robot that can swim like a shark",
+      "reference_image_categories": [
+        "realism"
+      ],
+      "represented_category_in_game": "realism"
+    },
+    {
+      "timestamp": "2025-08-22T20:33:01.091769Z",
+      "round_num": 5,
+      "player_id": "G1-P1",
+      "action_type": "prompt_image",
+      "prompt": "metal shark",
+      "image_path": "images/20250822203301-img-5-G1-P1-prompt_image-metal-shark.png",
+      "prompt_tokens": [
+        "metal",
+        " shark"
+      ],
+      "prompt_tok_length": 2,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 28,
+      "reference_image_path": "/static/reference_images/a_soft_robot_that_can_swim_like_a_shark.png",
+      "reference_image_prompt": "A soft robot that can swim like a shark",
+      "reference_image_categories": [
+        "realism"
+      ],
+      "represented_category_in_game": "realism"
+    },
+    {
+      "timestamp": "2025-08-22T20:33:05.628602Z",
+      "round_num": 5,
+      "player_id": "G1-P2",
+      "action_type": "vote",
+      "voted_for_id": "G1-P3",
+      "vote_timestamp": "2025-08-22T20:33:05.628602Z"
+    },
+    {
+      "timestamp": "2025-08-22T20:33:05.883870Z",
+      "round_num": 5,
+      "player_id": "G1-P3",
+      "action_type": "vote",
+      "voted_for_id": "G1-P2",
+      "vote_timestamp": "2025-08-22T20:33:05.883870Z"
+    },
+    {
+      "timestamp": "2025-08-22T20:33:15.833328Z",
+      "round_num": 5,
+      "player_id": "G1-P1",
+      "action_type": "vote",
+      "voted_for_id": "G1-P3",
+      "vote_timestamp": "2025-08-22T20:33:15.833328Z"
+    },
+    {
+      "timestamp": "2025-08-22T20:34:48.253602Z",
+      "round_num": 5,
+      "player_id": "G1-P1",
+      "action_type": "quick_draw",
+      "prompt": "robot shark",
+      "image_path": "images/20250822203448-img-5-G1-P1-quick_draw-robot-shark.png",
+      "prompt_tokens": [
+        "robot",
+        " shark"
+      ],
+      "prompt_tok_length": 2,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-22T20:35:40.723529Z",
+      "round_num": 6,
+      "player_id": "G1-P1",
+      "action_type": "prompt_image",
+      "prompt": "frienship drawing",
+      "image_path": "images/20250822203540-img-6-G1-P1-prompt_image-fri-ens-hip.png",
+      "prompt_tokens": [
+        "fri",
+        "ens",
+        "hip",
+        " drawing"
+      ],
+      "prompt_tok_length": 4,
+      "votes_received": [
+        "G1-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 12,
+      "reference_image_path": "/static/reference_images/friendship_as_a_simple_drawing.png",
+      "reference_image_prompt": "Friendship as a simple drawing",
+      "reference_image_categories": [
+        "realism"
+      ],
+      "represented_category_in_game": "realism"
+    },
+    {
+      "timestamp": "2025-08-22T20:36:11.615941Z",
+      "round_num": 6,
+      "player_id": "G1-P3",
+      "action_type": "prompt_image",
+      "prompt": "simple drawing of two people side hug. \"FRIENDSHIP\" on top of image",
+      "image_path": "images/20250822203611-img-6-G1-P3-prompt_image-simple-drawing-of.png",
+      "prompt_tokens": [
+        "simple",
+        " drawing",
+        " of",
+        " two",
+        " people",
+        " side",
+        " hug",
+        ".",
+        " \"",
+        "FR",
+        "I",
+        "END",
+        "SHIP",
+        "\"",
+        " on",
+        " top",
+        " of",
+        " image"
+      ],
+      "prompt_tok_length": 18,
+      "votes_received": [
+        "G1-P1",
+        "G1-P2"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 12,
+      "reference_image_path": "/static/reference_images/friendship_as_a_simple_drawing.png",
+      "reference_image_prompt": "Friendship as a simple drawing",
+      "reference_image_categories": [
+        "realism"
+      ],
+      "represented_category_in_game": "realism"
+    },
+    {
+      "timestamp": "2025-08-22T20:36:12.894074Z",
+      "round_num": 6,
+      "player_id": "G1-P2",
+      "action_type": "prompt_image",
+      "prompt": "friendship",
+      "image_path": "images/20250822203612-img-6-G1-P2-prompt_image-friend-ship.png",
+      "prompt_tokens": [
+        "friend",
+        "ship"
+      ],
+      "prompt_tok_length": 2,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 12,
+      "reference_image_path": "/static/reference_images/friendship_as_a_simple_drawing.png",
+      "reference_image_prompt": "Friendship as a simple drawing",
+      "reference_image_categories": [
+        "realism"
+      ],
+      "represented_category_in_game": "realism"
+    },
+    {
+      "timestamp": "2025-08-22T20:36:17.672612Z",
+      "round_num": 6,
+      "player_id": "G1-P1",
+      "action_type": "vote",
+      "voted_for_id": "G1-P3",
+      "vote_timestamp": "2025-08-22T20:36:17.672612Z"
+    },
+    {
+      "timestamp": "2025-08-22T20:36:18.590861Z",
+      "round_num": 6,
+      "player_id": "G1-P2",
+      "action_type": "vote",
+      "voted_for_id": "G1-P3",
+      "vote_timestamp": "2025-08-22T20:36:18.590861Z"
+    },
+    {
+      "timestamp": "2025-08-22T20:36:19.066984Z",
+      "round_num": 6,
+      "player_id": "G1-P3",
+      "action_type": "vote",
+      "voted_for_id": "G1-P1",
+      "vote_timestamp": "2025-08-22T20:36:19.066984Z"
+    },
+    {
+      "timestamp": "2025-08-22T20:37:16.811614Z",
+      "round_num": 6,
+      "player_id": "G1-P1",
+      "action_type": "quick_draw",
+      "prompt": "friendship",
+      "image_path": "images/20250822203716-img-6-G1-P1-quick_draw-friend-ship.png",
+      "prompt_tokens": [
+        "friend",
+        "ship"
+      ],
+      "prompt_tok_length": 2,
+      "generation_success": true,
+      "error_message": null
+    }
+  ]
+}

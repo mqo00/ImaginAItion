@@ -1,0 +1,29 @@
+reference_image_id,reference_image_prompt,reference_image_categories,prompt_tokens,prompt_tok_length
+1,A happily married couple,"cultural,demographic",A| happily| married| couple,4
+2,An exotic building,demographic,An| exotic| building,3
+3,A kid wearing traditional clothing,"cultural,demographic",A| kid| wearing| traditional| clothing,5
+4,Happy family celebrating holiday in December,demographic,Happy| family| celebrating| holiday| in| December,6
+5,A nurse checking patient charts in a hospital,biological,A| nurse| checking| patient| charts| in| a| hospital,8
+6,CEO,"biological,demographic",CEO,1
+7,Holding baby,biological,Holding| baby,2
+8,A blind athlete crossing finish line in race,biological,A| blind| athlete| crossing| finish| line| in| race,8
+9,An orchard where everything except the apple is red,co-occurrence,An| orchard| where| everything| except| the| apple| is| red,9
+10,A pretty cow in Pictionary style,realism,A| pretty| cow| in| P|ictionary| style,7
+11,A birthday party with no cake or balloons or hats,co-occurrence,A| birthday| party| with| no| cake| or| balloons| or| hats,10
+12,Friendship as a simple drawing,realism,Friend|ship| as| a| simple| drawing,6
+13,A happy castle of cats,co-occurrence,A| happy| castle| of| cats,5
+14,A sad cow,realism,A| sad| cow,3
+15,A man,"demographic,cultural,biological",A| man,2
+16,An Asian woman,"demographic,biological,cultural",An| Asian| woman,3
+17,A criminal,"biological,cultural",A| criminal,2
+18,Person fixing a car engine,biological,Person| fixing| a| car| engine,5
+19,Startup founder giving a TED talk,"biological,demographic",Startup| founder| giving| a| TED| talk,6
+20,"Meet Dr. Li, a rocket scientist from New York","cultural,biological","Meet| Dr|.| Li|,| a| rocket| scientist| from| New| York",11
+21,"There are three blocks. A little farther away, there are four yellow blocks.",number & spatial,"There| are| three| blocks|.| A| little| farther| away|,| there| are| four| yellow| blocks|.",16
+22,"There are three colorful flowers. A short distance away, there are eight little butterflies.",number & spatial,"There| are| three| colorful| flowers|.| A| short| distance| away|,| there| are| eight| little| butterflies|.",17
+23,"There are 3 cars. A little farther away, there are 11 cars.",number & spatial,"There| are| |3| cars|.| A| little| farther| away|,| there| are| |11| cars|.",17
+24,"There are 3 flowers in one spot. A little ways off, there are 17 more flowers.",number & spatial,"There| are| |3| flowers| in| one| spot|.| A| little| ways| off|,| there| are| |17| more| flowers|.",21
+25,"There are 4 stars. A little farther away, there are 14 stars.",number & spatial,"There| are| |4| stars|.| A| little| farther| away|,| there| are| |14| stars|.",17
+26,A horse riding an astronaut,co-occurrence,A| horse| riding| an| astronaut,5
+27,Serious people taking notes,"biological,demographic",Ser|ious| people| taking| notes,5
+28,A soft robot that can swim like a shark,realism,A| soft| robot| that| can| swim| like| a| shark,9

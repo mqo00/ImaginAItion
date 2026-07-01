@@ -1,0 +1,956 @@
+{
+  "group_id": "G2",
+  "start_timestamp": "2025-08-23T18:10:48.542955Z",
+  "end_timestamp": "2025-08-23T18:49:32.249988Z",
+  "total_rounds": 4,
+  "final_scores": {
+    "G2-P2": {
+      "total_score": 4,
+      "round_scores": {
+        "1": 1,
+        "2": 0,
+        "3": 2,
+        "4": 1
+      }
+    },
+    "G2-P3": {
+      "total_score": 4,
+      "round_scores": {
+        "1": 0,
+        "2": 2,
+        "3": 0,
+        "4": 2
+      }
+    },
+    "G2-P1": {
+      "total_score": 2,
+      "round_scores": {
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    }
+  },
+  "player_actions": [
+    {
+      "timestamp": "2025-08-23T18:11:29.409031Z",
+      "round_num": 1,
+      "player_id": "G2-P2",
+      "action_type": "prompt_image",
+      "prompt": "5 yellow cubes, 3 wooden",
+      "image_path": "images/20250823181129-img-1-G2-P2-prompt_image-5-yellow-cubes.png",
+      "prompt_tokens": [
+        "5",
+        " yellow",
+        " cubes",
+        ",",
+        " ",
+        "3",
+        " wooden"
+      ],
+      "prompt_tok_length": 7,
+      "votes_received": [
+        "G2-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 21,
+      "reference_image_path": "/static/reference_images/there_are_three_blocks_a_little_farther_away_there_are_four_yellow_blocks.JPG",
+      "reference_image_prompt": "There are three blocks. A little farther away, there are four yellow blocks.",
+      "reference_image_categories": [
+        "number & spatial"
+      ],
+      "represented_category_in_game": "number & spatial"
+    },
+    {
+      "timestamp": "2025-08-23T18:12:06.722260Z",
+      "round_num": 1,
+      "player_id": "G2-P1",
+      "action_type": "prompt_image",
+      "prompt": "photo of 3 wooden blocks in foreground, 5 yellow blocks in background, on wooden table, at offset angle",
+      "image_path": "images/20250823181206-img-1-G2-P1-prompt_image-photo-of.png",
+      "prompt_tokens": [
+        "photo",
+        " of",
+        " ",
+        "3",
+        " wooden",
+        " blocks",
+        " in",
+        " foreground",
+        ",",
+        " ",
+        "5",
+        " yellow",
+        " blocks",
+        " in",
+        " background",
+        ",",
+        " on",
+        " wooden",
+        " table",
+        ",",
+        " at",
+        " offset",
+        " angle"
+      ],
+      "prompt_tok_length": 23,
+      "votes_received": [
+        "G2-P2",
+        "G2-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 21,
+      "reference_image_path": "/static/reference_images/there_are_three_blocks_a_little_farther_away_there_are_four_yellow_blocks.JPG",
+      "reference_image_prompt": "There are three blocks. A little farther away, there are four yellow blocks.",
+      "reference_image_categories": [
+        "number & spatial"
+      ],
+      "represented_category_in_game": "number & spatial"
+    },
+    {
+      "timestamp": "2025-08-23T18:12:10.546236Z",
+      "round_num": 1,
+      "player_id": "G2-P3",
+      "action_type": "prompt_image",
+      "prompt": "3 wooden cubes in the front, five yellow cubes in the back. All the cubes on the table, lying as row.",
+      "image_path": "images/20250823181210-img-1-G2-P3-prompt_image-3-wooden-cubes.png",
+      "prompt_tokens": [
+        "3",
+        " wooden",
+        " cubes",
+        " in",
+        " the",
+        " front",
+        ",",
+        " five",
+        " yellow",
+        " cubes",
+        " in",
+        " the",
+        " back",
+        ".",
+        " All",
+        " the",
+        " cubes",
+        " on",
+        " the",
+        " table",
+        ",",
+        " lying",
+        " as",
+        " row",
+        "."
+      ],
+      "prompt_tok_length": 25,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 21,
+      "reference_image_path": "/static/reference_images/there_are_three_blocks_a_little_farther_away_there_are_four_yellow_blocks.JPG",
+      "reference_image_prompt": "There are three blocks. A little farther away, there are four yellow blocks.",
+      "reference_image_categories": [
+        "number & spatial"
+      ],
+      "represented_category_in_game": "number & spatial"
+    },
+    {
+      "timestamp": "2025-08-23T18:12:25.099763Z",
+      "round_num": 1,
+      "player_id": "G2-P2",
+      "action_type": "vote",
+      "voted_for_id": "G2-P1",
+      "vote_timestamp": "2025-08-23T18:12:25.099763Z"
+    },
+    {
+      "timestamp": "2025-08-23T18:12:25.162664Z",
+      "round_num": 1,
+      "player_id": "G2-P3",
+      "action_type": "vote",
+      "voted_for_id": "G2-P1",
+      "vote_timestamp": "2025-08-23T18:12:25.162664Z"
+    },
+    {
+      "timestamp": "2025-08-23T18:12:26.797941Z",
+      "round_num": 1,
+      "player_id": "G2-P1",
+      "action_type": "vote",
+      "voted_for_id": "G2-P2",
+      "vote_timestamp": "2025-08-23T18:12:26.797941Z"
+    },
+    {
+      "timestamp": "2025-08-23T18:14:35.197282Z",
+      "round_num": 1,
+      "player_id": "G2-P1",
+      "action_type": "quick_draw",
+      "prompt": "wooden blocks in foreground, yellow blocks in background",
+      "image_path": "images/20250823181435-img-1-G2-P1-quick_draw-wood-en-blocks.png",
+      "prompt_tokens": [
+        "wood",
+        "en",
+        " blocks",
+        " in",
+        " foreground",
+        ",",
+        " yellow",
+        " blocks",
+        " in",
+        " background"
+      ],
+      "prompt_tok_length": 10,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-23T18:15:38.772571Z",
+      "round_num": 1,
+      "player_id": "G2-P3",
+      "action_type": "quick_draw",
+      "prompt": "3 wooden cubes in the front and 5 yellow cubes in the back. They are on a table and lying in two rows",
+      "image_path": "images/20250823181538-img-1-G2-P3-quick_draw-3-wooden-cubes.png",
+      "prompt_tokens": [
+        "3",
+        " wooden",
+        " cubes",
+        " in",
+        " the",
+        " front",
+        " and",
+        " ",
+        "5",
+        " yellow",
+        " cubes",
+        " in",
+        " the",
+        " back",
+        ".",
+        " They",
+        " are",
+        " on",
+        " a",
+        " table",
+        " and",
+        " lying",
+        " in",
+        " two",
+        " rows"
+      ],
+      "prompt_tok_length": 25,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-23T18:16:22.825921Z",
+      "round_num": 1,
+      "player_id": "G2-P2",
+      "action_type": "quick_draw",
+      "prompt": "5 yellow cube background, 3 wooden front",
+      "image_path": "images/20250823181622-img-1-G2-P2-quick_draw-5-yellow-cube.png",
+      "prompt_tokens": [
+        "5",
+        " yellow",
+        " cube",
+        " background",
+        ",",
+        " ",
+        "3",
+        " wooden",
+        " front"
+      ],
+      "prompt_tok_length": 9,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-23T18:17:10.099566Z",
+      "round_num": 1,
+      "player_id": "G2-P1",
+      "action_type": "quick_draw",
+      "prompt": "wooden cubes at angle",
+      "image_path": "images/20250823181710-img-1-G2-P1-quick_draw-wood-en-cubes.png",
+      "prompt_tokens": [
+        "wood",
+        "en",
+        " cubes",
+        " at",
+        " angle"
+      ],
+      "prompt_tok_length": 5,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-23T18:18:06.943655Z",
+      "round_num": 1,
+      "player_id": "G2-P2",
+      "action_type": "quick_draw",
+      "prompt": "There are three blocks. A little farther away, there are four yellow blocks.",
+      "image_path": "images/20250823181806-img-1-G2-P2-quick_draw-There-are-three.png",
+      "prompt_tokens": [
+        "There",
+        " are",
+        " three",
+        " blocks",
+        ".",
+        " A",
+        " little",
+        " farther",
+        " away",
+        ",",
+        " there",
+        " are",
+        " four",
+        " yellow",
+        " blocks",
+        "."
+      ],
+      "prompt_tok_length": 16,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-23T18:18:40.562125Z",
+      "round_num": 1,
+      "player_id": "G2-P3",
+      "action_type": "quick_draw",
+      "prompt": "There are three blocks. A little farther away, there are four yellow blocks.",
+      "image_path": "images/20250823181840-img-1-G2-P3-quick_draw-There-are-three.png",
+      "prompt_tokens": [
+        "There",
+        " are",
+        " three",
+        " blocks",
+        ".",
+        " A",
+        " little",
+        " farther",
+        " away",
+        ",",
+        " there",
+        " are",
+        " four",
+        " yellow",
+        " blocks",
+        "."
+      ],
+      "prompt_tok_length": 16,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-23T18:23:17.452437Z",
+      "round_num": 2,
+      "player_id": "G2-P3",
+      "action_type": "prompt_image",
+      "prompt": "A group of diverse children setting around a table celebrating birthday.",
+      "image_path": "images/20250823182317-img-2-G2-P3-prompt_image-A-group-of.png",
+      "prompt_tokens": [
+        "A",
+        " group",
+        " of",
+        " diverse",
+        " children",
+        " setting",
+        " around",
+        " a",
+        " table",
+        " celebrating",
+        " birthday",
+        "."
+      ],
+      "prompt_tok_length": 12,
+      "votes_received": [
+        "G2-P2",
+        "G2-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 11,
+      "reference_image_path": "/static/reference_images/a_birthday_party_with_no_cake_or_balloons_or_hats.png",
+      "reference_image_prompt": "A birthday party with no cake or balloons or hats",
+      "reference_image_categories": [
+        "co-occurrence"
+      ],
+      "represented_category_in_game": "co-occurrence"
+    },
+    {
+      "timestamp": "2025-08-23T18:23:33.536590Z",
+      "round_num": 2,
+      "player_id": "G2-P2",
+      "action_type": "prompt_image",
+      "prompt": "6 children pizza slices 2 bowl macaroni party",
+      "image_path": "images/20250823182333-img-2-G2-P2-prompt_image-6-children-pizza.png",
+      "prompt_tokens": [
+        "6",
+        " children",
+        " pizza",
+        " slices",
+        " ",
+        "2",
+        " bowl",
+        " macar",
+        "oni",
+        " party"
+      ],
+      "prompt_tok_length": 10,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 11,
+      "reference_image_path": "/static/reference_images/a_birthday_party_with_no_cake_or_balloons_or_hats.png",
+      "reference_image_prompt": "A birthday party with no cake or balloons or hats",
+      "reference_image_categories": [
+        "co-occurrence"
+      ],
+      "represented_category_in_game": "co-occurrence"
+    },
+    {
+      "timestamp": "2025-08-23T18:23:37.802896Z",
+      "round_num": 2,
+      "player_id": "G2-P1",
+      "action_type": "prompt_image",
+      "prompt": "diverse children clapping at pizza party around table with colorful pennant banner",
+      "image_path": "images/20250823182337-img-2-G2-P1-prompt_image-div-erse-children.png",
+      "prompt_tokens": [
+        "div",
+        "erse",
+        " children",
+        " cl",
+        "apping",
+        " at",
+        " pizza",
+        " party",
+        " around",
+        " table",
+        " with",
+        " colorful",
+        " penn",
+        "ant",
+        " banner"
+      ],
+      "prompt_tok_length": 15,
+      "votes_received": [
+        "G2-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 11,
+      "reference_image_path": "/static/reference_images/a_birthday_party_with_no_cake_or_balloons_or_hats.png",
+      "reference_image_prompt": "A birthday party with no cake or balloons or hats",
+      "reference_image_categories": [
+        "co-occurrence"
+      ],
+      "represented_category_in_game": "co-occurrence"
+    },
+    {
+      "timestamp": "2025-08-23T18:23:40.437261Z",
+      "round_num": 2,
+      "player_id": "G2-P2",
+      "action_type": "vote",
+      "voted_for_id": "G2-P3",
+      "vote_timestamp": "2025-08-23T18:23:40.437261Z"
+    },
+    {
+      "timestamp": "2025-08-23T18:23:41.314715Z",
+      "round_num": 2,
+      "player_id": "G2-P3",
+      "action_type": "vote",
+      "voted_for_id": "G2-P1",
+      "vote_timestamp": "2025-08-23T18:23:41.314715Z"
+    },
+    {
+      "timestamp": "2025-08-23T18:23:44.007859Z",
+      "round_num": 2,
+      "player_id": "G2-P1",
+      "action_type": "vote",
+      "voted_for_id": "G2-P3",
+      "vote_timestamp": "2025-08-23T18:23:44.007859Z"
+    },
+    {
+      "timestamp": "2025-08-23T18:25:08.544790Z",
+      "round_num": 2,
+      "player_id": "G2-P1",
+      "action_type": "quick_draw",
+      "prompt": "children mired in large pool of macaroni, orange-yellow gradient background",
+      "image_path": "images/20250823182508-img-2-G2-P1-quick_draw-children-m-ired.png",
+      "prompt_tokens": [
+        "children",
+        " m",
+        "ired",
+        " in",
+        " large",
+        " pool",
+        " of",
+        " macar",
+        "oni",
+        ",",
+        " orange",
+        "-yellow",
+        " gradient",
+        " background"
+      ],
+      "prompt_tok_length": 14,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-23T18:25:32.372501Z",
+      "round_num": 2,
+      "player_id": "G2-P3",
+      "action_type": "quick_draw",
+      "prompt": "A birthday party",
+      "image_path": "images/20250823182532-img-2-G2-P3-quick_draw-A-birthday-party.png",
+      "prompt_tokens": [
+        "A",
+        " birthday",
+        " party"
+      ],
+      "prompt_tok_length": 3,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-23T18:32:33.196336Z",
+      "round_num": 3,
+      "player_id": "G2-P1",
+      "action_type": "prompt_image",
+      "prompt": "happy cat castle",
+      "image_path": "images/20250823183233-img-3-G2-P1-prompt_image-happy-cat-castle.png",
+      "prompt_tokens": [
+        "happy",
+        " cat",
+        " castle"
+      ],
+      "prompt_tok_length": 3,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 13,
+      "reference_image_path": "/static/reference_images/a_happy_castle_of_cats.png",
+      "reference_image_prompt": "A happy castle of cats",
+      "reference_image_categories": [
+        "co-occurrence"
+      ],
+      "represented_category_in_game": "co-occurrence"
+    },
+    {
+      "timestamp": "2025-08-23T18:32:38.464156Z",
+      "round_num": 3,
+      "player_id": "G2-P2",
+      "action_type": "prompt_image",
+      "prompt": "8 cats in castle cartoon",
+      "image_path": "images/20250823183238-img-3-G2-P2-prompt_image-8-cats-in.png",
+      "prompt_tokens": [
+        "8",
+        " cats",
+        " in",
+        " castle",
+        " cartoon"
+      ],
+      "prompt_tok_length": 5,
+      "votes_received": [
+        "G2-P1",
+        "G2-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 13,
+      "reference_image_path": "/static/reference_images/a_happy_castle_of_cats.png",
+      "reference_image_prompt": "A happy castle of cats",
+      "reference_image_categories": [
+        "co-occurrence"
+      ],
+      "represented_category_in_game": "co-occurrence"
+    },
+    {
+      "timestamp": "2025-08-23T18:33:06.280669Z",
+      "round_num": 3,
+      "player_id": "G2-P3",
+      "action_type": "prompt_image",
+      "prompt": "comic style; many cats sitting on a castle.",
+      "image_path": "images/20250823183306-img-3-G2-P3-prompt_image-comic-style.png",
+      "prompt_tokens": [
+        "comic",
+        " style",
+        ";",
+        " many",
+        " cats",
+        " sitting",
+        " on",
+        " a",
+        " castle",
+        "."
+      ],
+      "prompt_tok_length": 10,
+      "votes_received": [
+        "G2-P2"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 13,
+      "reference_image_path": "/static/reference_images/a_happy_castle_of_cats.png",
+      "reference_image_prompt": "A happy castle of cats",
+      "reference_image_categories": [
+        "co-occurrence"
+      ],
+      "represented_category_in_game": "co-occurrence"
+    },
+    {
+      "timestamp": "2025-08-23T18:33:11.644238Z",
+      "round_num": 3,
+      "player_id": "G2-P1",
+      "action_type": "vote",
+      "voted_for_id": "G2-P2",
+      "vote_timestamp": "2025-08-23T18:33:11.644238Z"
+    },
+    {
+      "timestamp": "2025-08-23T18:33:12.522807Z",
+      "round_num": 3,
+      "player_id": "G2-P3",
+      "action_type": "vote",
+      "voted_for_id": "G2-P2",
+      "vote_timestamp": "2025-08-23T18:33:12.522807Z"
+    },
+    {
+      "timestamp": "2025-08-23T18:33:18.108949Z",
+      "round_num": 3,
+      "player_id": "G2-P2",
+      "action_type": "vote",
+      "voted_for_id": "G2-P3",
+      "vote_timestamp": "2025-08-23T18:33:18.108949Z"
+    },
+    {
+      "timestamp": "2025-08-23T18:35:08.378580Z",
+      "round_num": 3,
+      "player_id": "G2-P2",
+      "action_type": "quick_draw",
+      "prompt": "cute 8 cats in a castle, 3 on top, 2 in middle, 3 on bottom. middle cat is huge",
+      "image_path": "images/20250823183508-img-3-G2-P2-quick_draw-cute-8.png",
+      "prompt_tokens": [
+        "cute",
+        " ",
+        "8",
+        " cats",
+        " in",
+        " a",
+        " castle",
+        ",",
+        " ",
+        "3",
+        " on",
+        " top",
+        ",",
+        " ",
+        "2",
+        " in",
+        " middle",
+        ",",
+        " ",
+        "3",
+        " on",
+        " bottom",
+        ".",
+        " middle",
+        " cat",
+        " is",
+        " huge"
+      ],
+      "prompt_tok_length": 27,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-23T18:35:30.424898Z",
+      "round_num": 3,
+      "player_id": "G2-P3",
+      "action_type": "quick_draw",
+      "prompt": "cats and castle",
+      "image_path": "images/20250823183530-img-3-G2-P3-quick_draw-cats-and-castle.png",
+      "prompt_tokens": [
+        "cats",
+        " and",
+        " castle"
+      ],
+      "prompt_tok_length": 3,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-23T18:35:52.949188Z",
+      "round_num": 3,
+      "player_id": "G2-P1",
+      "action_type": "quick_draw",
+      "prompt": "orange castle with different colored happy cats in front and on different spires, smiling sun in background, flat illustration",
+      "image_path": "images/20250823183552-img-3-G2-P1-quick_draw-orange-castle-with.png",
+      "prompt_tokens": [
+        "orange",
+        " castle",
+        " with",
+        " different",
+        " colored",
+        " happy",
+        " cats",
+        " in",
+        " front",
+        " and",
+        " on",
+        " different",
+        " sp",
+        "ires",
+        ",",
+        " smiling",
+        " sun",
+        " in",
+        " background",
+        ",",
+        " flat",
+        " illustration"
+      ],
+      "prompt_tok_length": 22,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-23T18:37:15.695197Z",
+      "round_num": 3,
+      "player_id": "G2-P2",
+      "action_type": "quick_draw",
+      "prompt": "8 cats orange castle, 3 on top, 2 middle, 3 on bottom",
+      "image_path": "images/20250823183715-img-3-G2-P2-quick_draw-8-cats-orange.png",
+      "prompt_tokens": [
+        "8",
+        " cats",
+        " orange",
+        " castle",
+        ",",
+        " ",
+        "3",
+        " on",
+        " top",
+        ",",
+        " ",
+        "2",
+        " middle",
+        ",",
+        " ",
+        "3",
+        " on",
+        " bottom"
+      ],
+      "prompt_tok_length": 18,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-23T18:37:55.284814Z",
+      "round_num": 3,
+      "player_id": "G2-P3",
+      "action_type": "quick_draw",
+      "prompt": "happy cats",
+      "image_path": "images/20250823183755-img-3-G2-P3-quick_draw-happy-cats.png",
+      "prompt_tokens": [
+        "happy",
+        " cats"
+      ],
+      "prompt_tok_length": 2,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-23T18:41:16.111719Z",
+      "round_num": 4,
+      "player_id": "G2-P3",
+      "action_type": "prompt_image",
+      "prompt": "man",
+      "image_path": "images/20250823184116-img-4-G2-P3-prompt_image-man.png",
+      "prompt_tokens": [
+        "man"
+      ],
+      "prompt_tok_length": 1,
+      "votes_received": [
+        "G2-P2",
+        "G2-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 15,
+      "reference_image_path": "/static/reference_images/a_man.png",
+      "reference_image_prompt": "A man",
+      "reference_image_categories": [
+        "demographic",
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-23T18:41:17.717189Z",
+      "round_num": 4,
+      "player_id": "G2-P2",
+      "action_type": "prompt_image",
+      "prompt": "basic white dude blue shirt",
+      "image_path": "images/20250823184117-img-4-G2-P2-prompt_image-basic-white-dude.png",
+      "prompt_tokens": [
+        "basic",
+        " white",
+        " dude",
+        " blue",
+        " shirt"
+      ],
+      "prompt_tok_length": 5,
+      "votes_received": [
+        "G2-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 15,
+      "reference_image_path": "/static/reference_images/a_man.png",
+      "reference_image_prompt": "A man",
+      "reference_image_categories": [
+        "demographic",
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-23T18:41:42.667292Z",
+      "round_num": 4,
+      "player_id": "G2-P1",
+      "action_type": "prompt_image",
+      "prompt": "smiling brunette slightly bearded white man blue shirt",
+      "image_path": "images/20250823184142-img-4-G2-P1-prompt_image-sm-iling-brunette.png",
+      "prompt_tokens": [
+        "sm",
+        "iling",
+        " brunette",
+        " slightly",
+        " be",
+        "arded",
+        " white",
+        " man",
+        " blue",
+        " shirt"
+      ],
+      "prompt_tok_length": 10,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 15,
+      "reference_image_path": "/static/reference_images/a_man.png",
+      "reference_image_prompt": "A man",
+      "reference_image_categories": [
+        "demographic",
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-23T18:41:46.827078Z",
+      "round_num": 4,
+      "player_id": "G2-P3",
+      "action_type": "vote",
+      "voted_for_id": "G2-P2",
+      "vote_timestamp": "2025-08-23T18:41:46.827078Z"
+    },
+    {
+      "timestamp": "2025-08-23T18:41:52.127177Z",
+      "round_num": 4,
+      "player_id": "G2-P2",
+      "action_type": "vote",
+      "voted_for_id": "G2-P3",
+      "vote_timestamp": "2025-08-23T18:41:52.127177Z"
+    },
+    {
+      "timestamp": "2025-08-23T18:41:55.011262Z",
+      "round_num": 4,
+      "player_id": "G2-P1",
+      "action_type": "vote",
+      "voted_for_id": "G2-P3",
+      "vote_timestamp": "2025-08-23T18:41:55.011262Z"
+    },
+    {
+      "timestamp": "2025-08-23T18:42:39.681990Z",
+      "round_num": 4,
+      "player_id": "G2-P1",
+      "action_type": "quick_draw",
+      "prompt": "man",
+      "image_path": "images/20250823184239-img-4-G2-P1-quick_draw-man.png",
+      "prompt_tokens": [
+        "man"
+      ],
+      "prompt_tok_length": 1,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-23T18:42:58.220142Z",
+      "round_num": 4,
+      "player_id": "G2-P3",
+      "action_type": "quick_draw",
+      "prompt": "woman",
+      "image_path": "images/20250823184258-img-4-G2-P3-quick_draw-woman.png",
+      "prompt_tokens": [
+        "woman"
+      ],
+      "prompt_tok_length": 1,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-23T18:43:40.823894Z",
+      "round_num": 4,
+      "player_id": "G2-P3",
+      "action_type": "quick_draw",
+      "prompt": "man in blue",
+      "image_path": "images/20250823184340-img-4-G2-P3-quick_draw-man-in-blue.png",
+      "prompt_tokens": [
+        "man",
+        " in",
+        " blue"
+      ],
+      "prompt_tok_length": 3,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-23T18:43:59.522461Z",
+      "round_num": 4,
+      "player_id": "G2-P1",
+      "action_type": "quick_draw",
+      "prompt": "portrait photo of man",
+      "image_path": "images/20250823184359-img-4-G2-P1-quick_draw-portrait-photo-of.png",
+      "prompt_tokens": [
+        "portrait",
+        " photo",
+        " of",
+        " man"
+      ],
+      "prompt_tok_length": 4,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-23T18:44:19.701831Z",
+      "round_num": 4,
+      "player_id": "G2-P2",
+      "action_type": "quick_draw",
+      "prompt": "colorado man, shoulders up",
+      "image_path": "images/20250823184419-img-4-G2-P2-quick_draw-color-ado-man.png",
+      "prompt_tokens": [
+        "color",
+        "ado",
+        " man",
+        ",",
+        " shoulders",
+        " up"
+      ],
+      "prompt_tok_length": 6,
+      "generation_success": true,
+      "error_message": null
+    }
+  ]
+}

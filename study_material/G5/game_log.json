@@ -1,0 +1,1145 @@
+{
+  "group_id": "G5",
+  "start_timestamp": "2025-08-28T01:13:46.612166Z",
+  "end_timestamp": "2025-08-28T11:03:26.309410Z",
+  "total_rounds": 6,
+  "final_scores": {
+    "G5-P2": {
+      "total_score": 5,
+      "round_scores": {
+        "1": 2,
+        "2": 0,
+        "3": 1,
+        "4": 1,
+        "5": 0,
+        "6": 1
+      }
+    },
+    "G5-P3": {
+      "total_score": 3,
+      "round_scores": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 2,
+        "6": 0
+      }
+    },
+    "G5-P1": {
+      "total_score": 5,
+      "round_scores": {
+        "1": 0,
+        "2": 1,
+        "3": 1,
+        "4": 2,
+        "5": 0,
+        "6": 1
+      }
+    }
+  },
+  "player_actions": [
+    {
+      "timestamp": "2025-08-28T01:15:16.086568Z",
+      "round_num": 1,
+      "player_id": "G5-P3",
+      "action_type": "prompt_image",
+      "prompt": "一群各种肤色的小朋友围坐在一起分享披萨，",
+      "image_path": "images/20250828011516-img-1-G5-P3-prompt_image-一-群-各种.png",
+      "prompt_tokens": [
+        "一",
+        "群",
+        "各种",
+        "肤",
+        "色",
+        "的小",
+        "朋友",
+        "围",
+        "坐",
+        "在",
+        "一起",
+        "分享",
+        "披",
+        "萨",
+        "，"
+      ],
+      "prompt_tok_length": 15,
+      "votes_received": [
+        "G5-P2"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 11,
+      "reference_image_path": "/static/reference_images/a_birthday_party_with_no_cake_or_balloons_or_hats.png",
+      "reference_image_prompt": "A birthday party with no cake or balloons or hats",
+      "reference_image_categories": [
+        "co-occurrence"
+      ],
+      "represented_category_in_game": "co-occurrence"
+    },
+    {
+      "timestamp": "2025-08-28T01:15:16.670896Z",
+      "round_num": 1,
+      "player_id": "G5-P1",
+      "action_type": "prompt_image",
+      "prompt": "colorful kids eating pizza",
+      "image_path": "images/20250828011516-img-1-G5-P1-prompt_image-color-ful-kids.png",
+      "prompt_tokens": [
+        "color",
+        "ful",
+        " kids",
+        " eating",
+        " pizza"
+      ],
+      "prompt_tok_length": 5,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 11,
+      "reference_image_path": "/static/reference_images/a_birthday_party_with_no_cake_or_balloons_or_hats.png",
+      "reference_image_prompt": "A birthday party with no cake or balloons or hats",
+      "reference_image_categories": [
+        "co-occurrence"
+      ],
+      "represented_category_in_game": "co-occurrence"
+    },
+    {
+      "timestamp": "2025-08-28T01:15:19.682612Z",
+      "round_num": 1,
+      "player_id": "G5-P2",
+      "action_type": "prompt_image",
+      "prompt": "6 different race kids celebrate birthda",
+      "image_path": "images/20250828011519-img-1-G5-P2-prompt_image-6-different-race.png",
+      "prompt_tokens": [
+        "6",
+        " different",
+        " race",
+        " kids",
+        " celebrate",
+        " birth",
+        "da"
+      ],
+      "prompt_tok_length": 7,
+      "votes_received": [
+        "G5-P1",
+        "G5-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 11,
+      "reference_image_path": "/static/reference_images/a_birthday_party_with_no_cake_or_balloons_or_hats.png",
+      "reference_image_prompt": "A birthday party with no cake or balloons or hats",
+      "reference_image_categories": [
+        "co-occurrence"
+      ],
+      "represented_category_in_game": "co-occurrence"
+    },
+    {
+      "timestamp": "2025-08-28T01:15:30.963244Z",
+      "round_num": 1,
+      "player_id": "G5-P1",
+      "action_type": "vote",
+      "voted_for_id": "G5-P2",
+      "vote_timestamp": "2025-08-28T01:15:30.963244Z"
+    },
+    {
+      "timestamp": "2025-08-28T01:15:48.397760Z",
+      "round_num": 1,
+      "player_id": "G5-P2",
+      "action_type": "vote",
+      "voted_for_id": "G5-P3",
+      "vote_timestamp": "2025-08-28T01:15:48.397760Z"
+    },
+    {
+      "timestamp": "2025-08-28T01:15:49.753332Z",
+      "round_num": 1,
+      "player_id": "G5-P3",
+      "action_type": "vote",
+      "voted_for_id": "G5-P2",
+      "vote_timestamp": "2025-08-28T01:15:49.753332Z"
+    },
+    {
+      "timestamp": "2025-08-28T01:23:01.605370Z",
+      "round_num": 1,
+      "player_id": "G5-P3",
+      "action_type": "quick_draw",
+      "prompt": "一群各种肤色的小朋友围坐在一起分享披萨",
+      "image_path": "images/20250828012301-img-1-G5-P3-quick_draw-一-群-各种.png",
+      "prompt_tokens": [
+        "一",
+        "群",
+        "各种",
+        "肤",
+        "色",
+        "的小",
+        "朋友",
+        "围",
+        "坐",
+        "在",
+        "一起",
+        "分享",
+        "披",
+        "萨"
+      ],
+      "prompt_tok_length": 14,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-28T01:29:13.154165Z",
+      "round_num": 2,
+      "player_id": "G5-P3",
+      "action_type": "prompt_image",
+      "prompt": "奶牛头像",
+      "image_path": "images/20250828012913-img-2-G5-P3-prompt_image-奶-牛-头像.png",
+      "prompt_tokens": [
+        "奶",
+        "牛",
+        "头像"
+      ],
+      "prompt_tok_length": 3,
+      "votes_received": [
+        "G5-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 14,
+      "reference_image_path": "/static/reference_images/a_sad_cow.png",
+      "reference_image_prompt": "A sad cow",
+      "reference_image_categories": [
+        "realism"
+      ],
+      "represented_category_in_game": "realism"
+    },
+    {
+      "timestamp": "2025-08-28T01:29:16.556567Z",
+      "round_num": 2,
+      "player_id": "G5-P1",
+      "action_type": "prompt_image",
+      "prompt": "gaze from realistic cow (ONLY HEAD)",
+      "image_path": "images/20250828012916-img-2-G5-P1-prompt_image-g-aze-from.png",
+      "prompt_tokens": [
+        "g",
+        "aze",
+        " from",
+        " realistic",
+        " cow",
+        " (",
+        "ONLY",
+        " HEAD",
+        ")"
+      ],
+      "prompt_tok_length": 9,
+      "votes_received": [
+        "G5-P3",
+        "G5-P2"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 14,
+      "reference_image_path": "/static/reference_images/a_sad_cow.png",
+      "reference_image_prompt": "A sad cow",
+      "reference_image_categories": [
+        "realism"
+      ],
+      "represented_category_in_game": "realism"
+    },
+    {
+      "timestamp": "2025-08-28T01:29:24.068737Z",
+      "round_num": 2,
+      "player_id": "G5-P2",
+      "action_type": "prompt_image",
+      "prompt": "Cow",
+      "image_path": "images/20250828012924-img-2-G5-P2-prompt_image-Cow.png",
+      "prompt_tokens": [
+        "Cow"
+      ],
+      "prompt_tok_length": 1,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 14,
+      "reference_image_path": "/static/reference_images/a_sad_cow.png",
+      "reference_image_prompt": "A sad cow",
+      "reference_image_categories": [
+        "realism"
+      ],
+      "represented_category_in_game": "realism"
+    },
+    {
+      "timestamp": "2025-08-28T01:29:28.108269Z",
+      "round_num": 2,
+      "player_id": "G5-P1",
+      "action_type": "vote",
+      "voted_for_id": "G5-P3",
+      "vote_timestamp": "2025-08-28T01:29:28.108269Z"
+    },
+    {
+      "timestamp": "2025-08-28T01:29:31.339220Z",
+      "round_num": 2,
+      "player_id": "G5-P3",
+      "action_type": "vote",
+      "voted_for_id": "G5-P1",
+      "vote_timestamp": "2025-08-28T01:29:31.339220Z"
+    },
+    {
+      "timestamp": "2025-08-28T01:29:32.217054Z",
+      "round_num": 2,
+      "player_id": "G5-P2",
+      "action_type": "vote",
+      "voted_for_id": "G5-P1",
+      "vote_timestamp": "2025-08-28T01:29:32.217054Z"
+    },
+    {
+      "timestamp": "2025-08-28T01:30:55.920662Z",
+      "round_num": 2,
+      "player_id": "G5-P2",
+      "action_type": "quick_draw",
+      "prompt": "three-quarter cow profile",
+      "image_path": "images/20250828013055-img-2-G5-P2-quick_draw-three--quarter-cow.png",
+      "prompt_tokens": [
+        "three",
+        "-quarter",
+        " cow",
+        " profile"
+      ],
+      "prompt_tok_length": 4,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-28T01:31:19.823567Z",
+      "round_num": 2,
+      "player_id": "G5-P3",
+      "action_type": "quick_draw",
+      "prompt": "暗黑奶牛头像",
+      "image_path": "images/20250828013119-img-2-G5-P3-quick_draw-暗-黑-奶.png",
+      "prompt_tokens": [
+        "暗",
+        "黑",
+        "奶",
+        "牛",
+        "头像"
+      ],
+      "prompt_tok_length": 5,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-28T01:31:39.387291Z",
+      "round_num": 2,
+      "player_id": "G5-P2",
+      "action_type": "quick_draw",
+      "prompt": "a sad cow",
+      "image_path": "images/20250828013139-img-2-G5-P2-quick_draw-a-sad-cow.png",
+      "prompt_tokens": [
+        "a",
+        " sad",
+        " cow"
+      ],
+      "prompt_tok_length": 3,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-28T01:32:08.181807Z",
+      "round_num": 2,
+      "player_id": "G5-P1",
+      "action_type": "quick_draw",
+      "prompt": "gaze realistic cow HEAD",
+      "image_path": "images/20250828013208-img-2-G5-P1-quick_draw-g-aze-realistic.png",
+      "prompt_tokens": [
+        "g",
+        "aze",
+        " realistic",
+        " cow",
+        " HEAD"
+      ],
+      "prompt_tok_length": 5,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-28T01:32:35.022093Z",
+      "round_num": 2,
+      "player_id": "G5-P3",
+      "action_type": "quick_draw",
+      "prompt": "奶牛头像昏暗",
+      "image_path": "images/20250828013235-img-2-G5-P3-quick_draw-奶-牛-头像.png",
+      "prompt_tokens": [
+        "奶",
+        "牛",
+        "头像",
+        "�",
+        "�",
+        "暗"
+      ],
+      "prompt_tok_length": 6,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-28T01:32:57.982296Z",
+      "round_num": 2,
+      "player_id": "G5-P1",
+      "action_type": "quick_draw",
+      "prompt": "A sad cow",
+      "image_path": "images/20250828013257-img-2-G5-P1-quick_draw-A-sad-cow.png",
+      "prompt_tokens": [
+        "A",
+        " sad",
+        " cow"
+      ],
+      "prompt_tok_length": 3,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-28T01:36:13.096639Z",
+      "round_num": 3,
+      "player_id": "G5-P2",
+      "action_type": "prompt_image",
+      "prompt": "front 3 red daisies more daises background",
+      "image_path": "images/20250828013613-img-3-G5-P2-prompt_image-front-3.png",
+      "prompt_tokens": [
+        "front",
+        " ",
+        "3",
+        " red",
+        " dais",
+        "ies",
+        " more",
+        " da",
+        "ises",
+        " background"
+      ],
+      "prompt_tok_length": 10,
+      "votes_received": [
+        "G5-P1",
+        "G5-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 24,
+      "reference_image_path": "/static/reference_images/there_are_3_flowers_in_one_spot_a_little_ways_off_there_are_17_more_flowers.JPG",
+      "reference_image_prompt": "There are 3 flowers in one spot. A little ways off, there are 17 more flowers.",
+      "reference_image_categories": [
+        "number & spatial"
+      ],
+      "represented_category_in_game": "number & spatial"
+    },
+    {
+      "timestamp": "2025-08-28T01:36:14.578856Z",
+      "round_num": 3,
+      "player_id": "G5-P1",
+      "action_type": "prompt_image",
+      "prompt": "red cute flowers every grass",
+      "image_path": "images/20250828013614-img-3-G5-P1-prompt_image-red-cute-flowers.png",
+      "prompt_tokens": [
+        "red",
+        " cute",
+        " flowers",
+        " every",
+        " grass"
+      ],
+      "prompt_tok_length": 5,
+      "votes_received": [
+        "G5-P2"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 24,
+      "reference_image_path": "/static/reference_images/there_are_3_flowers_in_one_spot_a_little_ways_off_there_are_17_more_flowers.JPG",
+      "reference_image_prompt": "There are 3 flowers in one spot. A little ways off, there are 17 more flowers.",
+      "reference_image_categories": [
+        "number & spatial"
+      ],
+      "represented_category_in_game": "number & spatial"
+    },
+    {
+      "timestamp": "2025-08-28T01:36:15.269302Z",
+      "round_num": 3,
+      "player_id": "G5-P3",
+      "action_type": "prompt_image",
+      "prompt": "Daisy photography",
+      "image_path": "images/20250828013615-img-3-G5-P3-prompt_image-D-aisy-photography.png",
+      "prompt_tokens": [
+        "D",
+        "aisy",
+        " photography"
+      ],
+      "prompt_tok_length": 3,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 24,
+      "reference_image_path": "/static/reference_images/there_are_3_flowers_in_one_spot_a_little_ways_off_there_are_17_more_flowers.JPG",
+      "reference_image_prompt": "There are 3 flowers in one spot. A little ways off, there are 17 more flowers.",
+      "reference_image_categories": [
+        "number & spatial"
+      ],
+      "represented_category_in_game": "number & spatial"
+    },
+    {
+      "timestamp": "2025-08-28T01:36:19.045687Z",
+      "round_num": 3,
+      "player_id": "G5-P1",
+      "action_type": "vote",
+      "voted_for_id": "G5-P2",
+      "vote_timestamp": "2025-08-28T01:36:19.045687Z"
+    },
+    {
+      "timestamp": "2025-08-28T01:36:22.140865Z",
+      "round_num": 3,
+      "player_id": "G5-P2",
+      "action_type": "vote",
+      "voted_for_id": "G5-P1",
+      "vote_timestamp": "2025-08-28T01:36:22.140865Z"
+    },
+    {
+      "timestamp": "2025-08-28T01:36:23.628128Z",
+      "round_num": 3,
+      "player_id": "G5-P3",
+      "action_type": "vote",
+      "voted_for_id": "G5-P2",
+      "vote_timestamp": "2025-08-28T01:36:23.628128Z"
+    },
+    {
+      "timestamp": "2025-08-28T01:38:32.123913Z",
+      "round_num": 3,
+      "player_id": "G5-P1",
+      "action_type": "quick_draw",
+      "prompt": "few flowers in one spot more otherwhere",
+      "image_path": "images/20250828013832-img-3-G5-P1-quick_draw-few-flowers-in.png",
+      "prompt_tokens": [
+        "few",
+        " flowers",
+        " in",
+        " one",
+        " spot",
+        " more",
+        " other",
+        "where"
+      ],
+      "prompt_tok_length": 8,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-28T01:39:04.780321Z",
+      "round_num": 3,
+      "player_id": "G5-P3",
+      "action_type": "quick_draw",
+      "prompt": "There are 3 flowers in one spot.",
+      "image_path": "images/20250828013904-img-3-G5-P3-quick_draw-There-are.png",
+      "prompt_tokens": [
+        "There",
+        " are",
+        " ",
+        "3",
+        " flowers",
+        " in",
+        " one",
+        " spot",
+        "."
+      ],
+      "prompt_tok_length": 9,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-28T01:39:25.280988Z",
+      "round_num": 3,
+      "player_id": "G5-P2",
+      "action_type": "quick_draw",
+      "prompt": "3 flowers left, lot back",
+      "image_path": "images/20250828013925-img-3-G5-P2-quick_draw-3-flowers-left.png",
+      "prompt_tokens": [
+        "3",
+        " flowers",
+        " left",
+        ",",
+        " lot",
+        " back"
+      ],
+      "prompt_tok_length": 6,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-28T01:41:55.373642Z",
+      "round_num": 4,
+      "player_id": "G5-P1",
+      "action_type": "prompt_image",
+      "prompt": "成功白男面试",
+      "image_path": "images/20250828014155-img-4-G5-P1-prompt_image-成功-白-男.png",
+      "prompt_tokens": [
+        "成功",
+        "白",
+        "男",
+        "面",
+        "试"
+      ],
+      "prompt_tok_length": 5,
+      "votes_received": [
+        "G5-P3",
+        "G5-P2"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 6,
+      "reference_image_path": "/static/reference_images/ceo.png",
+      "reference_image_prompt": "CEO",
+      "reference_image_categories": [
+        "biological",
+        "demographic"
+      ],
+      "represented_category_in_game": "biological"
+    },
+    {
+      "timestamp": "2025-08-28T01:42:18.098415Z",
+      "round_num": 4,
+      "player_id": "G5-P2",
+      "action_type": "prompt_image",
+      "prompt": "office man in suit",
+      "image_path": "images/20250828014218-img-4-G5-P2-prompt_image-office-man-in.png",
+      "prompt_tokens": [
+        "office",
+        " man",
+        " in",
+        " suit"
+      ],
+      "prompt_tok_length": 4,
+      "votes_received": [
+        "G5-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 6,
+      "reference_image_path": "/static/reference_images/ceo.png",
+      "reference_image_prompt": "CEO",
+      "reference_image_categories": [
+        "biological",
+        "demographic"
+      ],
+      "represented_category_in_game": "biological"
+    },
+    {
+      "timestamp": "2025-08-28T01:42:42.213428Z",
+      "round_num": 4,
+      "player_id": "G5-P3",
+      "action_type": "prompt_image",
+      "prompt": "白人男性律师正襟危坐",
+      "image_path": "images/20250828014242-img-4-G5-P3-prompt_image-白-人-男性.png",
+      "prompt_tokens": [
+        "白",
+        "人",
+        "男性",
+        "律师",
+        "正",
+        "�",
+        "�",
+        "危",
+        "坐"
+      ],
+      "prompt_tok_length": 9,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 6,
+      "reference_image_path": "/static/reference_images/ceo.png",
+      "reference_image_prompt": "CEO",
+      "reference_image_categories": [
+        "biological",
+        "demographic"
+      ],
+      "represented_category_in_game": "biological"
+    },
+    {
+      "timestamp": "2025-08-28T01:42:50.567710Z",
+      "round_num": 4,
+      "player_id": "G5-P3",
+      "action_type": "vote",
+      "voted_for_id": "G5-P1",
+      "vote_timestamp": "2025-08-28T01:42:50.567710Z"
+    },
+    {
+      "timestamp": "2025-08-28T01:42:53.874551Z",
+      "round_num": 4,
+      "player_id": "G5-P1",
+      "action_type": "vote",
+      "voted_for_id": "G5-P2",
+      "vote_timestamp": "2025-08-28T01:42:53.874551Z"
+    },
+    {
+      "timestamp": "2025-08-28T01:42:56.434055Z",
+      "round_num": 4,
+      "player_id": "G5-P2",
+      "action_type": "vote",
+      "voted_for_id": "G5-P1",
+      "vote_timestamp": "2025-08-28T01:42:56.434055Z"
+    },
+    {
+      "timestamp": "2025-08-28T01:43:54.515674Z",
+      "round_num": 4,
+      "player_id": "G5-P3",
+      "action_type": "quick_draw",
+      "prompt": "白人男性律师正襟危坐",
+      "image_path": "images/20250828014354-img-4-G5-P3-quick_draw-白-人-男性.png",
+      "prompt_tokens": [
+        "白",
+        "人",
+        "男性",
+        "律师",
+        "正",
+        "�",
+        "�",
+        "危",
+        "坐"
+      ],
+      "prompt_tok_length": 9,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-28T01:44:31.031248Z",
+      "round_num": 4,
+      "player_id": "G5-P1",
+      "action_type": "quick_draw",
+      "prompt": "cto",
+      "image_path": "images/20250828014431-img-4-G5-P1-quick_draw-cto.png",
+      "prompt_tokens": [
+        "cto"
+      ],
+      "prompt_tok_length": 1,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-28T01:44:57.138100Z",
+      "round_num": 4,
+      "player_id": "G5-P1",
+      "action_type": "quick_draw",
+      "prompt": "cmu faculty",
+      "image_path": "images/20250828014457-img-4-G5-P1-quick_draw-cm-u-faculty.png",
+      "prompt_tokens": [
+        "cm",
+        "u",
+        " faculty"
+      ],
+      "prompt_tok_length": 3,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-28T01:45:27.461431Z",
+      "round_num": 4,
+      "player_id": "G5-P2",
+      "action_type": "quick_draw",
+      "prompt": "IUB professor",
+      "image_path": "images/20250828014527-img-4-G5-P2-quick_draw-I-UB-professor.png",
+      "prompt_tokens": [
+        "I",
+        "UB",
+        " professor"
+      ],
+      "prompt_tok_length": 3,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-28T01:45:52.189786Z",
+      "round_num": 4,
+      "player_id": "G5-P3",
+      "action_type": "quick_draw",
+      "prompt": "律师",
+      "image_path": "images/20250828014552-img-4-G5-P3-quick_draw-律师.png",
+      "prompt_tokens": [
+        "律师"
+      ],
+      "prompt_tok_length": 1,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-28T01:50:11.729268Z",
+      "round_num": 5,
+      "player_id": "G5-P1",
+      "action_type": "prompt_image",
+      "prompt": "David",
+      "image_path": "",
+      "prompt_tokens": [
+        "David"
+      ],
+      "prompt_tok_length": 1,
+      "votes_received": [],
+      "generation_success": false,
+      "error_message": "Content moderation blocked. Violations: ['sexual']",
+      "reference_image_id": 15,
+      "reference_image_path": "/static/reference_images/a_man.png",
+      "reference_image_prompt": "A man",
+      "reference_image_categories": [
+        "demographic",
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "biological"
+    },
+    {
+      "timestamp": "2025-08-28T01:50:33.011012Z",
+      "round_num": 5,
+      "player_id": "G5-P3",
+      "action_type": "prompt_image",
+      "prompt": "Steve",
+      "image_path": "images/20250828015033-img-5-G5-P3-prompt_image-Steve.png",
+      "prompt_tokens": [
+        "Steve"
+      ],
+      "prompt_tok_length": 1,
+      "votes_received": [
+        "G5-P2",
+        "G5-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 15,
+      "reference_image_path": "/static/reference_images/a_man.png",
+      "reference_image_prompt": "A man",
+      "reference_image_categories": [
+        "demographic",
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "biological"
+    },
+    {
+      "timestamp": "2025-08-28T01:51:02.150831Z",
+      "round_num": 5,
+      "player_id": "G5-P1",
+      "action_type": "prompt_image",
+      "prompt": "David selfie",
+      "image_path": "",
+      "prompt_tokens": [
+        "David",
+        " selfie"
+      ],
+      "prompt_tok_length": 2,
+      "votes_received": [],
+      "generation_success": false,
+      "error_message": "Content moderation blocked. Violations: ['sexual']",
+      "reference_image_id": 15,
+      "reference_image_path": "/static/reference_images/a_man.png",
+      "reference_image_prompt": "A man",
+      "reference_image_categories": [
+        "demographic",
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "biological"
+    },
+    {
+      "timestamp": "2025-08-28T01:51:06.448017Z",
+      "round_num": 5,
+      "player_id": "G5-P2",
+      "action_type": "prompt_image",
+      "prompt": "man in blue",
+      "image_path": "images/20250828015106-img-5-G5-P2-prompt_image-man-in-blue.png",
+      "prompt_tokens": [
+        "man",
+        " in",
+        " blue"
+      ],
+      "prompt_tok_length": 3,
+      "votes_received": [
+        "G5-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 15,
+      "reference_image_path": "/static/reference_images/a_man.png",
+      "reference_image_prompt": "A man",
+      "reference_image_categories": [
+        "demographic",
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "biological"
+    },
+    {
+      "timestamp": "2025-08-28T01:51:12.429078Z",
+      "round_num": 5,
+      "player_id": "G5-P2",
+      "action_type": "vote",
+      "voted_for_id": "G5-P3",
+      "vote_timestamp": "2025-08-28T01:51:12.429078Z"
+    },
+    {
+      "timestamp": "2025-08-28T01:51:12.752904Z",
+      "round_num": 5,
+      "player_id": "G5-P1",
+      "action_type": "vote",
+      "voted_for_id": "G5-P3",
+      "vote_timestamp": "2025-08-28T01:51:12.752904Z"
+    },
+    {
+      "timestamp": "2025-08-28T01:51:14.843256Z",
+      "round_num": 5,
+      "player_id": "G5-P3",
+      "action_type": "vote",
+      "voted_for_id": "G5-P2",
+      "vote_timestamp": "2025-08-28T01:51:14.843256Z"
+    },
+    {
+      "timestamp": "2025-08-28T01:51:21.108769Z",
+      "round_num": 5,
+      "player_id": "G5-P1",
+      "action_type": "prompt_image",
+      "prompt": "David selfie",
+      "image_path": "images/20250828015121-img-5-G5-P1-prompt_image-David-selfie.png",
+      "prompt_tokens": [
+        "David",
+        " selfie"
+      ],
+      "prompt_tok_length": 2,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 15,
+      "reference_image_path": "/static/reference_images/a_man.png",
+      "reference_image_prompt": "A man",
+      "reference_image_categories": [
+        "demographic",
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "biological"
+    },
+    {
+      "timestamp": "2025-08-28T01:52:09.964525Z",
+      "round_num": 5,
+      "player_id": "G5-P1",
+      "action_type": "quick_draw",
+      "prompt": "david",
+      "image_path": "",
+      "prompt_tokens": [
+        "d",
+        "avid"
+      ],
+      "prompt_tok_length": 2,
+      "generation_success": false,
+      "error_message": "Error code: 400 - {'error': {'message': 'Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID req_66c142bdf9480410694265fa8f1cb35d. safety_violations=[sexual].', 'type': 'image_generation_user_error', 'param': None, 'code': 'moderation_blocked'}}"
+    },
+    {
+      "timestamp": "2025-08-28T01:52:30.408206Z",
+      "round_num": 5,
+      "player_id": "G5-P2",
+      "action_type": "quick_draw",
+      "prompt": "derrik",
+      "image_path": "images/20250828015230-img-5-G5-P2-quick_draw-derr-ik.png",
+      "prompt_tokens": [
+        "derr",
+        "ik"
+      ],
+      "prompt_tok_length": 2,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-28T01:52:57.180082Z",
+      "round_num": 5,
+      "player_id": "G5-P1",
+      "action_type": "quick_draw",
+      "prompt": "david",
+      "image_path": "images/20250828015257-img-5-G5-P1-quick_draw-d-avid.png",
+      "prompt_tokens": [
+        "d",
+        "avid"
+      ],
+      "prompt_tok_length": 2,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-28T01:58:48.691115Z",
+      "round_num": 6,
+      "player_id": "G5-P1",
+      "action_type": "prompt_image",
+      "prompt": "李工 女",
+      "image_path": "images/20250828015848-img-6-G5-P1-prompt_image-李-工-女.png",
+      "prompt_tokens": [
+        "李",
+        "工",
+        " 女"
+      ],
+      "prompt_tok_length": 3,
+      "votes_received": [
+        "G5-P2"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 20,
+      "reference_image_path": "/static/reference_images/meet_dr_li_a_rocket_scientist_from_new_york.png",
+      "reference_image_prompt": "Meet Dr. Li, a rocket scientist from New York",
+      "reference_image_categories": [
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-28T01:58:55.813885Z",
+      "round_num": 6,
+      "player_id": "G5-P3",
+      "action_type": "prompt_image",
+      "prompt": "火箭女博士",
+      "image_path": "images/20250828015855-img-6-G5-P3-prompt_image-火-箭-女.png",
+      "prompt_tokens": [
+        "火",
+        "箭",
+        "女",
+        "博士"
+      ],
+      "prompt_tok_length": 4,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 20,
+      "reference_image_path": "/static/reference_images/meet_dr_li_a_rocket_scientist_from_new_york.png",
+      "reference_image_prompt": "Meet Dr. Li, a rocket scientist from New York",
+      "reference_image_categories": [
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-28T01:58:58.398125Z",
+      "round_num": 6,
+      "player_id": "G5-P2",
+      "action_type": "prompt_image",
+      "prompt": "Dr Li studying rocket",
+      "image_path": "images/20250828015858-img-6-G5-P2-prompt_image-Dr-Li-studying.png",
+      "prompt_tokens": [
+        "Dr",
+        " Li",
+        " studying",
+        " rocket"
+      ],
+      "prompt_tok_length": 4,
+      "votes_received": [
+        "G5-P1",
+        "G5-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 20,
+      "reference_image_path": "/static/reference_images/meet_dr_li_a_rocket_scientist_from_new_york.png",
+      "reference_image_prompt": "Meet Dr. Li, a rocket scientist from New York",
+      "reference_image_categories": [
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-28T01:59:00.702968Z",
+      "round_num": 6,
+      "player_id": "G5-P1",
+      "action_type": "vote",
+      "voted_for_id": "G5-P2",
+      "vote_timestamp": "2025-08-28T01:59:00.702968Z"
+    },
+    {
+      "timestamp": "2025-08-28T01:59:03.792877Z",
+      "round_num": 6,
+      "player_id": "G5-P3",
+      "action_type": "vote",
+      "voted_for_id": "G5-P2",
+      "vote_timestamp": "2025-08-28T01:59:03.792877Z"
+    },
+    {
+      "timestamp": "2025-08-28T01:59:06.345520Z",
+      "round_num": 6,
+      "player_id": "G5-P2",
+      "action_type": "vote",
+      "voted_for_id": "G5-P1",
+      "vote_timestamp": "2025-08-28T01:59:06.345520Z"
+    },
+    {
+      "timestamp": "2025-08-28T02:00:58.283715Z",
+      "round_num": 6,
+      "player_id": "G5-P3",
+      "action_type": "quick_draw",
+      "prompt": "博士",
+      "image_path": "images/20250828020058-img-6-G5-P3-quick_draw-博士.png",
+      "prompt_tokens": [
+        "博士"
+      ],
+      "prompt_tok_length": 1,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-28T02:01:17.140501Z",
+      "round_num": 6,
+      "player_id": "G5-P1",
+      "action_type": "quick_draw",
+      "prompt": "李博 女",
+      "image_path": "images/20250828020117-img-6-G5-P1-quick_draw-李-博-女.png",
+      "prompt_tokens": [
+        "李",
+        "博",
+        " 女"
+      ],
+      "prompt_tok_length": 3,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-28T02:01:38.055055Z",
+      "round_num": 6,
+      "player_id": "G5-P2",
+      "action_type": "quick_draw",
+      "prompt": "Dr. Li",
+      "image_path": "images/20250828020138-img-6-G5-P2-quick_draw-Dr-Li.png",
+      "prompt_tokens": [
+        "Dr",
+        ".",
+        " Li"
+      ],
+      "prompt_tok_length": 3,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-28T02:03:08.548515Z",
+      "round_num": 6,
+      "player_id": "G5-P2",
+      "action_type": "quick_draw",
+      "prompt": "黑博",
+      "image_path": "images/20250828020308-img-6-G5-P2-quick_draw-黑-博.png",
+      "prompt_tokens": [
+        "黑",
+        "博"
+      ],
+      "prompt_tok_length": 2,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-28T02:04:26.412637Z",
+      "round_num": 6,
+      "player_id": "G5-P1",
+      "action_type": "quick_draw",
+      "prompt": "陈博",
+      "image_path": "images/20250828020426-img-6-G5-P1-quick_draw-陈-博.png",
+      "prompt_tokens": [
+        "陈",
+        "博"
+      ],
+      "prompt_tok_length": 2,
+      "generation_success": true,
+      "error_message": null
+    }
+  ]
+}

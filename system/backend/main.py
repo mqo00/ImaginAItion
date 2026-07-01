@@ -252,7 +252,19 @@ REFERENCE_IMAGES = [
         "image_path": "/static/reference_images/ref_26.png",
         "description": "A horse riding an astronaut",
         "categories": ["co-occurrence"]
-    }
+    },
+    {
+        "id": 27,
+        "image_path": "/static/reference_images/ref_27.png",
+        "description": "Serious people taking notes",
+        "categories": ["biological", "demographic"]
+    },
+    {
+        "id": 28,
+        "image_path": "/static/reference_images/ref_28.png",
+        "description": "A soft robot that can swim like a shark",
+        "categories": ["realism"]
+    },
 ]
 
 # build the image pool dynamically by category

@@ -1,0 +1,1170 @@
+{
+  "group_id": "G7",
+  "start_timestamp": "2025-08-29T01:09:50.193869Z",
+  "end_timestamp": "2025-08-29T01:56:24.167365Z",
+  "total_rounds": 6,
+  "final_scores": {
+    "G7-P1": {
+      "total_score": 9,
+      "round_scores": {
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 1,
+        "5": 1,
+        "6": 1
+      }
+    },
+    "G7-P2": {
+      "total_score": 1,
+      "round_scores": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "6": 0
+      }
+    },
+    "G7-P3": {
+      "total_score": 2,
+      "round_scores": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 1
+      }
+    }
+  },
+  "player_actions": [
+    {
+      "timestamp": "2025-08-29T01:10:52.496492Z",
+      "round_num": 1,
+      "player_id": "G7-P1",
+      "action_type": "prompt_image",
+      "prompt": "biracial couple wedding portrait photo",
+      "image_path": "images/20250829011052-img-1-G7-P1-prompt_image-bir-acial-couple.png",
+      "prompt_tokens": [
+        "bir",
+        "acial",
+        " couple",
+        " wedding",
+        " portrait",
+        " photo"
+      ],
+      "prompt_tok_length": 6,
+      "votes_received": [
+        "G7-P2",
+        "G7-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 1,
+      "reference_image_path": "/static/reference_images/a_happily_married_couple.png",
+      "reference_image_prompt": "A happily married couple",
+      "reference_image_categories": [
+        "cultural",
+        "demographic"
+      ],
+      "represented_category_in_game": "demographic"
+    },
+    {
+      "timestamp": "2025-08-29T01:10:57.032788Z",
+      "round_num": 1,
+      "player_id": "G7-P2",
+      "action_type": "prompt_image",
+      "prompt": "married couple smiling for a picture on their wedding day",
+      "image_path": "images/20250829011057-img-1-G7-P2-prompt_image-mar-ried-couple.png",
+      "prompt_tokens": [
+        "mar",
+        "ried",
+        " couple",
+        " smiling",
+        " for",
+        " a",
+        " picture",
+        " on",
+        " their",
+        " wedding",
+        " day"
+      ],
+      "prompt_tok_length": 11,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 1,
+      "reference_image_path": "/static/reference_images/a_happily_married_couple.png",
+      "reference_image_prompt": "A happily married couple",
+      "reference_image_categories": [
+        "cultural",
+        "demographic"
+      ],
+      "represented_category_in_game": "demographic"
+    },
+    {
+      "timestamp": "2025-08-29T01:11:06.017260Z",
+      "round_num": 1,
+      "player_id": "G7-P3",
+      "action_type": "prompt_image",
+      "prompt": "white male on the left, black female with curly hair on the right, realistic photographic style, 50mm lens, blurred tree background",
+      "image_path": "images/20250829011106-img-1-G7-P3-prompt_image-white-male-on.png",
+      "prompt_tokens": [
+        "white",
+        " male",
+        " on",
+        " the",
+        " left",
+        ",",
+        " black",
+        " female",
+        " with",
+        " curly",
+        " hair",
+        " on",
+        " the",
+        " right",
+        ",",
+        " realistic",
+        " photographic",
+        " style",
+        ",",
+        " ",
+        "50",
+        "mm",
+        " lens",
+        ",",
+        " blurred",
+        " tree",
+        " background"
+      ],
+      "prompt_tok_length": 27,
+      "votes_received": [
+        "G7-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 1,
+      "reference_image_path": "/static/reference_images/a_happily_married_couple.png",
+      "reference_image_prompt": "A happily married couple",
+      "reference_image_categories": [
+        "cultural",
+        "demographic"
+      ],
+      "represented_category_in_game": "demographic"
+    },
+    {
+      "timestamp": "2025-08-29T01:11:11.918755Z",
+      "round_num": 1,
+      "player_id": "G7-P2",
+      "action_type": "vote",
+      "voted_for_id": "G7-P1",
+      "vote_timestamp": "2025-08-29T01:11:11.918755Z"
+    },
+    {
+      "timestamp": "2025-08-29T01:11:12.893570Z",
+      "round_num": 1,
+      "player_id": "G7-P3",
+      "action_type": "vote",
+      "voted_for_id": "G7-P1",
+      "vote_timestamp": "2025-08-29T01:11:12.893570Z"
+    },
+    {
+      "timestamp": "2025-08-29T01:11:16.307092Z",
+      "round_num": 1,
+      "player_id": "G7-P1",
+      "action_type": "vote",
+      "voted_for_id": "G7-P3",
+      "vote_timestamp": "2025-08-29T01:11:16.307092Z"
+    },
+    {
+      "timestamp": "2025-08-29T01:12:31.352502Z",
+      "round_num": 1,
+      "player_id": "G7-P3",
+      "action_type": "quick_draw",
+      "prompt": "biracial couple wedding portrait photo",
+      "image_path": "images/20250829011231-img-1-G7-P3-quick_draw-bir-acial-couple.png",
+      "prompt_tokens": [
+        "bir",
+        "acial",
+        " couple",
+        " wedding",
+        " portrait",
+        " photo"
+      ],
+      "prompt_tok_length": 6,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-29T01:13:38.125949Z",
+      "round_num": 1,
+      "player_id": "G7-P1",
+      "action_type": "quick_draw",
+      "prompt": "a happy family",
+      "image_path": "images/20250829011338-img-1-G7-P1-quick_draw-a-happy-family.png",
+      "prompt_tokens": [
+        "a",
+        " happy",
+        " family"
+      ],
+      "prompt_tok_length": 3,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-29T01:15:06.383473Z",
+      "round_num": 1,
+      "player_id": "G7-P3",
+      "action_type": "quick_draw",
+      "prompt": "A happily married couple",
+      "image_path": "images/20250829011506-img-1-G7-P3-quick_draw-A-happily-married.png",
+      "prompt_tokens": [
+        "A",
+        " happily",
+        " married",
+        " couple"
+      ],
+      "prompt_tok_length": 4,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-29T01:17:28.921386Z",
+      "round_num": 2,
+      "player_id": "G7-P2",
+      "action_type": "prompt_image",
+      "prompt": "cartoon image of friendship",
+      "image_path": "images/20250829011728-img-2-G7-P2-prompt_image-cart-oon-image.png",
+      "prompt_tokens": [
+        "cart",
+        "oon",
+        " image",
+        " of",
+        " friendship"
+      ],
+      "prompt_tok_length": 5,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 12,
+      "reference_image_path": "/static/reference_images/friendship_as_a_simple_drawing.png",
+      "reference_image_prompt": "Friendship as a simple drawing",
+      "reference_image_categories": [
+        "realism"
+      ],
+      "represented_category_in_game": "realism"
+    },
+    {
+      "timestamp": "2025-08-29T01:17:59.614223Z",
+      "round_num": 2,
+      "player_id": "G7-P1",
+      "action_type": "prompt_image",
+      "prompt": "bubble stick figure friends, with word friendship above",
+      "image_path": "images/20250829011759-img-2-G7-P1-prompt_image-bubble-stick-figure.png",
+      "prompt_tokens": [
+        "bubble",
+        " stick",
+        " figure",
+        " friends",
+        ",",
+        " with",
+        " word",
+        " friendship",
+        " above"
+      ],
+      "prompt_tok_length": 9,
+      "votes_received": [
+        "G7-P3",
+        "G7-P2"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 12,
+      "reference_image_path": "/static/reference_images/friendship_as_a_simple_drawing.png",
+      "reference_image_prompt": "Friendship as a simple drawing",
+      "reference_image_categories": [
+        "realism"
+      ],
+      "represented_category_in_game": "realism"
+    },
+    {
+      "timestamp": "2025-08-29T01:18:27.262580Z",
+      "round_num": 2,
+      "player_id": "G7-P3",
+      "action_type": "prompt_image",
+      "prompt": "black line drawing of two bros arm in arm, with \"FRIENDSHIP\" spelled above",
+      "image_path": "images/20250829011827-img-2-G7-P3-prompt_image-black-line-drawing.png",
+      "prompt_tokens": [
+        "black",
+        " line",
+        " drawing",
+        " of",
+        " two",
+        " bros",
+        " arm",
+        " in",
+        " arm",
+        ",",
+        " with",
+        " \"",
+        "FR",
+        "I",
+        "END",
+        "SHIP",
+        "\"",
+        " spelled",
+        " above"
+      ],
+      "prompt_tok_length": 19,
+      "votes_received": [
+        "G7-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 12,
+      "reference_image_path": "/static/reference_images/friendship_as_a_simple_drawing.png",
+      "reference_image_prompt": "Friendship as a simple drawing",
+      "reference_image_categories": [
+        "realism"
+      ],
+      "represented_category_in_game": "realism"
+    },
+    {
+      "timestamp": "2025-08-29T01:18:30.731226Z",
+      "round_num": 2,
+      "player_id": "G7-P3",
+      "action_type": "vote",
+      "voted_for_id": "G7-P1",
+      "vote_timestamp": "2025-08-29T01:18:30.731226Z"
+    },
+    {
+      "timestamp": "2025-08-29T01:18:33.132135Z",
+      "round_num": 2,
+      "player_id": "G7-P1",
+      "action_type": "vote",
+      "voted_for_id": "G7-P3",
+      "vote_timestamp": "2025-08-29T01:18:33.132135Z"
+    },
+    {
+      "timestamp": "2025-08-29T01:18:40.384160Z",
+      "round_num": 2,
+      "player_id": "G7-P2",
+      "action_type": "vote",
+      "voted_for_id": "G7-P1",
+      "vote_timestamp": "2025-08-29T01:18:40.384160Z"
+    },
+    {
+      "timestamp": "2025-08-29T01:19:27.364694Z",
+      "round_num": 2,
+      "player_id": "G7-P1",
+      "action_type": "quick_draw",
+      "prompt": "friendship as a simple drawing",
+      "image_path": "images/20250829011927-img-2-G7-P1-quick_draw-friend-ship-as.png",
+      "prompt_tokens": [
+        "friend",
+        "ship",
+        " as",
+        " a",
+        " simple",
+        " drawing"
+      ],
+      "prompt_tok_length": 6,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-29T01:19:44.959533Z",
+      "round_num": 2,
+      "player_id": "G7-P3",
+      "action_type": "quick_draw",
+      "prompt": "Friendship as a simple drawing",
+      "image_path": "images/20250829011944-img-2-G7-P3-quick_draw-Friend-ship-as.png",
+      "prompt_tokens": [
+        "Friend",
+        "ship",
+        " as",
+        " a",
+        " simple",
+        " drawing"
+      ],
+      "prompt_tok_length": 6,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-29T01:20:03.292223Z",
+      "round_num": 2,
+      "player_id": "G7-P2",
+      "action_type": "quick_draw",
+      "prompt": "black and white drawing of friendship with \"friendship\" above",
+      "image_path": "images/20250829012003-img-2-G7-P2-quick_draw-black-and-white.png",
+      "prompt_tokens": [
+        "black",
+        " and",
+        " white",
+        " drawing",
+        " of",
+        " friendship",
+        " with",
+        " \"",
+        "friend",
+        "ship",
+        "\"",
+        " above"
+      ],
+      "prompt_tok_length": 12,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-29T01:24:57.812431Z",
+      "round_num": 3,
+      "player_id": "G7-P2",
+      "action_type": "prompt_image",
+      "prompt": "professional portrait of asian woman",
+      "image_path": "images/20250829012457-img-3-G7-P2-prompt_image-professional-portrait-of.png",
+      "prompt_tokens": [
+        "professional",
+        " portrait",
+        " of",
+        " asian",
+        " woman"
+      ],
+      "prompt_tok_length": 5,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 16,
+      "reference_image_path": "/static/reference_images/an_asian_woman.png",
+      "reference_image_prompt": "An Asian woman",
+      "reference_image_categories": [
+        "demographic",
+        "biological",
+        "cultural"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-29T01:25:20.326333Z",
+      "round_num": 3,
+      "player_id": "G7-P1",
+      "action_type": "prompt_image",
+      "prompt": "Portrait of Asian lady brown shirt",
+      "image_path": "images/20250829012520-img-3-G7-P1-prompt_image-Portrait-of-Asian.png",
+      "prompt_tokens": [
+        "Portrait",
+        " of",
+        " Asian",
+        " lady",
+        " brown",
+        " shirt"
+      ],
+      "prompt_tok_length": 6,
+      "votes_received": [
+        "G7-P3",
+        "G7-P2"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 16,
+      "reference_image_path": "/static/reference_images/an_asian_woman.png",
+      "reference_image_prompt": "An Asian woman",
+      "reference_image_categories": [
+        "demographic",
+        "biological",
+        "cultural"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-29T01:25:48.250120Z",
+      "round_num": 3,
+      "player_id": "G7-P3",
+      "action_type": "prompt_image",
+      "prompt": "Candid portrait of an Asian women with straight black hair and brown shirt",
+      "image_path": "images/20250829012548-img-3-G7-P3-prompt_image-C-andid-portrait.png",
+      "prompt_tokens": [
+        "C",
+        "andid",
+        " portrait",
+        " of",
+        " an",
+        " Asian",
+        " women",
+        " with",
+        " straight",
+        " black",
+        " hair",
+        " and",
+        " brown",
+        " shirt"
+      ],
+      "prompt_tok_length": 14,
+      "votes_received": [
+        "G7-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 16,
+      "reference_image_path": "/static/reference_images/an_asian_woman.png",
+      "reference_image_prompt": "An Asian woman",
+      "reference_image_categories": [
+        "demographic",
+        "biological",
+        "cultural"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-29T01:25:52.467016Z",
+      "round_num": 3,
+      "player_id": "G7-P3",
+      "action_type": "vote",
+      "voted_for_id": "G7-P1",
+      "vote_timestamp": "2025-08-29T01:25:52.467016Z"
+    },
+    {
+      "timestamp": "2025-08-29T01:25:52.481439Z",
+      "round_num": 3,
+      "player_id": "G7-P1",
+      "action_type": "vote",
+      "voted_for_id": "G7-P3",
+      "vote_timestamp": "2025-08-29T01:25:52.481439Z"
+    },
+    {
+      "timestamp": "2025-08-29T01:26:00.509924Z",
+      "round_num": 3,
+      "player_id": "G7-P2",
+      "action_type": "vote",
+      "voted_for_id": "G7-P1",
+      "vote_timestamp": "2025-08-29T01:26:00.509924Z"
+    },
+    {
+      "timestamp": "2025-08-29T01:27:16.194497Z",
+      "round_num": 3,
+      "player_id": "G7-P1",
+      "action_type": "quick_draw",
+      "prompt": "An asian woman",
+      "image_path": "images/20250829012716-img-3-G7-P1-quick_draw-An-asian-woman.png",
+      "prompt_tokens": [
+        "An",
+        " asian",
+        " woman"
+      ],
+      "prompt_tok_length": 3,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-29T01:27:39.632716Z",
+      "round_num": 3,
+      "player_id": "G7-P3",
+      "action_type": "quick_draw",
+      "prompt": "Portrait of Asian lady brown shirt",
+      "image_path": "images/20250829012739-img-3-G7-P3-quick_draw-Portrait-of-Asian.png",
+      "prompt_tokens": [
+        "Portrait",
+        " of",
+        " Asian",
+        " lady",
+        " brown",
+        " shirt"
+      ],
+      "prompt_tok_length": 6,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-29T01:27:58.862859Z",
+      "round_num": 3,
+      "player_id": "G7-P2",
+      "action_type": "quick_draw",
+      "prompt": "an asian woman",
+      "image_path": "images/20250829012758-img-3-G7-P2-quick_draw-an-asian-woman.png",
+      "prompt_tokens": [
+        "an",
+        " asian",
+        " woman"
+      ],
+      "prompt_tok_length": 3,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-29T01:32:40.092699Z",
+      "round_num": 4,
+      "player_id": "G7-P1",
+      "action_type": "prompt_image",
+      "prompt": "all red orchard one green apple",
+      "image_path": "images/20250829013240-img-4-G7-P1-prompt_image-all-red-orchard.png",
+      "prompt_tokens": [
+        "all",
+        " red",
+        " orchard",
+        " one",
+        " green",
+        " apple"
+      ],
+      "prompt_tok_length": 6,
+      "votes_received": [
+        "G7-P2"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 9,
+      "reference_image_path": "/static/reference_images/an_orchard_where_everything_except_the_apple_is_red.png",
+      "reference_image_prompt": "An orchard where everything except the apple is red",
+      "reference_image_categories": [
+        "co-occurrence"
+      ],
+      "represented_category_in_game": "co-occurrence"
+    },
+    {
+      "timestamp": "2025-08-29T01:32:59.063653Z",
+      "round_num": 4,
+      "player_id": "G7-P3",
+      "action_type": "prompt_image",
+      "prompt": "Rene margritte style green apple on pure red apple farm",
+      "image_path": "",
+      "prompt_tokens": [
+        "R",
+        "ene",
+        " mar",
+        "gr",
+        "itte",
+        " style",
+        " green",
+        " apple",
+        " on",
+        " pure",
+        " red",
+        " apple",
+        " farm"
+      ],
+      "prompt_tok_length": 13,
+      "votes_received": [
+        "G7-P1"
+      ],
+      "generation_success": false,
+      "error_message": "Content moderation blocked: Error code: 400 - {'error': {'message': 'Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID req_35ff9c64416d1826ad73bbdc5d939bcf.', 'type': 'image_generation_user_error', 'param': None, 'code': 'moderation_blocked'}}",
+      "reference_image_id": 9,
+      "reference_image_path": "/static/reference_images/an_orchard_where_everything_except_the_apple_is_red.png",
+      "reference_image_prompt": "An orchard where everything except the apple is red",
+      "reference_image_categories": [
+        "co-occurrence"
+      ],
+      "represented_category_in_game": "co-occurrence"
+    },
+    {
+      "timestamp": "2025-08-29T01:33:22.677573Z",
+      "round_num": 4,
+      "player_id": "G7-P2",
+      "action_type": "prompt_image",
+      "prompt": "tomatoes growing on red trees with one green apple",
+      "image_path": "images/20250829013322-img-4-G7-P2-prompt_image-tom-atoes-growing.png",
+      "prompt_tokens": [
+        "tom",
+        "atoes",
+        " growing",
+        " on",
+        " red",
+        " trees",
+        " with",
+        " one",
+        " green",
+        " apple"
+      ],
+      "prompt_tok_length": 10,
+      "votes_received": [
+        "G7-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 9,
+      "reference_image_path": "/static/reference_images/an_orchard_where_everything_except_the_apple_is_red.png",
+      "reference_image_prompt": "An orchard where everything except the apple is red",
+      "reference_image_categories": [
+        "co-occurrence"
+      ],
+      "represented_category_in_game": "co-occurrence"
+    },
+    {
+      "timestamp": "2025-08-29T01:33:24.808752Z",
+      "round_num": 4,
+      "player_id": "G7-P3",
+      "action_type": "prompt_image",
+      "prompt": "Rene margritte style green apple on pure red apple farm",
+      "image_path": "images/20250829013324-img-4-G7-P3-prompt_image-R-ene-mar.png",
+      "prompt_tokens": [
+        "R",
+        "ene",
+        " mar",
+        "gr",
+        "itte",
+        " style",
+        " green",
+        " apple",
+        " on",
+        " pure",
+        " red",
+        " apple",
+        " farm"
+      ],
+      "prompt_tok_length": 13,
+      "votes_received": [
+        "G7-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 9,
+      "reference_image_path": "/static/reference_images/an_orchard_where_everything_except_the_apple_is_red.png",
+      "reference_image_prompt": "An orchard where everything except the apple is red",
+      "reference_image_categories": [
+        "co-occurrence"
+      ],
+      "represented_category_in_game": "co-occurrence"
+    },
+    {
+      "timestamp": "2025-08-29T01:33:35.535170Z",
+      "round_num": 4,
+      "player_id": "G7-P3",
+      "action_type": "vote",
+      "voted_for_id": "G7-P2",
+      "vote_timestamp": "2025-08-29T01:33:35.535170Z"
+    },
+    {
+      "timestamp": "2025-08-29T01:33:38.868017Z",
+      "round_num": 4,
+      "player_id": "G7-P1",
+      "action_type": "vote",
+      "voted_for_id": "G7-P3",
+      "vote_timestamp": "2025-08-29T01:33:38.868017Z"
+    },
+    {
+      "timestamp": "2025-08-29T01:33:40.766639Z",
+      "round_num": 4,
+      "player_id": "G7-P2",
+      "action_type": "vote",
+      "voted_for_id": "G7-P1",
+      "vote_timestamp": "2025-08-29T01:33:40.766639Z"
+    },
+    {
+      "timestamp": "2025-08-29T01:35:24.771855Z",
+      "round_num": 4,
+      "player_id": "G7-P3",
+      "action_type": "quick_draw",
+      "prompt": "all red orchard green apple",
+      "image_path": "images/20250829013524-img-4-G7-P3-quick_draw-all-red-orchard.png",
+      "prompt_tokens": [
+        "all",
+        " red",
+        " orchard",
+        " green",
+        " apple"
+      ],
+      "prompt_tok_length": 5,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-29T01:35:45.752128Z",
+      "round_num": 4,
+      "player_id": "G7-P2",
+      "action_type": "quick_draw",
+      "prompt": "orchard thats all red except one green apple",
+      "image_path": "images/20250829013545-img-4-G7-P2-quick_draw-orch-ard-thats.png",
+      "prompt_tokens": [
+        "orch",
+        "ard",
+        " thats",
+        " all",
+        " red",
+        " except",
+        " one",
+        " green",
+        " apple"
+      ],
+      "prompt_tok_length": 9,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-29T01:36:05.116962Z",
+      "round_num": 4,
+      "player_id": "G7-P1",
+      "action_type": "quick_draw",
+      "prompt": "pure red orchard green",
+      "image_path": "images/20250829013605-img-4-G7-P1-quick_draw-pure-red-orchard.png",
+      "prompt_tokens": [
+        "pure",
+        " red",
+        " orchard",
+        " green"
+      ],
+      "prompt_tok_length": 4,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-29T01:41:22.493263Z",
+      "round_num": 5,
+      "player_id": "G7-P1",
+      "action_type": "prompt_image",
+      "prompt": "mom holding baby",
+      "image_path": "images/20250829014122-img-5-G7-P1-prompt_image-mom-holding-baby.png",
+      "prompt_tokens": [
+        "mom",
+        " holding",
+        " baby"
+      ],
+      "prompt_tok_length": 3,
+      "votes_received": [
+        "G7-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 7,
+      "reference_image_path": "/static/reference_images/holding_baby.png",
+      "reference_image_prompt": "Holding baby",
+      "reference_image_categories": [
+        "biological"
+      ],
+      "represented_category_in_game": "biological"
+    },
+    {
+      "timestamp": "2025-08-29T01:41:38.976367Z",
+      "round_num": 5,
+      "player_id": "G7-P2",
+      "action_type": "prompt_image",
+      "prompt": "portrait of mother holding her baby",
+      "image_path": "images/20250829014138-img-5-G7-P2-prompt_image-portrait-of-mother.png",
+      "prompt_tokens": [
+        "portrait",
+        " of",
+        " mother",
+        " holding",
+        " her",
+        " baby"
+      ],
+      "prompt_tok_length": 6,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 7,
+      "reference_image_path": "/static/reference_images/holding_baby.png",
+      "reference_image_prompt": "Holding baby",
+      "reference_image_categories": [
+        "biological"
+      ],
+      "represented_category_in_game": "biological"
+    },
+    {
+      "timestamp": "2025-08-29T01:42:03.270912Z",
+      "round_num": 5,
+      "player_id": "G7-P3",
+      "action_type": "prompt_image",
+      "prompt": "mother holding her new born, studio lighting, mom in grey, baby in white",
+      "image_path": "images/20250829014203-img-5-G7-P3-prompt_image-mother-holding-her.png",
+      "prompt_tokens": [
+        "mother",
+        " holding",
+        " her",
+        " new",
+        " born",
+        ",",
+        " studio",
+        " lighting",
+        ",",
+        " mom",
+        " in",
+        " grey",
+        ",",
+        " baby",
+        " in",
+        " white"
+      ],
+      "prompt_tok_length": 16,
+      "votes_received": [
+        "G7-P1",
+        "G7-P2"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 7,
+      "reference_image_path": "/static/reference_images/holding_baby.png",
+      "reference_image_prompt": "Holding baby",
+      "reference_image_categories": [
+        "biological"
+      ],
+      "represented_category_in_game": "biological"
+    },
+    {
+      "timestamp": "2025-08-29T01:42:17.539894Z",
+      "round_num": 5,
+      "player_id": "G7-P3",
+      "action_type": "vote",
+      "voted_for_id": "G7-P1",
+      "vote_timestamp": "2025-08-29T01:42:17.539894Z"
+    },
+    {
+      "timestamp": "2025-08-29T01:42:24.598925Z",
+      "round_num": 5,
+      "player_id": "G7-P1",
+      "action_type": "vote",
+      "voted_for_id": "G7-P3",
+      "vote_timestamp": "2025-08-29T01:42:24.598925Z"
+    },
+    {
+      "timestamp": "2025-08-29T01:42:29.333645Z",
+      "round_num": 5,
+      "player_id": "G7-P2",
+      "action_type": "vote",
+      "voted_for_id": "G7-P3",
+      "vote_timestamp": "2025-08-29T01:42:29.333645Z"
+    },
+    {
+      "timestamp": "2025-08-29T01:43:16.632757Z",
+      "round_num": 5,
+      "player_id": "G7-P1",
+      "action_type": "quick_draw",
+      "prompt": "holding baby",
+      "image_path": "images/20250829014316-img-5-G7-P1-quick_draw-holding-baby.png",
+      "prompt_tokens": [
+        "holding",
+        " baby"
+      ],
+      "prompt_tok_length": 2,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-29T01:44:16.264019Z",
+      "round_num": 5,
+      "player_id": "G7-P1",
+      "action_type": "quick_draw",
+      "prompt": "mother holding baby studio lighting",
+      "image_path": "images/20250829014416-img-5-G7-P1-quick_draw-mother-holding-baby.png",
+      "prompt_tokens": [
+        "mother",
+        " holding",
+        " baby",
+        " studio",
+        " lighting"
+      ],
+      "prompt_tok_length": 5,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-29T01:44:36.191114Z",
+      "round_num": 5,
+      "player_id": "G7-P2",
+      "action_type": "quick_draw",
+      "prompt": "mother holding baby",
+      "image_path": "images/20250829014436-img-5-G7-P2-quick_draw-mother-holding-baby.png",
+      "prompt_tokens": [
+        "mother",
+        " holding",
+        " baby"
+      ],
+      "prompt_tok_length": 3,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-29T01:45:02.081285Z",
+      "round_num": 5,
+      "player_id": "G7-P3",
+      "action_type": "quick_draw",
+      "prompt": "Holding baby",
+      "image_path": "images/20250829014502-img-5-G7-P3-quick_draw-Holding-baby.png",
+      "prompt_tokens": [
+        "Holding",
+        " baby"
+      ],
+      "prompt_tok_length": 2,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-29T01:49:46.723632Z",
+      "round_num": 6,
+      "player_id": "G7-P2",
+      "action_type": "prompt_image",
+      "prompt": "garden with red flowers",
+      "image_path": "images/20250829014946-img-6-G7-P2-prompt_image-garden-with-red.png",
+      "prompt_tokens": [
+        "garden",
+        " with",
+        " red",
+        " flowers"
+      ],
+      "prompt_tok_length": 4,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 24,
+      "reference_image_path": "/static/reference_images/there_are_3_flowers_in_one_spot_a_little_ways_off_there_are_17_more_flowers.JPG",
+      "reference_image_prompt": "There are 3 flowers in one spot. A little ways off, there are 17 more flowers.",
+      "reference_image_categories": [
+        "number & spatial"
+      ],
+      "represented_category_in_game": "number & spatial"
+    },
+    {
+      "timestamp": "2025-08-29T01:49:53.606324Z",
+      "round_num": 6,
+      "player_id": "G7-P1",
+      "action_type": "prompt_image",
+      "prompt": "red flowers 3 close many far",
+      "image_path": "images/20250829014953-img-6-G7-P1-prompt_image-red-flowers.png",
+      "prompt_tokens": [
+        "red",
+        " flowers",
+        " ",
+        "3",
+        " close",
+        " many",
+        " far"
+      ],
+      "prompt_tok_length": 7,
+      "votes_received": [
+        "G7-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 24,
+      "reference_image_path": "/static/reference_images/there_are_3_flowers_in_one_spot_a_little_ways_off_there_are_17_more_flowers.JPG",
+      "reference_image_prompt": "There are 3 flowers in one spot. A little ways off, there are 17 more flowers.",
+      "reference_image_categories": [
+        "number & spatial"
+      ],
+      "represented_category_in_game": "number & spatial"
+    },
+    {
+      "timestamp": "2025-08-29T01:50:12.523512Z",
+      "round_num": 6,
+      "player_id": "G7-P3",
+      "action_type": "prompt_image",
+      "prompt": "red daisies, three at the lower left",
+      "image_path": "images/20250829015012-img-6-G7-P3-prompt_image-red-dais-ies.png",
+      "prompt_tokens": [
+        "red",
+        " dais",
+        "ies",
+        ",",
+        " three",
+        " at",
+        " the",
+        " lower",
+        " left"
+      ],
+      "prompt_tok_length": 9,
+      "votes_received": [
+        "G7-P2",
+        "G7-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 24,
+      "reference_image_path": "/static/reference_images/there_are_3_flowers_in_one_spot_a_little_ways_off_there_are_17_more_flowers.JPG",
+      "reference_image_prompt": "There are 3 flowers in one spot. A little ways off, there are 17 more flowers.",
+      "reference_image_categories": [
+        "number & spatial"
+      ],
+      "represented_category_in_game": "number & spatial"
+    },
+    {
+      "timestamp": "2025-08-29T01:50:16.034492Z",
+      "round_num": 6,
+      "player_id": "G7-P3",
+      "action_type": "vote",
+      "voted_for_id": "G7-P1",
+      "vote_timestamp": "2025-08-29T01:50:16.034492Z"
+    },
+    {
+      "timestamp": "2025-08-29T01:50:20.054887Z",
+      "round_num": 6,
+      "player_id": "G7-P2",
+      "action_type": "vote",
+      "voted_for_id": "G7-P3",
+      "vote_timestamp": "2025-08-29T01:50:20.054887Z"
+    },
+    {
+      "timestamp": "2025-08-29T01:50:23.299294Z",
+      "round_num": 6,
+      "player_id": "G7-P1",
+      "action_type": "vote",
+      "voted_for_id": "G7-P3",
+      "vote_timestamp": "2025-08-29T01:50:23.299294Z"
+    },
+    {
+      "timestamp": "2025-08-29T01:51:40.079270Z",
+      "round_num": 6,
+      "player_id": "G7-P2",
+      "action_type": "quick_draw",
+      "prompt": "red daises",
+      "image_path": "images/20250829015140-img-6-G7-P2-quick_draw-red-da-ises.png",
+      "prompt_tokens": [
+        "red",
+        " da",
+        "ises"
+      ],
+      "prompt_tok_length": 3,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-29T01:51:59.654675Z",
+      "round_num": 6,
+      "player_id": "G7-P1",
+      "action_type": "quick_draw",
+      "prompt": "red daises 3 close 17 far",
+      "image_path": "images/20250829015159-img-6-G7-P1-quick_draw-red-da-ises.png",
+      "prompt_tokens": [
+        "red",
+        " da",
+        "ises",
+        " ",
+        "3",
+        " close",
+        " ",
+        "17",
+        " far"
+      ],
+      "prompt_tok_length": 9,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-29T01:52:18.679876Z",
+      "round_num": 6,
+      "player_id": "G7-P3",
+      "action_type": "quick_draw",
+      "prompt": "red daisies, three at the lower left, more a little way off",
+      "image_path": "images/20250829015218-img-6-G7-P3-quick_draw-red-dais-ies.png",
+      "prompt_tokens": [
+        "red",
+        " dais",
+        "ies",
+        ",",
+        " three",
+        " at",
+        " the",
+        " lower",
+        " left",
+        ",",
+        " more",
+        " a",
+        " little",
+        " way",
+        " off"
+      ],
+      "prompt_tok_length": 15,
+      "generation_success": true,
+      "error_message": null
+    }
+  ]
+}

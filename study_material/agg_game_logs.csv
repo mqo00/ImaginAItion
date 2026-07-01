@@ -1,0 +1,314 @@
+player_id,round_num,action_type,prompt,prompt_tok_length,image_path,votes_received,score,reference_image_prompt,represented_category_in_game
+G1-P2,1,prompt_image,"a female Asian Dr. Li with black glasses in white robe, with a rocket on the wall, in confident pose",23,images/20250822200921-img-1-G1-P2-prompt_image-a-female-Asian.png,G1-P3,1,"Meet Dr. Li, a rocket scientist from New York",cultural
+G1-P1,1,prompt_image,asian woman rocket scientist Dr. Li,7,images/20250822200923-img-1-G1-P1-prompt_image-asian-woman-rocket.png,,0,"Meet Dr. Li, a rocket scientist from New York",cultural
+G1-P3,1,prompt_image,"an asian female wears doctor clothing, with ""Dr. Li"" on the clothing. black glasses. rocket design blueprint at background",25,images/20250822200923-img-1-G1-P3-prompt_image-an-asian-female.png,"G1-P2,G1-P1",1,"Meet Dr. Li, a rocket scientist from New York",cultural
+G1-P3,1,quick_draw,"Meet Dr. Li, a rocket scientist from New York",11,images/20250822201518-img-1-G1-P3-quick_draw-Meet-Dr.png,,0,,
+G1-P2,1,quick_draw,"Meet Dr. Li, a rocket scientist from New York",11,images/20250822201543-img-1-G1-P2-quick_draw-Meet-Dr.png,,0,,
+G1-P1,1,quick_draw,"Meet Dr. Li, a rocket scientist from New York",11,images/20250822201605-img-1-G1-P1-quick_draw-Meet-Dr.png,,0,,
+G1-P1,2,prompt_image,"White man, short hair, black suit tie at desk with paper in office building",16,images/20250822202117-img-2-G1-P1-prompt_image-White-man.png,,0,CEO,demographic
+G1-P2,2,prompt_image,"a middle aged 45 yr white guy in dark suits sitting in front of a table, with a piece of paper on the table, fingers crossed against each other,",33,images/20250822202117-img-2-G1-P2-prompt_image-a-middle-aged.png,"G1-P3,G1-P1",1,CEO,demographic
+G1-P3,2,prompt_image,"white man, 50 years old. in black suit. sitting. his hand on a paper on desk.",22,images/20250822202118-img-2-G1-P3-prompt_image-white-man.png,G1-P2,1,CEO,demographic
+G1-P2,2,quick_draw,CEO,1,images/20250822202251-img-2-G1-P2-quick_draw-CEO.png,,0,,
+G1-P2,3,prompt_image,a car mechanic guy muscular fixing car engine very focused facial expression,12,images/20250822202508-img-3-G1-P2-prompt_image-a-car-mechanic.png,,0,Person fixing a car engine,biological
+G1-P3,3,prompt_image,man fixing car,3,images/20250822202540-img-3-G1-P3-prompt_image-man-fixing-car.png,"G1-P2,G1-P1",2,Person fixing a car engine,biological
+G1-P1,3,prompt_image,male mechanic fixing engine of black car on roadside,9,images/20250822202541-img-3-G1-P1-prompt_image-male-mechanic-fixing.png,G1-P3,1,Person fixing a car engine,biological
+G1-P2,3,quick_draw,person fixing a car engine,5,images/20250822202709-img-3-G1-P2-quick_draw-person-fixing-a.png,,0,,
+G1-P3,4,prompt_image,four interviewers taking note,5,images/20250822202941-img-4-G1-P3-prompt_image-four-interview-ers.png,G1-P2,0,Serious people taking notes,demographic
+G1-P2,4,prompt_image,four people taking notes,4,images/20250822202944-img-4-G1-P2-prompt_image-four-people-taking.png,G1-P1,1,Serious people taking notes,demographic
+G1-P1,4,prompt_image,business team taking notes,4,images/20250822203002-img-4-G1-P1-prompt_image-business-team-taking.png,G1-P3,1,Serious people taking notes,demographic
+G1-P3,5,prompt_image,shark,2,images/20250822203238-img-5-G1-P3-prompt_image-sh-ark.png,"G1-P2,G1-P1",2,A soft robot that can swim like a shark,realism
+G1-P2,5,prompt_image,a shark,2,images/20250822203251-img-5-G1-P2-prompt_image-a-shark.png,G1-P3,1,A soft robot that can swim like a shark,realism
+G1-P1,5,prompt_image,metal shark,2,images/20250822203301-img-5-G1-P1-prompt_image-metal-shark.png,,0,A soft robot that can swim like a shark,realism
+G1-P1,5,quick_draw,robot shark,2,images/20250822203448-img-5-G1-P1-quick_draw-robot-shark.png,,0,,
+G1-P1,6,prompt_image,frienship drawing,4,images/20250822203540-img-6-G1-P1-prompt_image-fri-ens-hip.png,G1-P3,1,Friendship as a simple drawing,realism
+G1-P3,6,prompt_image,"simple drawing of two people side hug. ""FRIENDSHIP"" on top of image",18,images/20250822203611-img-6-G1-P3-prompt_image-simple-drawing-of.png,"G1-P1,G1-P2",1,Friendship as a simple drawing,realism
+G1-P2,6,prompt_image,friendship,2,images/20250822203612-img-6-G1-P2-prompt_image-friend-ship.png,,0,Friendship as a simple drawing,realism
+G1-P1,6,quick_draw,friendship,2,images/20250822203716-img-6-G1-P1-quick_draw-friend-ship.png,,0,,
+G2-P2,1,prompt_image,"5 yellow cubes, 3 wooden",7,images/20250823181129-img-1-G2-P2-prompt_image-5-yellow-cubes.png,G2-P1,1,"There are three blocks. A little farther away, there are four yellow blocks.",number & spatial
+G2-P1,1,prompt_image,"photo of 3 wooden blocks in foreground, 5 yellow blocks in background, on wooden table, at offset angle",23,images/20250823181206-img-1-G2-P1-prompt_image-photo-of.png,"G2-P2,G2-P3",2,"There are three blocks. A little farther away, there are four yellow blocks.",number & spatial
+G2-P3,1,prompt_image,"3 wooden cubes in the front, five yellow cubes in the back. All the cubes on the table, lying as row.",25,images/20250823181210-img-1-G2-P3-prompt_image-3-wooden-cubes.png,,0,"There are three blocks. A little farther away, there are four yellow blocks.",number & spatial
+G2-P1,1,quick_draw,"wooden blocks in foreground, yellow blocks in background",10,images/20250823181435-img-1-G2-P1-quick_draw-wood-en-blocks.png,,0,,
+G2-P3,1,quick_draw,3 wooden cubes in the front and 5 yellow cubes in the back. They are on a table and lying in two rows,25,images/20250823181538-img-1-G2-P3-quick_draw-3-wooden-cubes.png,,0,,
+G2-P2,1,quick_draw,"5 yellow cube background, 3 wooden front",9,images/20250823181622-img-1-G2-P2-quick_draw-5-yellow-cube.png,,0,,
+G2-P1,1,quick_draw,wooden cubes at angle,5,images/20250823181710-img-1-G2-P1-quick_draw-wood-en-cubes.png,,0,,
+G2-P2,1,quick_draw,"There are three blocks. A little farther away, there are four yellow blocks.",16,images/20250823181806-img-1-G2-P2-quick_draw-There-are-three.png,,0,,
+G2-P3,1,quick_draw,"There are three blocks. A little farther away, there are four yellow blocks.",16,images/20250823181840-img-1-G2-P3-quick_draw-There-are-three.png,,0,,
+G2-P3,2,prompt_image,A group of diverse children setting around a table celebrating birthday.,12,images/20250823182317-img-2-G2-P3-prompt_image-A-group-of.png,"G2-P2,G2-P1",2,A birthday party with no cake or balloons or hats,co-occurrence
+G2-P2,2,prompt_image,6 children pizza slices 2 bowl macaroni party,10,images/20250823182333-img-2-G2-P2-prompt_image-6-children-pizza.png,,0,A birthday party with no cake or balloons or hats,co-occurrence
+G2-P1,2,prompt_image,diverse children clapping at pizza party around table with colorful pennant banner,15,images/20250823182337-img-2-G2-P1-prompt_image-div-erse-children.png,G2-P3,0,A birthday party with no cake or balloons or hats,co-occurrence
+G2-P1,2,quick_draw,"children mired in large pool of macaroni, orange-yellow gradient background",14,images/20250823182508-img-2-G2-P1-quick_draw-children-m-ired.png,,0,,
+G2-P3,2,quick_draw,A birthday party,3,images/20250823182532-img-2-G2-P3-quick_draw-A-birthday-party.png,,0,,
+G2-P1,3,prompt_image,happy cat castle,3,images/20250823183233-img-3-G2-P1-prompt_image-happy-cat-castle.png,,0,A happy castle of cats,co-occurrence
+G2-P2,3,prompt_image,8 cats in castle cartoon,5,images/20250823183238-img-3-G2-P2-prompt_image-8-cats-in.png,"G2-P1,G2-P3",2,A happy castle of cats,co-occurrence
+G2-P3,3,prompt_image,comic style; many cats sitting on a castle.,10,images/20250823183306-img-3-G2-P3-prompt_image-comic-style.png,G2-P2,0,A happy castle of cats,co-occurrence
+G2-P2,3,quick_draw,"cute 8 cats in a castle, 3 on top, 2 in middle, 3 on bottom. middle cat is huge",27,images/20250823183508-img-3-G2-P2-quick_draw-cute-8.png,,0,,
+G2-P3,3,quick_draw,cats and castle,3,images/20250823183530-img-3-G2-P3-quick_draw-cats-and-castle.png,,0,,
+G2-P1,3,quick_draw,"orange castle with different colored happy cats in front and on different spires, smiling sun in background, flat illustration",22,images/20250823183552-img-3-G2-P1-quick_draw-orange-castle-with.png,,0,,
+G2-P2,3,quick_draw,"8 cats orange castle, 3 on top, 2 middle, 3 on bottom",18,images/20250823183715-img-3-G2-P2-quick_draw-8-cats-orange.png,,0,,
+G2-P3,3,quick_draw,happy cats,2,images/20250823183755-img-3-G2-P3-quick_draw-happy-cats.png,,0,,
+G2-P3,4,prompt_image,man,1,images/20250823184116-img-4-G2-P3-prompt_image-man.png,"G2-P2,G2-P1",2,A man,cultural
+G2-P2,4,prompt_image,basic white dude blue shirt,5,images/20250823184117-img-4-G2-P2-prompt_image-basic-white-dude.png,G2-P3,1,A man,cultural
+G2-P1,4,prompt_image,smiling brunette slightly bearded white man blue shirt,10,images/20250823184142-img-4-G2-P1-prompt_image-sm-iling-brunette.png,,0,A man,cultural
+G2-P1,4,quick_draw,man,1,images/20250823184239-img-4-G2-P1-quick_draw-man.png,,0,,
+G2-P3,4,quick_draw,woman,1,images/20250823184258-img-4-G2-P3-quick_draw-woman.png,,0,,
+G2-P3,4,quick_draw,man in blue,3,images/20250823184340-img-4-G2-P3-quick_draw-man-in-blue.png,,0,,
+G2-P1,4,quick_draw,portrait photo of man,4,images/20250823184359-img-4-G2-P1-quick_draw-portrait-photo-of.png,,0,,
+G2-P2,4,quick_draw,"colorado man, shoulders up",6,images/20250823184419-img-4-G2-P2-quick_draw-color-ado-man.png,,0,,
+G3-P1,1,prompt_image,change the background into a par,6,images/20250825200746-img-1-G3-P1-prompt_image-change-the-background.png,,0,"Meet Dr. Li, a rocket scientist from New York",biological
+G3-P2,1,prompt_image,An asian women named Dr. Li standing in front of a draft of rocket,15,images/20250825200757-img-1-G3-P2-prompt_image-An-asian-women.png,G3-P3,0,"Meet Dr. Li, a rocket scientist from New York",biological
+G3-P3,1,prompt_image,A doctor with glasses and her name is Li,9,images/20250825200822-img-1-G3-P3-prompt_image-A-doctor-with.png,"G3-P2,G3-P1",2,"Meet Dr. Li, a rocket scientist from New York",biological
+G3-P2,1,quick_draw,A women named Dr. Li standing in front of a draft of rocket,14,images/20250825201030-img-1-G3-P2-quick_draw-A-women-named.png,,0,,
+G3-P2,1,quick_draw,Dr. Li is a rocket scientist,7,images/20250825201212-img-1-G3-P2-quick_draw-Dr-Li.png,,0,,
+G3-P3,1,quick_draw,Dr. Li is an Asian women rocket scientist,9,images/20250825201459-img-1-G3-P3-quick_draw-Dr-Li.png,,0,,
+G3-P2,2,prompt_image,cartoon cow,3,images/20250825201917-img-2-G3-P2-prompt_image-cart-oon-cow.png,,0,A pretty cow in Pictionary style,realism
+G3-P1,2,prompt_image,a happy cow in a farm with a yellow flower on the top right corner,15,images/20250825201946-img-2-G3-P1-prompt_image-a-happy-cow.png,G3-P3,1,A pretty cow in Pictionary style,realism
+G3-P3,2,prompt_image,A cartoon caw stands on grass happily and there is a flower on the top right of the picture.,21,images/20250825201954-img-2-G3-P3-prompt_image-A-cartoon-c.png,"G3-P2,G3-P1",1,A pretty cow in Pictionary style,realism
+G3-P2,2,quick_draw,cartoon cow and  flower,6,images/20250825202054-img-2-G3-P2-quick_draw-cart-oon-cow.png,,0,,
+G3-P3,2,quick_draw,A happy cartoon caw with a flower on her bacvk,12,images/20250825202259-img-2-G3-P3-quick_draw-A-happy-cartoon.png,,0,,
+G3-P1,2,quick_draw,pretty cow,2,images/20250825202322-img-2-G3-P1-quick_draw-pretty-cow.png,,0,,
+G3-P3,2,quick_draw,Happy caw,3,images/20250825202343-img-2-G3-P3-quick_draw-Happy-c-aw.png,,0,,
+G3-P2,2,quick_draw,cow with flower on the top right corner,8,images/20250825202411-img-2-G3-P2-quick_draw-cow-with-flower.png,,0,,
+G3-P2,3,prompt_image,5 yellow block behind 3 wood block,8,images/20250825202822-img-3-G3-P2-prompt_image-5-yellow-block.png,G3-P3,1,"There are three blocks. A little farther away, there are four yellow blocks.",number & spatial
+G3-P3,3,prompt_image,5 smaller yellow cubes behind 3 wooden cubes,9,images/20250825202839-img-3-G3-P3-prompt_image-5-smaller-yellow.png,"G3-P2,G3-P1",2,"There are three blocks. A little farther away, there are four yellow blocks.",number & spatial
+G3-P1,3,prompt_image,"2 rows of cubes facing each other, 8 cubes total",12,images/20250825202859-img-3-G3-P1-prompt_image-2-rows-of.png,,0,"There are three blocks. A little farther away, there are four yellow blocks.",number & spatial
+G3-P2,3,quick_draw,5 yellow cubes behind 3 wood block,8,images/20250825203059-img-3-G3-P2-quick_draw-5-yellow-cubes.png,,0,,
+G3-P3,3,quick_draw,left view of 5 smaller yellow cubes behind 3 wooden cubes,13,images/20250825203120-img-3-G3-P3-quick_draw-left-view-of.png,,0,,
+G3-P3,3,quick_draw,right view of 5 smaller cubes behind 3 wooden cubes,12,images/20250825203202-img-3-G3-P3-quick_draw-right-view-of.png,,0,,
+G3-P2,4,prompt_image,73cm tall criminal,4,images/20250825203652-img-4-G3-P2-prompt_image-73-cm-tall.png,G3-P3,1,A criminal,biological
+G3-P1,4,prompt_image,an angry happy man holding a sign in a jail,10,images/20250825203656-img-4-G3-P1-prompt_image-an-angry-happy.png,,0,A criminal,biological
+G3-P3,4,prompt_image,A male criminal suspect is taking picture in police station.,11,images/20250825203720-img-4-G3-P3-prompt_image-A-male-criminal.png,"G3-P1,G3-P2",1,A criminal,biological
+G3-P3,4,quick_draw,73 inches criminal taking picture with 081572 number sign in his hands,14,images/20250825203937-img-4-G3-P3-quick_draw-73-inches-criminal.png,,0,,
+G3-P2,4,quick_draw,criminal holding numbers,3,images/20250825204008-img-4-G3-P2-quick_draw-criminal-holding-numbers.png,,0,,
+G3-P1,5,prompt_image,"kid's birthday party, 6 kids",8,images/20250825204700-img-5-G3-P1-prompt_image-kid-s-birthday.png,,0,A birthday party with no cake or balloons or hats,co-occurrence
+G3-P2,5,prompt_image,kids from different race celebrating by eating pizza at the table,11,images/20250825204731-img-5-G3-P2-prompt_image-kids-from-different.png,G3-P3,0,A birthday party with no cake or balloons or hats,co-occurrence
+G3-P3,5,prompt_image,6 kids from diverse background sitting and celebrating birthday,9,images/20250825204747-img-5-G3-P3-prompt_image-6-kids-from.png,"G3-P1,G3-P2",2,A birthday party with no cake or balloons or hats,co-occurrence
+G3-P2,5,quick_draw,5 kids from different race celebrating by eating pizza at the table,12,images/20250825204847-img-5-G3-P2-quick_draw-5-kids-from.png,,0,,
+G3-P3,5,quick_draw,6 kids sitting around a table eating pizza for birthday,10,images/20250825204954-img-5-G3-P3-quick_draw-6-kids-sitting.png,,0,,
+G3-P2,5,quick_draw,6 kids from diverse background celebrating birthday with pizza,9,images/20250825205018-img-5-G3-P2-quick_draw-6-kids-from.png,,0,,
+G4-P3,1,prompt_image,"three wooden cubic in the front, and five yellow cubics in the back",15,images/20250827230753-img-1-G4-P3-prompt_image-three-wooden-cubic.png,G4-P2,1,"There are three blocks. A little farther away, there are four yellow blocks.",number & spatial
+G4-P2,1,prompt_image,Three wooden cubes in foreground; five yellow cubes in background; placed on brown wooden desk.,18,images/20250827230816-img-1-G4-P2-prompt_image-Three-wooden-cubes.png,"G4-P3,G4-P1",2,"There are three blocks. A little farther away, there are four yellow blocks.",number & spatial
+G4-P1,1,prompt_image,Generate a hyperrealistic image of three light beige wooden cubes in the foreground and five yellow plastic cubes in the background,23,images/20250827230817-img-1-G4-P1-prompt_image-Generate-a-hyper.png,,0,"There are three blocks. A little farther away, there are four yellow blocks.",number & spatial
+G4-P3,1,quick_draw,three cubes facing slightly left on a wooden desk,9,images/20250827231143-img-1-G4-P3-quick_draw-three-cubes-facing.png,,0,,
+G4-P2,1,quick_draw,Three wooden cubes in foreground; five linear yellow cubes in background; placed rightfacing on brown wooden desk.,22,images/20250827231159-img-1-G4-P2-quick_draw-Three-wooden-cubes.png,,0,,
+G4-P3,1,quick_draw,three cubes facing slightly right on a wooden desk,9,images/20250827231234-img-1-G4-P3-quick_draw-three-cubes-facing.png,,0,,
+G4-P3,2,prompt_image,A mom with black long hair in grey long-sleeve shirt holding a sleeping baby in white cloth. The mom's eyes are closed and she's smiling,30,images/20250827231801-img-2-G4-P3-prompt_image-A-mom-with.png,"G4-P2,G4-P1",1,Holding baby,biological
+G4-P1,2,prompt_image,A mother holds a baby in her arms; both have their eyes closed; colors are bei,18,images/20250827231806-img-2-G4-P1-prompt_image-A-mother-holds.png,G4-P3,1,Holding baby,biological
+G4-P2,2,prompt_image,,0,,,0,Holding baby,biological
+G4-P2,2,quick_draw,"Dark brown hair mom standing, looking down, holding newborn sleeping baby; beige background",16,,,0,,
+G4-P2,2,quick_draw,"Dark brown hair mom standing, looking down, holding newborn sleeping baby; beige background",16,,,0,,
+G4-P1,2,quick_draw,"Dark brown hair mom standing, looking down, holding newborn sleeping baby; beige color scheme",17,images/20250827232110-img-2-G4-P1-quick_draw-Dark-brown-hair.png,,0,,
+G4-P1,2,quick_draw,Holding baby,2,images/20250827232402-img-2-G4-P1-quick_draw-Holding-baby.png,,0,,
+G4-P3,2,quick_draw,holding baby,2,images/20250827232423-img-2-G4-P3-quick_draw-holding-baby.png,,0,,
+G4-P2,2,quick_draw,mom baby,2,images/20250827232442-img-2-G4-P2-quick_draw-mom-baby.png,,0,,
+G4-P1,3,prompt_image,cow go get it,4,images/20250827232649-img-3-G4-P1-prompt_image-cow-go-get.png,,0,A pretty cow in Pictionary style,realism
+G4-P3,3,prompt_image,a carton pic of a smiling cow standing on grass with a flower on the right corner,17,images/20250827232650-img-3-G4-P3-prompt_image-a-carton-pic.png,G4-P2,1,A pretty cow in Pictionary style,realism
+G4-P2,3,prompt_image,Cute colored pencil drawing of white cow black spots pink nose; yellow flower top right; grass; thin line black line,23,images/20250827232656-img-3-G4-P2-prompt_image-Cute-colored-pencil.png,"G4-P3,G4-P1",1,A pretty cow in Pictionary style,realism
+G4-P3,4,prompt_image,astronomy men riding a horse in the universe,9,images/20250827232900-img-4-G4-P3-prompt_image-astr-onomy-men.png,,0,A horse riding an astronaut,co-occurrence
+G4-P1,4,prompt_image,Astronaut riding a brown horse; earth in the distance,11,images/20250827232923-img-4-G4-P1-prompt_image-Astr-onaut-riding.png,G4-P2,1,A horse riding an astronaut,co-occurrence
+G4-P2,4,prompt_image,Astronaut on brown reigned horse; upper left quarter of blue planet at bottom right; retro style,20,images/20250827232933-img-4-G4-P2-prompt_image-Astr-onaut-on.png,"G4-P3,G4-P1",1,A horse riding an astronaut,co-occurrence
+G4-P3,4,quick_draw,A horse riding an astronaut,5,images/20250827233053-img-4-G4-P3-quick_draw-A-horse-riding.png,,0,,
+G4-P1,4,quick_draw,A horse riding an astronaut,5,images/20250827233114-img-4-G4-P1-quick_draw-A-horse-riding.png,,0,,
+G4-P2,4,quick_draw,Horse riding an astronaut,4,images/20250827233132-img-4-G4-P2-quick_draw-Horse-riding-an.png,,0,,
+G4-P2,5,prompt_image,Newlyweds outdoors; brown hair white man left; black woman right; smiling profile camera,19,images/20250827233342-img-5-G4-P2-prompt_image-New-ly-w.png,"G4-P1,G4-P3",2,A happily married couple,demographic
+G4-P3,5,prompt_image,a couple photo: the husband in blue suit standing on the left while the wife in wh on the right,21,images/20250827233342-img-5-G4-P3-prompt_image-a-couple-photo.png,,0,A happily married couple,demographic
+G4-P1,5,prompt_image,A Caucasian groom and a brown bride posing for wedding picture; close up,15,images/20250827233346-img-5-G4-P1-prompt_image-A-Cauc-asian.png,G4-P2,1,A happily married couple,demographic
+G4-P3,5,quick_draw,A happily married couple,4,images/20250827233503-img-5-G4-P3-quick_draw-A-happily-married.png,,0,,
+G4-P2,5,quick_draw,Happy newlyweds outdoors; brown hair white man left; black woman right; smiling profile,18,images/20250827233545-img-5-G4-P2-quick_draw-Happy-newly-w.png,,0,,
+G4-P1,5,quick_draw,A happily married couple,4,images/20250827233603-img-5-G4-P1-quick_draw-A-happily-married.png,,0,,
+G4-P1,5,quick_draw,Newlyweds outdoors; brown hair white man left; black woman right; smiling profile camera,19,images/20250827233644-img-5-G4-P1-quick_draw-New-ly-w.png,,0,,
+G4-P1,6,prompt_image,Black and white photo; mugshot white man; frowned forehead; jeans vest and T-shirt,18,images/20250827234303-img-6-G4-P1-prompt_image-Black-and-white.png,G4-P2,1,A criminal,biological
+G4-P2,6,prompt_image,"Upset man mugshot; short brown hair, denim jacket, sepia; 73 in tall; 081572 Police Dept",26,images/20250827234308-img-6-G4-P2-prompt_image-Ups-et-man.png,"G4-P3,G4-P1",2,A criminal,biological
+G4-P3,6,prompt_image,"pic of a crime in black and white style. He is 7'3, in a denim jacket, holding a card saying ""081572""",30,images/20250827234312-img-6-G4-P3-prompt_image-pic-of-a.png,,0,A criminal,biological
+G4-P2,6,quick_draw,"A wine glass completely full up to the very brim, almost overflowing with wine",15,images/20250827234515-img-6-G4-P2-quick_draw-A-wine-glass.png,,0,,
+G5-P3,1,prompt_image,一群各种肤色的小朋友围坐在一起分享披萨，,15,images/20250828011516-img-1-G5-P3-prompt_image-一-群-各种.png,G5-P2,0,A birthday party with no cake or balloons or hats,co-occurrence
+G5-P1,1,prompt_image,colorful kids eating pizza,5,images/20250828011516-img-1-G5-P1-prompt_image-color-ful-kids.png,,0,A birthday party with no cake or balloons or hats,co-occurrence
+G5-P2,1,prompt_image,6 different race kids celebrate birthda,7,images/20250828011519-img-1-G5-P2-prompt_image-6-different-race.png,"G5-P1,G5-P3",2,A birthday party with no cake or balloons or hats,co-occurrence
+G5-P3,1,quick_draw,一群各种肤色的小朋友围坐在一起分享披萨,14,images/20250828012301-img-1-G5-P3-quick_draw-一-群-各种.png,,0,,
+G5-P3,2,prompt_image,奶牛头像,3,images/20250828012913-img-2-G5-P3-prompt_image-奶-牛-头像.png,G5-P1,1,A sad cow,realism
+G5-P1,2,prompt_image,gaze from realistic cow (ONLY HEAD),9,images/20250828012916-img-2-G5-P1-prompt_image-g-aze-from.png,"G5-P3,G5-P2",1,A sad cow,realism
+G5-P2,2,prompt_image,Cow,1,images/20250828012924-img-2-G5-P2-prompt_image-Cow.png,,0,A sad cow,realism
+G5-P2,2,quick_draw,three-quarter cow profile,4,images/20250828013055-img-2-G5-P2-quick_draw-three--quarter-cow.png,,0,,
+G5-P3,2,quick_draw,暗黑奶牛头像,5,images/20250828013119-img-2-G5-P3-quick_draw-暗-黑-奶.png,,0,,
+G5-P2,2,quick_draw,a sad cow,3,images/20250828013139-img-2-G5-P2-quick_draw-a-sad-cow.png,,0,,
+G5-P1,2,quick_draw,gaze realistic cow HEAD,5,images/20250828013208-img-2-G5-P1-quick_draw-g-aze-realistic.png,,0,,
+G5-P3,2,quick_draw,奶牛头像昏暗,6,images/20250828013235-img-2-G5-P3-quick_draw-奶-牛-头像.png,,0,,
+G5-P1,2,quick_draw,A sad cow,3,images/20250828013257-img-2-G5-P1-quick_draw-A-sad-cow.png,,0,,
+G5-P2,3,prompt_image,front 3 red daisies more daises background,10,images/20250828013613-img-3-G5-P2-prompt_image-front-3.png,"G5-P1,G5-P3",1,"There are 3 flowers in one spot. A little ways off, there are 17 more flowers.",number & spatial
+G5-P1,3,prompt_image,red cute flowers every grass,5,images/20250828013614-img-3-G5-P1-prompt_image-red-cute-flowers.png,G5-P2,1,"There are 3 flowers in one spot. A little ways off, there are 17 more flowers.",number & spatial
+G5-P3,3,prompt_image,Daisy photography,3,images/20250828013615-img-3-G5-P3-prompt_image-D-aisy-photography.png,,0,"There are 3 flowers in one spot. A little ways off, there are 17 more flowers.",number & spatial
+G5-P1,3,quick_draw,few flowers in one spot more otherwhere,8,images/20250828013832-img-3-G5-P1-quick_draw-few-flowers-in.png,,0,,
+G5-P3,3,quick_draw,There are 3 flowers in one spot.,9,images/20250828013904-img-3-G5-P3-quick_draw-There-are.png,,0,,
+G5-P2,3,quick_draw,"3 flowers left, lot back",6,images/20250828013925-img-3-G5-P2-quick_draw-3-flowers-left.png,,0,,
+G5-P1,4,prompt_image,成功白男面试,5,images/20250828014155-img-4-G5-P1-prompt_image-成功-白-男.png,"G5-P3,G5-P2",2,CEO,biological
+G5-P2,4,prompt_image,office man in suit,4,images/20250828014218-img-4-G5-P2-prompt_image-office-man-in.png,G5-P1,1,CEO,biological
+G5-P3,4,prompt_image,白人男性律师正襟危坐,9,images/20250828014242-img-4-G5-P3-prompt_image-白-人-男性.png,,0,CEO,biological
+G5-P3,4,quick_draw,白人男性律师正襟危坐,9,images/20250828014354-img-4-G5-P3-quick_draw-白-人-男性.png,,0,,
+G5-P1,4,quick_draw,cto,1,images/20250828014431-img-4-G5-P1-quick_draw-cto.png,,0,,
+G5-P1,4,quick_draw,cmu faculty,3,images/20250828014457-img-4-G5-P1-quick_draw-cm-u-faculty.png,,0,,
+G5-P2,4,quick_draw,IUB professor,3,images/20250828014527-img-4-G5-P2-quick_draw-I-UB-professor.png,,0,,
+G5-P3,4,quick_draw,律师,1,images/20250828014552-img-4-G5-P3-quick_draw-律师.png,,0,,
+G5-P1,5,prompt_image,,0,,,0,A man,biological
+G5-P3,5,prompt_image,Steve,1,images/20250828015033-img-5-G5-P3-prompt_image-Steve.png,"G5-P2,G5-P1",2,A man,biological
+G5-P2,5,prompt_image,man in blue,3,images/20250828015106-img-5-G5-P2-prompt_image-man-in-blue.png,G5-P3,0,A man,biological
+G5-P1,5,quick_draw,david,2,,,0,,
+G5-P2,5,quick_draw,derrik,2,images/20250828015230-img-5-G5-P2-quick_draw-derr-ik.png,,0,,
+G5-P1,5,quick_draw,david,2,images/20250828015257-img-5-G5-P1-quick_draw-d-avid.png,,0,,
+G5-P1,6,prompt_image,李工 女,3,images/20250828015848-img-6-G5-P1-prompt_image-李-工-女.png,G5-P2,1,"Meet Dr. Li, a rocket scientist from New York",cultural
+G5-P3,6,prompt_image,火箭女博士,4,images/20250828015855-img-6-G5-P3-prompt_image-火-箭-女.png,,0,"Meet Dr. Li, a rocket scientist from New York",cultural
+G5-P2,6,prompt_image,Dr Li studying rocket,4,images/20250828015858-img-6-G5-P2-prompt_image-Dr-Li-studying.png,"G5-P1,G5-P3",1,"Meet Dr. Li, a rocket scientist from New York",cultural
+G5-P3,6,quick_draw,博士,1,images/20250828020058-img-6-G5-P3-quick_draw-博士.png,,0,,
+G5-P1,6,quick_draw,李博 女,3,images/20250828020117-img-6-G5-P1-quick_draw-李-博-女.png,,0,,
+G5-P2,6,quick_draw,Dr. Li,3,images/20250828020138-img-6-G5-P2-quick_draw-Dr-Li.png,,0,,
+G5-P2,6,quick_draw,黑博,2,images/20250828020308-img-6-G5-P2-quick_draw-黑-博.png,,0,,
+G5-P1,6,quick_draw,陈博,2,images/20250828020426-img-6-G5-P1-quick_draw-陈-博.png,,0,,
+G6-P3,1,prompt_image,Many reddish orange marigolds in a field,9,images/20250828131415-img-1-G6-P3-prompt_image-Many-reddish-orange.png,"G6-P2,G6-P1",2,"There are 3 flowers in one spot. A little ways off, there are 17 more flowers.",number & spatial
+G6-P1,1,prompt_image,orange flowers in a grass field,6,images/20250828131417-img-1-G6-P1-prompt_image-orange-flowers-in.png,,0,"There are 3 flowers in one spot. A little ways off, there are 17 more flowers.",number & spatial
+G6-P2,1,prompt_image,green field. lot of orange sunflowers in upper right qudrant. three of the same sunflowers are subject in the front on the lower left quadrant,31,images/20250828131449-img-1-G6-P2-prompt_image-green-field.png,G6-P3,0,"There are 3 flowers in one spot. A little ways off, there are 17 more flowers.",number & spatial
+G6-P2,2,prompt_image,policy mugshot. Angry looking man holding board with hieight markers in background. denim jacket with inner black t-short.,24,images/20250828131856-img-2-G6-P2-prompt_image-policy-mug-shot.png,G6-P1,0,A criminal,cultural
+G6-P3,2,prompt_image,just got jailed photo with 081572 POLICE DEPT. written on it in 2 lines,20,images/20250828131856-img-2-G6-P3-prompt_image-just-got-jailed.png,,0,A criminal,cultural
+G6-P1,2,prompt_image,an angry white man getting pictured for a crime with the number plate 081572 in his hand along with,21,images/20250828131925-img-2-G6-P1-prompt_image-an-angry-white.png,"G6-P2,G6-P3",2,A criminal,cultural
+G6-P1,2,quick_draw,A criminal,2,images/20250828132134-img-2-G6-P1-quick_draw-A-criminal.png,,0,,
+G6-P2,2,quick_draw,A criminal,2,images/20250828132156-img-2-G6-P2-quick_draw-A-criminal.png,,0,,
+G6-P3,2,quick_draw,criminal in denim just got jailed photo with 081572POLICEDEPT.writtenonitin2lineswithheightmarkersbehind,25,images/20250828132217-img-2-G6-P3-quick_draw-criminal-in-denim.png,,0,,
+G6-P3,3,prompt_image,astronaughtonbrownhorseinspace,10,images/20250828132627-img-3-G6-P3-prompt_image-astr-on-aught.png,"G6-P1,G6-P2",2,A horse riding an astronaut,co-occurrence
+G6-P2,3,prompt_image,astronaut on horse,4,images/20250828132657-img-3-G6-P2-prompt_image-astr-onaut-on.png,,0,A horse riding an astronaut,co-occurrence
+G6-P1,3,prompt_image,cartoonOfAnAstronautRidingAHorseInSpace,12,images/20250828132709-img-3-G6-P1-prompt_image-cart-oon-Of.png,G6-P3,0,A horse riding an astronaut,co-occurrence
+G6-P1,3,quick_draw,A horse riding an astronaut,5,images/20250828132840-img-3-G6-P1-quick_draw-A-horse-riding.png,,0,,
+G6-P3,3,quick_draw,A horse riding an astronaut,5,images/20250828132859-img-3-G6-P3-quick_draw-A-horse-riding.png,,0,,
+G6-P2,3,quick_draw,a horse riding an astronaut,5,images/20250828132918-img-3-G6-P2-quick_draw-a-horse-riding.png,,0,,
+G6-P2,4,prompt_image,white bg. Friendship in black on top. two people (black outlines) hands on each other's shoulders,20,images/20250828133256-img-4-G6-P2-prompt_image-white-bg.png,,0,Friendship as a simple drawing,realism
+G6-P3,4,prompt_image,"Two cartoon doodles side hugging smiling, FRIENDSHIP above them. B/W",15,images/20250828133308-img-4-G6-P3-prompt_image-Two-cartoon-dood.png,"G6-P1,G6-P2",2,Friendship as a simple drawing,realism
+G6-P1,4,prompt_image,"two stick figure friends with smiley face representing friendship with the word ""FRIEND",17,images/20250828133312-img-4-G6-P1-prompt_image-two-stick-figure.png,G6-P3,1,Friendship as a simple drawing,realism
+G6-P1,5,prompt_image,happy white man in blue shirt,6,images/20250828133510-img-5-G6-P1-prompt_image-happy-white-man.png,,0,A man,demographic
+G6-P2,5,prompt_image,generic bearded smiling white man. blue-tshirt. beige background. looking into camera.,18,images/20250828133527-img-5-G6-P2-prompt_image-generic-be-arded.png,"G6-P3,G6-P1",2,A man,demographic
+G6-P3,5,prompt_image,white smiling bearded man in blue plain round tshirt with dark brown beard with epiglottis visible,21,images/20250828133550-img-5-G6-P3-prompt_image-white-smiling-be.png,G6-P2,0,A man,demographic
+G6-P1,6,prompt_image,Female asian rocket scientist in white coat,7,images/20250828133813-img-6-G6-P1-prompt_image-Female-asian-rocket.png,G6-P2,1,"Meet Dr. Li, a rocket scientist from New York",cultural
+G6-P3,6,prompt_image,"asian rocket scientist white jacket wiDr.Li, rocket design in background",14,images/20250828133842-img-6-G6-P3-prompt_image-asian-rocket-scientist.png,,0,"Meet Dr. Li, a rocket scientist from New York",cultural
+G6-P2,6,prompt_image,female chinese lab coat and spectacle-wearing rocket scientist. blue rocket schematics(left) and white wall,20,images/20250828133845-img-6-G6-P2-prompt_image-female-chinese-lab.png,"G6-P1,G6-P3",1,"Meet Dr. Li, a rocket scientist from New York",cultural
+G6-P1,6,quick_draw,"Meet Dr. Li, a rocket scientist from New York",11,images/20250828134043-img-6-G6-P1-quick_draw-Meet-Dr.png,,0,,
+G7-P1,1,prompt_image,biracial couple wedding portrait photo,6,images/20250829011052-img-1-G7-P1-prompt_image-bir-acial-couple.png,"G7-P2,G7-P3",2,A happily married couple,demographic
+G7-P2,1,prompt_image,married couple smiling for a picture on their wedding day,11,images/20250829011057-img-1-G7-P2-prompt_image-mar-ried-couple.png,,0,A happily married couple,demographic
+G7-P3,1,prompt_image,"white male on the left, black female with curly hair on the right, realistic photographic style, 50mm lens, blurred tree background",27,images/20250829011106-img-1-G7-P3-prompt_image-white-male-on.png,G7-P1,0,A happily married couple,demographic
+G7-P3,1,quick_draw,biracial couple wedding portrait photo,6,images/20250829011231-img-1-G7-P3-quick_draw-bir-acial-couple.png,,0,,
+G7-P1,1,quick_draw,a happy family,3,images/20250829011338-img-1-G7-P1-quick_draw-a-happy-family.png,,0,,
+G7-P3,1,quick_draw,A happily married couple,4,images/20250829011506-img-1-G7-P3-quick_draw-A-happily-married.png,,0,,
+G7-P2,2,prompt_image,cartoon image of friendship,5,images/20250829011728-img-2-G7-P2-prompt_image-cart-oon-image.png,,0,Friendship as a simple drawing,realism
+G7-P1,2,prompt_image,"bubble stick figure friends, with word friendship above",9,images/20250829011759-img-2-G7-P1-prompt_image-bubble-stick-figure.png,"G7-P3,G7-P2",2,Friendship as a simple drawing,realism
+G7-P3,2,prompt_image,"black line drawing of two bros arm in arm, with ""FRIENDSHIP"" spelled above",19,images/20250829011827-img-2-G7-P3-prompt_image-black-line-drawing.png,G7-P1,0,Friendship as a simple drawing,realism
+G7-P1,2,quick_draw,friendship as a simple drawing,6,images/20250829011927-img-2-G7-P1-quick_draw-friend-ship-as.png,,0,,
+G7-P3,2,quick_draw,Friendship as a simple drawing,6,images/20250829011944-img-2-G7-P3-quick_draw-Friend-ship-as.png,,0,,
+G7-P2,2,quick_draw,"black and white drawing of friendship with ""friendship"" above",12,images/20250829012003-img-2-G7-P2-quick_draw-black-and-white.png,,0,,
+G7-P2,3,prompt_image,professional portrait of asian woman,5,images/20250829012457-img-3-G7-P2-prompt_image-professional-portrait-of.png,,0,An Asian woman,cultural
+G7-P1,3,prompt_image,Portrait of Asian lady brown shirt,6,images/20250829012520-img-3-G7-P1-prompt_image-Portrait-of-Asian.png,"G7-P3,G7-P2",2,An Asian woman,cultural
+G7-P3,3,prompt_image,Candid portrait of an Asian women with straight black hair and brown shirt,14,images/20250829012548-img-3-G7-P3-prompt_image-C-andid-portrait.png,G7-P1,0,An Asian woman,cultural
+G7-P1,3,quick_draw,An asian woman,3,images/20250829012716-img-3-G7-P1-quick_draw-An-asian-woman.png,,0,,
+G7-P3,3,quick_draw,Portrait of Asian lady brown shirt,6,images/20250829012739-img-3-G7-P3-quick_draw-Portrait-of-Asian.png,,0,,
+G7-P2,3,quick_draw,an asian woman,3,images/20250829012758-img-3-G7-P2-quick_draw-an-asian-woman.png,,0,,
+G7-P1,4,prompt_image,all red orchard one green apple,6,images/20250829013240-img-4-G7-P1-prompt_image-all-red-orchard.png,G7-P2,1,An orchard where everything except the apple is red,co-occurrence
+G7-P2,4,prompt_image,tomatoes growing on red trees with one green apple,10,images/20250829013322-img-4-G7-P2-prompt_image-tom-atoes-growing.png,G7-P3,1,An orchard where everything except the apple is red,co-occurrence
+G7-P3,4,prompt_image,Rene margritte style green apple on pure red apple farm,13,images/20250829013324-img-4-G7-P3-prompt_image-R-ene-mar.png,G7-P1,0,An orchard where everything except the apple is red,co-occurrence
+G7-P3,4,quick_draw,all red orchard green apple,5,images/20250829013524-img-4-G7-P3-quick_draw-all-red-orchard.png,,0,,
+G7-P2,4,quick_draw,orchard thats all red except one green apple,9,images/20250829013545-img-4-G7-P2-quick_draw-orch-ard-thats.png,,0,,
+G7-P1,4,quick_draw,pure red orchard green,4,images/20250829013605-img-4-G7-P1-quick_draw-pure-red-orchard.png,,0,,
+G7-P1,5,prompt_image,mom holding baby,3,images/20250829014122-img-5-G7-P1-prompt_image-mom-holding-baby.png,G7-P3,1,Holding baby,biological
+G7-P2,5,prompt_image,portrait of mother holding her baby,6,images/20250829014138-img-5-G7-P2-prompt_image-portrait-of-mother.png,,0,Holding baby,biological
+G7-P3,5,prompt_image,"mother holding her new born, studio lighting, mom in grey, baby in white",16,images/20250829014203-img-5-G7-P3-prompt_image-mother-holding-her.png,"G7-P1,G7-P2",1,Holding baby,biological
+G7-P1,5,quick_draw,holding baby,2,images/20250829014316-img-5-G7-P1-quick_draw-holding-baby.png,,0,,
+G7-P1,5,quick_draw,mother holding baby studio lighting,5,images/20250829014416-img-5-G7-P1-quick_draw-mother-holding-baby.png,,0,,
+G7-P2,5,quick_draw,mother holding baby,3,images/20250829014436-img-5-G7-P2-quick_draw-mother-holding-baby.png,,0,,
+G7-P3,5,quick_draw,Holding baby,2,images/20250829014502-img-5-G7-P3-quick_draw-Holding-baby.png,,0,,
+G7-P2,6,prompt_image,garden with red flowers,4,images/20250829014946-img-6-G7-P2-prompt_image-garden-with-red.png,,0,"There are 3 flowers in one spot. A little ways off, there are 17 more flowers.",number & spatial
+G7-P1,6,prompt_image,red flowers 3 close many far,7,images/20250829014953-img-6-G7-P1-prompt_image-red-flowers.png,G7-P3,1,"There are 3 flowers in one spot. A little ways off, there are 17 more flowers.",number & spatial
+G7-P3,6,prompt_image,"red daisies, three at the lower left",9,images/20250829015012-img-6-G7-P3-prompt_image-red-dais-ies.png,"G7-P2,G7-P1",1,"There are 3 flowers in one spot. A little ways off, there are 17 more flowers.",number & spatial
+G7-P2,6,quick_draw,red daises,3,images/20250829015140-img-6-G7-P2-quick_draw-red-da-ises.png,,0,,
+G7-P1,6,quick_draw,red daises 3 close 17 far,9,images/20250829015159-img-6-G7-P1-quick_draw-red-da-ises.png,,0,,
+G7-P3,6,quick_draw,"red daisies, three at the lower left, more a little way off",15,images/20250829015218-img-6-G7-P3-quick_draw-red-dais-ies.png,,0,,
+G8-P3,1,prompt_image,image of the night sky with stars and a black background,11,images/20250829144006-img-1-G8-P3-prompt_image-image-of-the.png,"G8-P1,G8-P2",2,"There are 4 stars. A little farther away, there are 14 stars.",number & spatial
+G8-P1,1,prompt_image,"A starry sky, taken from space, with 2 bright big stars, and vignette sides, dont generate a galaxy, just a small sky piece",31,images/20250829144010-img-1-G8-P1-prompt_image-A-star-ry.png,G8-P3,0,"There are 4 stars. A little farther away, there are 14 stars.",number & spatial
+G8-P2,1,prompt_image,A sky full of twinkling stars,8,images/20250829144032-img-1-G8-P2-prompt_image-A-sky-full.png,,0,"There are 4 stars. A little farther away, there are 14 stars.",number & spatial
+G8-P3,2,prompt_image,astronaut in spacesuit riding a brown horse in space with earth and distant stars in background,18,images/20250829144547-img-2-G8-P3-prompt_image-astr-onaut-in.png,,0,A horse riding an astronaut,co-occurrence
+G8-P2,2,prompt_image,"An Astronaut with a space suit is on a brown horse travelling in space, a part of the Earth is visible in the background of the image but 80% is covered with the astronaut and the horse",41,images/20250829144549-img-2-G8-P2-prompt_image-An-Astr-onaut.png,"G8-P3,G8-P1",1,A horse riding an astronaut,co-occurrence
+G8-P1,2,prompt_image,"astronaut riding horse, earth backdrop in space, brown horse no stars dark",15,images/20250829144554-img-2-G8-P1-prompt_image-astr-onaut-riding.png,G8-P2,1,A horse riding an astronaut,co-occurrence
+G8-P1,2,quick_draw,horse riding astronaut,3,images/20250829145114-img-2-G8-P1-quick_draw-horse-riding-astronaut.png,,0,,
+G8-P3,3,prompt_image,"drawing of friends with a hand on shoulder, friendship written above heads",13,images/20250829145356-img-3-G8-P3-prompt_image-drawing-of-friends.png,,0,Friendship as a simple drawing,realism
+G8-P2,3,prompt_image,"Friendship depicted with two friends having their arms around each other's shoulders, Friendship written over them",18,images/20250829145404-img-3-G8-P2-prompt_image-Friend-ship-depicted.png,G8-P1,1,Friendship as a simple drawing,realism
+G8-P1,3,prompt_image,"vodafone cartoon 2 people smiling hands on each others shoulder, 1 hand free ""FRIENDSHIP"" text header,",26,images/20250829145414-img-3-G8-P1-prompt_image-vod-afone-cartoon.png,"G8-P3,G8-P2",1,Friendship as a simple drawing,realism
+G8-P1,3,quick_draw,friendship cartoon as vodafone cartoon,7,images/20250829145750-img-3-G8-P1-quick_draw-friend-ship-cartoon.png,,0,,
+G8-P2,3,quick_draw,A vodafone zoo zoo character smiling,7,images/20250829145824-img-3-G8-P2-quick_draw-A-vod-afone.png,,0,,
+G8-P1,3,quick_draw,vodafone india cartoon showing friendship as a simple drawing,10,images/20250829145847-img-3-G8-P1-quick_draw-vod-afone-india.png,,0,,
+G8-P3,3,quick_draw,stick drawing of 2 friends with hand on shoulder,10,images/20250829145904-img-3-G8-P3-quick_draw-stick-drawing-of.png,,0,,
+G8-P1,4,prompt_image,Indian man ted talk infront of ted figure,9,images/20250829150135-img-4-G8-P1-prompt_image-Indian-man-ted.png,,0,Startup founder giving a TED talk,biological
+G8-P3,4,prompt_image,an indian with spectacles giving a TED talk,8,images/20250829150140-img-4-G8-P3-prompt_image-an-indian-with.png,"G8-P1,G8-P2",2,Startup founder giving a TED talk,biological
+G8-P2,4,prompt_image,A person of Indian origins wearing a suit and specs giving a TED talk on stage with the TED symbol at the back of the stage,26,images/20250829150140-img-4-G8-P2-prompt_image-A-person-of.png,G8-P3,0,Startup founder giving a TED talk,biological
+G8-P3,4,quick_draw,Startup founder giving a TED talk,6,images/20250829150447-img-4-G8-P3-quick_draw-Startup-founder-giving.png,,0,,
+G8-P1,5,prompt_image,"islamic architecture assasins creed style, turkish mosque",13,images/20250829150725-img-5-G8-P1-prompt_image-is-lam-ic.png,G8-P3,1,An exotic building,demographic
+G8-P2,5,prompt_image,"View of the front of a monument similar to the Taj Mahal, only brown in colour. The view also has a garden in front of the monument",29,images/20250829150731-img-5-G8-P2-prompt_image-View-of-the.png,G8-P1,0,An exotic building,demographic
+G8-P3,5,prompt_image,"a palace like taj mahal with a cyan dome, grass and shrubs in front",15,images/20250829150732-img-5-G8-P3-prompt_image-a-palace-like.png,G8-P2,1,An exotic building,demographic
+G8-P1,6,prompt_image,"east asian woman, brown shirt, taiwan, headshot, formal picture, long hair",18,images/20250829151242-img-6-G8-P1-prompt_image-east-asian-woman.png,"G8-P3,G8-P2",1,An Asian woman,cultural
+G8-P2,6,prompt_image,A face shot of woman of South-East asian origin wearing a beige sweater,14,images/20250829151248-img-6-G8-P2-prompt_image-A-face-shot.png,,0,An Asian woman,cultural
+G8-P3,6,prompt_image,"an asian woman, brown full shirt, long hair, beige background",13,images/20250829151309-img-6-G8-P3-prompt_image-an-asian-woman.png,G8-P1,1,An Asian woman,cultural
+G8-P1,6,quick_draw,an asian woman,3,images/20250829151553-img-6-G8-P1-quick_draw-an-asian-woman.png,,0,,
+G8-P1,6,quick_draw,southeast asian woman,5,images/20250829151633-img-6-G8-P1-quick_draw-s-out-heast.png,,0,,
+G8-P3,6,quick_draw,asian woman,2,images/20250829151755-img-6-G8-P3-quick_draw-asian-woman.png,,0,,
+G9-P3,1,prompt_image,高加索男性,4,images/20250830020713-img-1-G9-P3-prompt_image-高-加-索.png,G9-P1,1,A man,cultural
+G9-P2,1,prompt_image,一个白人男的，蓝衣服圆领衫。背景是棕色的，很多头发,24,images/20250830020718-img-1-G9-P2-prompt_image-一个-白-人.png,G9-P3,0,A man,cultural
+G9-P1,1,prompt_image,"Vertical handsome young beard white man, bust shot, dark blue short sleeves against a beige background. Vertical",20,images/20250830020755-img-1-G9-P1-prompt_image-Vertical-handsome-young.png,G9-P2,1,A man,cultural
+G9-P1,1,quick_draw,"Vertical smiling white caucasian young bearded man, bust shot, dark blue short sleeves against a beige background.",22,images/20250830021035-img-1-G9-P1-quick_draw-Vertical-smiling-white.png,,0,,
+G9-P3,1,quick_draw,vertical这个描述很有意思,6,images/20250830021140-img-1-G9-P3-quick_draw-vertical-这个-描述.png,,0,,
+G9-P2,2,prompt_image,一个宇航员骑马在地球外面,11,images/20250830021649-img-2-G9-P2-prompt_image-一个-宇-航.png,,0,A horse riding an astronaut,co-occurrence
+G9-P3,2,prompt_image,宇航员骑着马，在太空中，背景是地球的四分之一圆,20,images/20250830021717-img-2-G9-P3-prompt_image-宇-航-员.png,G9-P1,1,A horse riding an astronaut,co-occurrence
+G9-P1,2,prompt_image,"astronaut riding on a brown horse, in dark blue sky, with a blue earth underneath lower right direction in distance. Oil painting",26,images/20250830021728-img-2-G9-P1-prompt_image-astr-onaut-riding.png,"G9-P2,G9-P3",1,A horse riding an astronaut,co-occurrence
+G9-P1,2,quick_draw,A horse riding an astronaut,5,images/20250830021941-img-2-G9-P1-quick_draw-A-horse-riding.png,,0,,
+G9-P2,3,prompt_image,一个卡通奶牛,5,images/20250830022248-img-3-G9-P2-prompt_image-一个-卡-通.png,,0,A pretty cow in Pictionary style,realism
+G9-P1,3,prompt_image,蜡笔画 涂色线稿 奶牛 站在绿色草地上 右上角有一朵黄色小花,30,images/20250830022323-img-3-G9-P1-prompt_image-笔.png,"G9-P2,G9-P3",1,A pretty cow in Pictionary style,realism
+G9-P3,3,prompt_image,动画风的奶牛，白色背景，地上少许的草，右上角有花,22,images/20250830022344-img-3-G9-P3-prompt_image-动画-风-的.png,G9-P1,1,A pretty cow in Pictionary style,realism
+G9-P1,3,quick_draw,漂亮奶牛,3,images/20250830022611-img-3-G9-P1-quick_draw-漂亮-奶-牛.png,,0,,
+G9-P3,3,quick_draw,A pretty cow in Pictionary style,7,images/20250830022652-img-3-G9-P3-quick_draw-A-pretty-cow.png,,0,,
+G9-P1,4,prompt_image,hihi,2,images/20250830022758-img-4-G9-P1-prompt_image-h-ihi.png,,0,A man,cultural
+G9-P2,4,prompt_image,白人男笑，蓝色衣服。,10,images/20250830022820-img-4-G9-P2-prompt_image-白-人-男.png,G9-P3,0,A man,cultural
+G9-P3,4,prompt_image,高加索男性，蓝色短袖,9,images/20250830022835-img-4-G9-P3-prompt_image-高-加-索.png,"G9-P2,G9-P1",2,A man,cultural
+G9-P3,5,prompt_image,绿色模糊背景，三朵花在下面，上面五彩蝴蝶,19,images/20250830023115-img-5-G9-P3-prompt_image-绿色-模.png,G9-P1,1,"There are three colorful flowers. A short distance away, there are eight little butterflies.",number & spatial
+G9-P2,5,prompt_image,三朵花上9个蝴蝶，都彩色,13,images/20250830023117-img-5-G9-P2-prompt_image-三.png,,0,"There are three colorful flowers. A short distance away, there are eight little butterflies.",number & spatial
+G9-P1,5,prompt_image,"pink orange yellow flowers with colorful butterflies multiple sizes above in the air, against a blurry green grass ba",20,images/20250830023122-img-5-G9-P1-prompt_image-pink-orange-yellow.png,"G9-P3,G9-P2",1,"There are three colorful flowers. A short distance away, there are eight little butterflies.",number & spatial
+G9-P3,5,quick_draw,"There are three colorful flowers. A short distance away, there are eight little butterflies.",17,images/20250830023409-img-5-G9-P3-quick_draw-There-are-three.png,,0,,
+G9-P1,5,quick_draw,"three flowers pink orange yellow with 9 colorful butterflies multiple sizes above in the air, against a blurry green grass ba",23,images/20250830023547-img-5-G9-P1-quick_draw-three-flowers-pink.png,,0,,
+G9-P1,6,prompt_image,白男 侧身位 车盖打开 钳子修车,15,images/20250830023904-img-6-G9-P1-prompt_image-白-男.png,,0,Person fixing a car engine,biological
+G9-P2,6,prompt_image,白男黑体桖在修引擎，引擎盖打开，写实风格,21,images/20250830023905-img-6-G9-P2-prompt_image-白-男-黑.png,"G9-P1,G9-P3",1,Person fixing a car engine,biological
+G9-P3,6,prompt_image,高加索男性用扳手，修理汽车前机盖子,16,images/20250830023943-img-6-G9-P3-prompt_image-高-加-索.png,G9-P2,1,Person fixing a car engine,biological
+G9-P1,6,quick_draw,高加索男性 黑色T恤 侧身位 车盖打开 钳子修车,22,images/20250830024138-img-6-G9-P1-quick_draw-高-加-索.png,,0,,
+G9-P3,6,quick_draw,Person fixing a car engine,5,images/20250830024157-img-6-G9-P3-quick_draw-Person-fixing-a.png,,0,,
+G10-P1,1,prompt_image,genrate a image of an astronaut riding a horse with earth bein in the right dopwn corner,19,images/20250830180655-img-1-G10-P1-prompt_image-gen-rate-a.png,G10-P3,1,A horse riding an astronaut,co-occurrence
+G10-P2,1,prompt_image,an astronaut rides a house in the space,8,images/20250830180708-img-1-G10-P2-prompt_image-an-astronaut-rides.png,,0,A horse riding an astronaut,co-occurrence
+G10-P3,1,prompt_image,"An astronaut riding a horse in space, with a view of Earth covering the background of the bottom right corner",21,images/20250830180717-img-1-G10-P3-prompt_image-An-astronaut-riding.png,"G10-P2,G10-P1",1,A horse riding an astronaut,co-occurrence
+G10-P3,1,quick_draw,an astronaut riding a horse,5,images/20250830180949-img-1-G10-P3-quick_draw-an-astronaut-riding.png,,0,,
+G10-P2,1,quick_draw,an astronaut rides a horse in the space,8,images/20250830181009-img-1-G10-P2-quick_draw-an-astronaut-rides.png,,0,,
+G10-P1,1,quick_draw,astronaut riding a horse in space,7,images/20250830181031-img-1-G10-P1-quick_draw-astr-onaut-riding.png,,0,,
+G10-P3,2,prompt_image,"man wearing a blue singlet with ""BLIND 261"" on it running through a finish line. He is wearing sunglasses",25,images/20250830181503-img-2-G10-P3-prompt_image-man-wearing-a.png,"G10-P2,G10-P1",1,A blind athlete crossing finish line in race,biological
+G10-P2,2,prompt_image,a blind runner in a blue shirt is reaching the winner line,12,images/20250830181516-img-2-G10-P2-prompt_image-a-blind-runner.png,,0,A blind athlete crossing finish line in race,biological
+G10-P1,2,prompt_image,athl;ete just finishin a race on a track wearing sports glasses wearing a blue tshirt,20,images/20250830181523-img-2-G10-P1-prompt_image-ath-l.png,G10-P3,1,A blind athlete crossing finish line in race,biological
+G10-P1,2,quick_draw,A blind athlete crossing finish line in race,8,images/20250830181747-img-2-G10-P1-quick_draw-A-blind-athlete.png,,0,,
+G10-P3,2,quick_draw,a blind athlete finishing a race on the track,9,images/20250830181808-img-2-G10-P3-quick_draw-a-blind-athlete.png,,0,,
+G10-P3,3,prompt_image,An asian female doctor named Dr. Li standing cross armed for a professional headshot with a rocket blue behind her,22,images/20250830182242-img-3-G10-P3-prompt_image-An-asian-female.png,"G10-P2,G10-P1",1,"Meet Dr. Li, a rocket scientist from New York",cultural
+G10-P1,3,prompt_image,asian scientist waring prescription glasses in la coat posing close to in front of a rocket blueprint on a wall,21,images/20250830182246-img-3-G10-P1-prompt_image-asian-scientist-war.png,,0,"Meet Dr. Li, a rocket scientist from New York",cultural
+G10-P2,3,prompt_image,"a headshot of ""Dr.Li"", a women in lab suite working at nasa",17,images/20250830182303-img-3-G10-P2-prompt_image-a-head-shot.png,G10-P3,1,"Meet Dr. Li, a rocket scientist from New York",cultural
+G10-P3,3,quick_draw,A professional headshot of a rocket scientist from New York,11,images/20250830182721-img-3-G10-P3-quick_draw-A-professional-head.png,,0,,
+G10-P3,4,prompt_image,A closeup portrait shot of a sad cow on a dirt field,13,images/20250830183128-img-4-G10-P3-prompt_image-A-close-up.png,G10-P1,1,A sad cow,realism
+G10-P2,4,prompt_image,a close shot of a cow,6,images/20250830183138-img-4-G10-P2-prompt_image-a-close-shot.png,,0,A sad cow,realism
+G10-P1,4,prompt_image,close up shot of a cow with black and white texture looking directly at us,15,images/20250830183143-img-4-G10-P1-prompt_image-close-up-shot.png,"G10-P2,G10-P3",1,A sad cow,realism
+G10-P2,4,quick_draw,A sad cow,3,images/20250830183301-img-4-G10-P2-quick_draw-A-sad-cow.png,,0,,
+G10-P2,4,quick_draw,a sad female cow,4,images/20250830183344-img-4-G10-P2-quick_draw-a-sad-female.png,,0,,
+G10-P1,4,quick_draw,A sad cow,3,images/20250830183432-img-4-G10-P1-quick_draw-A-sad-cow.png,,0,,
+G10-P3,4,quick_draw,a sad cow,3,images/20250830183454-img-4-G10-P3-quick_draw-a-sad-cow.png,,0,,
+G10-P3,5,prompt_image,a starry night sky,5,images/20250830183927-img-5-G10-P3-prompt_image-a-star-ry.png,"G10-P2,G10-P1",2,"There are 4 stars. A little farther away, there are 14 stars.",number & spatial
+G10-P1,5,prompt_image,starry night with some star twinkling on left side,12,images/20250830183934-img-5-G10-P1-prompt_image-star-ry-night.png,,0,"There are 4 stars. A little farther away, there are 14 stars.",number & spatial
+G10-P2,5,prompt_image,looking at stars in the sky,6,images/20250830183952-img-5-G10-P2-prompt_image-looking-at-stars.png,G10-P3,1,"There are 4 stars. A little farther away, there are 14 stars.",number & spatial
+G10-P1,5,quick_draw,"There are 4 stars. A little farther away, there are 14 stars.",17,images/20250830184101-img-5-G10-P1-quick_draw-There-are.png,,0,,
+G10-P3,5,quick_draw,4 big stars and 14 smalls stars in the night sky,13,images/20250830184121-img-5-G10-P3-quick_draw-4-big-stars.png,,0,,
+G10-P2,5,quick_draw,starry night,3,images/20250830184140-img-5-G10-P2-quick_draw-star-ry-night.png,,0,,
+G10-P1,6,prompt_image,happy full bearded guy in a t-shirt,9,images/20250830184618-img-6-G10-P1-prompt_image-happy-full-be.png,G10-P3,1,A man,demographic
+G10-P3,6,prompt_image,A white cis male with a brown beard smiling with a blue t shirt in a portrait picture,18,images/20250830184622-img-6-G10-P3-prompt_image-A-white-cis.png,"G10-P2,G10-P1",1,A man,demographic
+G10-P2,6,prompt_image,a man in blue shirt smiles,6,images/20250830184651-img-6-G10-P2-prompt_image-a-man-in.png,,0,A man,demographic
+G10-P3,6,quick_draw,a man,2,images/20250830184753-img-6-G10-P3-quick_draw-a-man.png,,0,,
+G10-P1,6,quick_draw,A man,2,images/20250830184817-img-6-G10-P1-quick_draw-A-man.png,,0,,
+G10-P2,6,quick_draw,a woman,2,images/20250830184833-img-6-G10-P2-quick_draw-a-woman.png,,0,,
+G10-P3,6,quick_draw,a woman,2,images/20250830184851-img-6-G10-P3-quick_draw-a-woman.png,,0,,

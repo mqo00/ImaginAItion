@@ -1,0 +1,1101 @@
+{
+  "group_id": "G8",
+  "start_timestamp": "2025-08-29T14:39:10.238658Z",
+  "end_timestamp": "2025-08-29T16:07:13.456425Z",
+  "total_rounds": 6,
+  "final_scores": {
+    "G8-P1": {
+      "total_score": 4,
+      "round_scores": {
+        "1": 0,
+        "2": 1,
+        "3": 1,
+        "4": 0,
+        "5": 1,
+        "6": 1
+      }
+    },
+    "G8-P2": {
+      "total_score": 2,
+      "round_scores": {
+        "1": 0,
+        "2": 1,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    "G8-P3": {
+      "total_score": 6,
+      "round_scores": {
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 2,
+        "5": 1,
+        "6": 1
+      }
+    }
+  },
+  "player_actions": [
+    {
+      "timestamp": "2025-08-29T14:40:06.177969Z",
+      "round_num": 1,
+      "player_id": "G8-P3",
+      "action_type": "prompt_image",
+      "prompt": "image of the night sky with stars and a black background",
+      "image_path": "images/20250829144006-img-1-G8-P3-prompt_image-image-of-the.png",
+      "prompt_tokens": [
+        "image",
+        " of",
+        " the",
+        " night",
+        " sky",
+        " with",
+        " stars",
+        " and",
+        " a",
+        " black",
+        " background"
+      ],
+      "prompt_tok_length": 11,
+      "votes_received": [
+        "G8-P1",
+        "G8-P2"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 25,
+      "reference_image_path": "/static/reference_images/there_are_4_stars_a_little_farther_away_there_are_14_stars.JPG",
+      "reference_image_prompt": "There are 4 stars. A little farther away, there are 14 stars.",
+      "reference_image_categories": [
+        "number & spatial"
+      ],
+      "represented_category_in_game": "number & spatial"
+    },
+    {
+      "timestamp": "2025-08-29T14:40:10.917258Z",
+      "round_num": 1,
+      "player_id": "G8-P1",
+      "action_type": "prompt_image",
+      "prompt": "A starry sky, taken from space, with 2 bright big stars, and vignette sides, dont generate a galaxy, just a small sky piece",
+      "image_path": "images/20250829144010-img-1-G8-P1-prompt_image-A-star-ry.png",
+      "prompt_tokens": [
+        "A",
+        " star",
+        "ry",
+        " sky",
+        ",",
+        " taken",
+        " from",
+        " space",
+        ",",
+        " with",
+        " ",
+        "2",
+        " bright",
+        " big",
+        " stars",
+        ",",
+        " and",
+        " vign",
+        "ette",
+        " sides",
+        ",",
+        " dont",
+        " generate",
+        " a",
+        " galaxy",
+        ",",
+        " just",
+        " a",
+        " small",
+        " sky",
+        " piece"
+      ],
+      "prompt_tok_length": 31,
+      "votes_received": [
+        "G8-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 25,
+      "reference_image_path": "/static/reference_images/there_are_4_stars_a_little_farther_away_there_are_14_stars.JPG",
+      "reference_image_prompt": "There are 4 stars. A little farther away, there are 14 stars.",
+      "reference_image_categories": [
+        "number & spatial"
+      ],
+      "represented_category_in_game": "number & spatial"
+    },
+    {
+      "timestamp": "2025-08-29T14:40:32.323322Z",
+      "round_num": 1,
+      "player_id": "G8-P2",
+      "action_type": "prompt_image",
+      "prompt": "A sky full of twinkling stars",
+      "image_path": "images/20250829144032-img-1-G8-P2-prompt_image-A-sky-full.png",
+      "prompt_tokens": [
+        "A",
+        " sky",
+        " full",
+        " of",
+        " tw",
+        "ink",
+        "ling",
+        " stars"
+      ],
+      "prompt_tok_length": 8,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 25,
+      "reference_image_path": "/static/reference_images/there_are_4_stars_a_little_farther_away_there_are_14_stars.JPG",
+      "reference_image_prompt": "There are 4 stars. A little farther away, there are 14 stars.",
+      "reference_image_categories": [
+        "number & spatial"
+      ],
+      "represented_category_in_game": "number & spatial"
+    },
+    {
+      "timestamp": "2025-08-29T14:40:38.629811Z",
+      "round_num": 1,
+      "player_id": "G8-P3",
+      "action_type": "vote",
+      "voted_for_id": "G8-P1",
+      "vote_timestamp": "2025-08-29T14:40:38.629811Z"
+    },
+    {
+      "timestamp": "2025-08-29T14:40:40.504638Z",
+      "round_num": 1,
+      "player_id": "G8-P1",
+      "action_type": "vote",
+      "voted_for_id": "G8-P3",
+      "vote_timestamp": "2025-08-29T14:40:40.504638Z"
+    },
+    {
+      "timestamp": "2025-08-29T14:40:41.432268Z",
+      "round_num": 1,
+      "player_id": "G8-P2",
+      "action_type": "vote",
+      "voted_for_id": "G8-P3",
+      "vote_timestamp": "2025-08-29T14:40:41.432268Z"
+    },
+    {
+      "timestamp": "2025-08-29T14:45:47.920927Z",
+      "round_num": 2,
+      "player_id": "G8-P3",
+      "action_type": "prompt_image",
+      "prompt": "astronaut in spacesuit riding a brown horse in space with earth and distant stars in background",
+      "image_path": "images/20250829144547-img-2-G8-P3-prompt_image-astr-onaut-in.png",
+      "prompt_tokens": [
+        "astr",
+        "onaut",
+        " in",
+        " spaces",
+        "uit",
+        " riding",
+        " a",
+        " brown",
+        " horse",
+        " in",
+        " space",
+        " with",
+        " earth",
+        " and",
+        " distant",
+        " stars",
+        " in",
+        " background"
+      ],
+      "prompt_tok_length": 18,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 26,
+      "reference_image_path": "/static/reference_images/a_horse_riding_an_astronaut.png",
+      "reference_image_prompt": "A horse riding an astronaut",
+      "reference_image_categories": [
+        "co-occurrence"
+      ],
+      "represented_category_in_game": "co-occurrence"
+    },
+    {
+      "timestamp": "2025-08-29T14:45:49.617229Z",
+      "round_num": 2,
+      "player_id": "G8-P2",
+      "action_type": "prompt_image",
+      "prompt": "An Astronaut with a space suit is on a brown horse travelling in space, a part of the Earth is visible in the background of the image but 80% is covered with the astronaut and the horse",
+      "image_path": "images/20250829144549-img-2-G8-P2-prompt_image-An-Astr-onaut.png",
+      "prompt_tokens": [
+        "An",
+        " Astr",
+        "onaut",
+        " with",
+        " a",
+        " space",
+        " suit",
+        " is",
+        " on",
+        " a",
+        " brown",
+        " horse",
+        " travelling",
+        " in",
+        " space",
+        ",",
+        " a",
+        " part",
+        " of",
+        " the",
+        " Earth",
+        " is",
+        " visible",
+        " in",
+        " the",
+        " background",
+        " of",
+        " the",
+        " image",
+        " but",
+        " ",
+        "80",
+        "%",
+        " is",
+        " covered",
+        " with",
+        " the",
+        " astronaut",
+        " and",
+        " the",
+        " horse"
+      ],
+      "prompt_tok_length": 41,
+      "votes_received": [
+        "G8-P3",
+        "G8-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 26,
+      "reference_image_path": "/static/reference_images/a_horse_riding_an_astronaut.png",
+      "reference_image_prompt": "A horse riding an astronaut",
+      "reference_image_categories": [
+        "co-occurrence"
+      ],
+      "represented_category_in_game": "co-occurrence"
+    },
+    {
+      "timestamp": "2025-08-29T14:45:54.934920Z",
+      "round_num": 2,
+      "player_id": "G8-P1",
+      "action_type": "prompt_image",
+      "prompt": "astronaut riding horse, earth backdrop in space, brown horse no stars dark",
+      "image_path": "images/20250829144554-img-2-G8-P1-prompt_image-astr-onaut-riding.png",
+      "prompt_tokens": [
+        "astr",
+        "onaut",
+        " riding",
+        " horse",
+        ",",
+        " earth",
+        " backdrop",
+        " in",
+        " space",
+        ",",
+        " brown",
+        " horse",
+        " no",
+        " stars",
+        " dark"
+      ],
+      "prompt_tok_length": 15,
+      "votes_received": [
+        "G8-P2"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 26,
+      "reference_image_path": "/static/reference_images/a_horse_riding_an_astronaut.png",
+      "reference_image_prompt": "A horse riding an astronaut",
+      "reference_image_categories": [
+        "co-occurrence"
+      ],
+      "represented_category_in_game": "co-occurrence"
+    },
+    {
+      "timestamp": "2025-08-29T14:45:57.107779Z",
+      "round_num": 2,
+      "player_id": "G8-P3",
+      "action_type": "vote",
+      "voted_for_id": "G8-P2",
+      "vote_timestamp": "2025-08-29T14:45:57.107779Z"
+    },
+    {
+      "timestamp": "2025-08-29T14:45:58.252306Z",
+      "round_num": 2,
+      "player_id": "G8-P2",
+      "action_type": "vote",
+      "voted_for_id": "G8-P1",
+      "vote_timestamp": "2025-08-29T14:45:58.252306Z"
+    },
+    {
+      "timestamp": "2025-08-29T14:45:59.348314Z",
+      "round_num": 2,
+      "player_id": "G8-P1",
+      "action_type": "vote",
+      "voted_for_id": "G8-P2",
+      "vote_timestamp": "2025-08-29T14:45:59.348314Z"
+    },
+    {
+      "timestamp": "2025-08-29T14:51:14.010300Z",
+      "round_num": 2,
+      "player_id": "G8-P1",
+      "action_type": "quick_draw",
+      "prompt": "horse riding astronaut",
+      "image_path": "images/20250829145114-img-2-G8-P1-quick_draw-horse-riding-astronaut.png",
+      "prompt_tokens": [
+        "horse",
+        " riding",
+        " astronaut"
+      ],
+      "prompt_tok_length": 3,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-29T14:53:56.147437Z",
+      "round_num": 3,
+      "player_id": "G8-P3",
+      "action_type": "prompt_image",
+      "prompt": "drawing of friends with a hand on shoulder, friendship written above heads",
+      "image_path": "images/20250829145356-img-3-G8-P3-prompt_image-drawing-of-friends.png",
+      "prompt_tokens": [
+        "drawing",
+        " of",
+        " friends",
+        " with",
+        " a",
+        " hand",
+        " on",
+        " shoulder",
+        ",",
+        " friendship",
+        " written",
+        " above",
+        " heads"
+      ],
+      "prompt_tok_length": 13,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 12,
+      "reference_image_path": "/static/reference_images/friendship_as_a_simple_drawing.png",
+      "reference_image_prompt": "Friendship as a simple drawing",
+      "reference_image_categories": [
+        "realism"
+      ],
+      "represented_category_in_game": "realism"
+    },
+    {
+      "timestamp": "2025-08-29T14:54:04.796400Z",
+      "round_num": 3,
+      "player_id": "G8-P2",
+      "action_type": "prompt_image",
+      "prompt": "Friendship depicted with two friends having their arms around each other's shoulders, Friendship written over them",
+      "image_path": "images/20250829145404-img-3-G8-P2-prompt_image-Friend-ship-depicted.png",
+      "prompt_tokens": [
+        "Friend",
+        "ship",
+        " depicted",
+        " with",
+        " two",
+        " friends",
+        " having",
+        " their",
+        " arms",
+        " around",
+        " each",
+        " other's",
+        " shoulders",
+        ",",
+        " Friendship",
+        " written",
+        " over",
+        " them"
+      ],
+      "prompt_tok_length": 18,
+      "votes_received": [
+        "G8-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 12,
+      "reference_image_path": "/static/reference_images/friendship_as_a_simple_drawing.png",
+      "reference_image_prompt": "Friendship as a simple drawing",
+      "reference_image_categories": [
+        "realism"
+      ],
+      "represented_category_in_game": "realism"
+    },
+    {
+      "timestamp": "2025-08-29T14:54:14.727696Z",
+      "round_num": 3,
+      "player_id": "G8-P1",
+      "action_type": "prompt_image",
+      "prompt": "vodafone cartoon 2 people smiling hands on each others shoulder, 1 hand free \"FRIENDSHIP\" text header,",
+      "image_path": "images/20250829145414-img-3-G8-P1-prompt_image-vod-afone-cartoon.png",
+      "prompt_tokens": [
+        "vod",
+        "afone",
+        " cartoon",
+        " ",
+        "2",
+        " people",
+        " smiling",
+        " hands",
+        " on",
+        " each",
+        " others",
+        " shoulder",
+        ",",
+        " ",
+        "1",
+        " hand",
+        " free",
+        " \"",
+        "FR",
+        "I",
+        "END",
+        "SHIP",
+        "\"",
+        " text",
+        " header",
+        ","
+      ],
+      "prompt_tok_length": 26,
+      "votes_received": [
+        "G8-P3",
+        "G8-P2"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 12,
+      "reference_image_path": "/static/reference_images/friendship_as_a_simple_drawing.png",
+      "reference_image_prompt": "Friendship as a simple drawing",
+      "reference_image_categories": [
+        "realism"
+      ],
+      "represented_category_in_game": "realism"
+    },
+    {
+      "timestamp": "2025-08-29T14:54:18.663471Z",
+      "round_num": 3,
+      "player_id": "G8-P1",
+      "action_type": "vote",
+      "voted_for_id": "G8-P2",
+      "vote_timestamp": "2025-08-29T14:54:18.663471Z"
+    },
+    {
+      "timestamp": "2025-08-29T14:54:19.606823Z",
+      "round_num": 3,
+      "player_id": "G8-P3",
+      "action_type": "vote",
+      "voted_for_id": "G8-P1",
+      "vote_timestamp": "2025-08-29T14:54:19.606823Z"
+    },
+    {
+      "timestamp": "2025-08-29T14:54:21.137200Z",
+      "round_num": 3,
+      "player_id": "G8-P2",
+      "action_type": "vote",
+      "voted_for_id": "G8-P1",
+      "vote_timestamp": "2025-08-29T14:54:21.137200Z"
+    },
+    {
+      "timestamp": "2025-08-29T14:57:50.114505Z",
+      "round_num": 3,
+      "player_id": "G8-P1",
+      "action_type": "quick_draw",
+      "prompt": "friendship cartoon as vodafone cartoon",
+      "image_path": "images/20250829145750-img-3-G8-P1-quick_draw-friend-ship-cartoon.png",
+      "prompt_tokens": [
+        "friend",
+        "ship",
+        " cartoon",
+        " as",
+        " vod",
+        "afone",
+        " cartoon"
+      ],
+      "prompt_tok_length": 7,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-29T14:58:24.848589Z",
+      "round_num": 3,
+      "player_id": "G8-P2",
+      "action_type": "quick_draw",
+      "prompt": "A vodafone zoo zoo character smiling",
+      "image_path": "images/20250829145824-img-3-G8-P2-quick_draw-A-vod-afone.png",
+      "prompt_tokens": [
+        "A",
+        " vod",
+        "afone",
+        " zoo",
+        " zoo",
+        " character",
+        " smiling"
+      ],
+      "prompt_tok_length": 7,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-29T14:58:47.462829Z",
+      "round_num": 3,
+      "player_id": "G8-P1",
+      "action_type": "quick_draw",
+      "prompt": "vodafone india cartoon showing friendship as a simple drawing",
+      "image_path": "images/20250829145847-img-3-G8-P1-quick_draw-vod-afone-india.png",
+      "prompt_tokens": [
+        "vod",
+        "afone",
+        " india",
+        " cartoon",
+        " showing",
+        " friendship",
+        " as",
+        " a",
+        " simple",
+        " drawing"
+      ],
+      "prompt_tok_length": 10,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-29T14:59:04.367197Z",
+      "round_num": 3,
+      "player_id": "G8-P3",
+      "action_type": "quick_draw",
+      "prompt": "stick drawing of 2 friends with hand on shoulder",
+      "image_path": "images/20250829145904-img-3-G8-P3-quick_draw-stick-drawing-of.png",
+      "prompt_tokens": [
+        "stick",
+        " drawing",
+        " of",
+        " ",
+        "2",
+        " friends",
+        " with",
+        " hand",
+        " on",
+        " shoulder"
+      ],
+      "prompt_tok_length": 10,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-29T15:01:35.578492Z",
+      "round_num": 4,
+      "player_id": "G8-P1",
+      "action_type": "prompt_image",
+      "prompt": "Indian man ted talk infront of ted figure",
+      "image_path": "images/20250829150135-img-4-G8-P1-prompt_image-Indian-man-ted.png",
+      "prompt_tokens": [
+        "Indian",
+        " man",
+        " ted",
+        " talk",
+        " in",
+        "front",
+        " of",
+        " ted",
+        " figure"
+      ],
+      "prompt_tok_length": 9,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 19,
+      "reference_image_path": "/static/reference_images/startup_founder_giving_a_ted_talk.png",
+      "reference_image_prompt": "Startup founder giving a TED talk",
+      "reference_image_categories": [
+        "biological",
+        "demographic"
+      ],
+      "represented_category_in_game": "biological"
+    },
+    {
+      "timestamp": "2025-08-29T15:01:40.017892Z",
+      "round_num": 4,
+      "player_id": "G8-P3",
+      "action_type": "prompt_image",
+      "prompt": "an indian with spectacles giving a TED talk",
+      "image_path": "images/20250829150140-img-4-G8-P3-prompt_image-an-indian-with.png",
+      "prompt_tokens": [
+        "an",
+        " indian",
+        " with",
+        " spectacles",
+        " giving",
+        " a",
+        " TED",
+        " talk"
+      ],
+      "prompt_tok_length": 8,
+      "votes_received": [
+        "G8-P1",
+        "G8-P2"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 19,
+      "reference_image_path": "/static/reference_images/startup_founder_giving_a_ted_talk.png",
+      "reference_image_prompt": "Startup founder giving a TED talk",
+      "reference_image_categories": [
+        "biological",
+        "demographic"
+      ],
+      "represented_category_in_game": "biological"
+    },
+    {
+      "timestamp": "2025-08-29T15:01:40.362547Z",
+      "round_num": 4,
+      "player_id": "G8-P2",
+      "action_type": "prompt_image",
+      "prompt": "A person of Indian origins wearing a suit and specs giving a TED talk on stage with the TED symbol at the back of the stage",
+      "image_path": "images/20250829150140-img-4-G8-P2-prompt_image-A-person-of.png",
+      "prompt_tokens": [
+        "A",
+        " person",
+        " of",
+        " Indian",
+        " origins",
+        " wearing",
+        " a",
+        " suit",
+        " and",
+        " specs",
+        " giving",
+        " a",
+        " TED",
+        " talk",
+        " on",
+        " stage",
+        " with",
+        " the",
+        " TED",
+        " symbol",
+        " at",
+        " the",
+        " back",
+        " of",
+        " the",
+        " stage"
+      ],
+      "prompt_tok_length": 26,
+      "votes_received": [
+        "G8-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 19,
+      "reference_image_path": "/static/reference_images/startup_founder_giving_a_ted_talk.png",
+      "reference_image_prompt": "Startup founder giving a TED talk",
+      "reference_image_categories": [
+        "biological",
+        "demographic"
+      ],
+      "represented_category_in_game": "biological"
+    },
+    {
+      "timestamp": "2025-08-29T15:01:45.473387Z",
+      "round_num": 4,
+      "player_id": "G8-P3",
+      "action_type": "vote",
+      "voted_for_id": "G8-P2",
+      "vote_timestamp": "2025-08-29T15:01:45.473387Z"
+    },
+    {
+      "timestamp": "2025-08-29T15:01:46.609741Z",
+      "round_num": 4,
+      "player_id": "G8-P1",
+      "action_type": "vote",
+      "voted_for_id": "G8-P3",
+      "vote_timestamp": "2025-08-29T15:01:46.609741Z"
+    },
+    {
+      "timestamp": "2025-08-29T15:01:47.390128Z",
+      "round_num": 4,
+      "player_id": "G8-P2",
+      "action_type": "vote",
+      "voted_for_id": "G8-P3",
+      "vote_timestamp": "2025-08-29T15:01:47.390128Z"
+    },
+    {
+      "timestamp": "2025-08-29T15:04:47.412510Z",
+      "round_num": 4,
+      "player_id": "G8-P3",
+      "action_type": "quick_draw",
+      "prompt": "Startup founder giving a TED talk",
+      "image_path": "images/20250829150447-img-4-G8-P3-quick_draw-Startup-founder-giving.png",
+      "prompt_tokens": [
+        "Startup",
+        " founder",
+        " giving",
+        " a",
+        " TED",
+        " talk"
+      ],
+      "prompt_tok_length": 6,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-29T15:07:25.644442Z",
+      "round_num": 5,
+      "player_id": "G8-P1",
+      "action_type": "prompt_image",
+      "prompt": "islamic architecture assasins creed style, turkish mosque",
+      "image_path": "images/20250829150725-img-5-G8-P1-prompt_image-is-lam-ic.png",
+      "prompt_tokens": [
+        "is",
+        "lam",
+        "ic",
+        " architecture",
+        " ass",
+        "as",
+        "ins",
+        " creed",
+        " style",
+        ",",
+        " tur",
+        "kish",
+        " mosque"
+      ],
+      "prompt_tok_length": 13,
+      "votes_received": [
+        "G8-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 2,
+      "reference_image_path": "/static/reference_images/an_exotic_building.png",
+      "reference_image_prompt": "An exotic building",
+      "reference_image_categories": [
+        "demographic"
+      ],
+      "represented_category_in_game": "demographic"
+    },
+    {
+      "timestamp": "2025-08-29T15:07:31.154690Z",
+      "round_num": 5,
+      "player_id": "G8-P2",
+      "action_type": "prompt_image",
+      "prompt": "View of the front of a monument similar to the Taj Mahal, only brown in colour. The view also has a garden in front of the monument",
+      "image_path": "images/20250829150731-img-5-G8-P2-prompt_image-View-of-the.png",
+      "prompt_tokens": [
+        "View",
+        " of",
+        " the",
+        " front",
+        " of",
+        " a",
+        " monument",
+        " similar",
+        " to",
+        " the",
+        " Taj",
+        " Mahal",
+        ",",
+        " only",
+        " brown",
+        " in",
+        " colour",
+        ".",
+        " The",
+        " view",
+        " also",
+        " has",
+        " a",
+        " garden",
+        " in",
+        " front",
+        " of",
+        " the",
+        " monument"
+      ],
+      "prompt_tok_length": 29,
+      "votes_received": [
+        "G8-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 2,
+      "reference_image_path": "/static/reference_images/an_exotic_building.png",
+      "reference_image_prompt": "An exotic building",
+      "reference_image_categories": [
+        "demographic"
+      ],
+      "represented_category_in_game": "demographic"
+    },
+    {
+      "timestamp": "2025-08-29T15:07:32.968821Z",
+      "round_num": 5,
+      "player_id": "G8-P3",
+      "action_type": "prompt_image",
+      "prompt": "a palace like taj mahal with a cyan dome, grass and shrubs in front",
+      "image_path": "images/20250829150732-img-5-G8-P3-prompt_image-a-palace-like.png",
+      "prompt_tokens": [
+        "a",
+        " palace",
+        " like",
+        " taj",
+        " mahal",
+        " with",
+        " a",
+        " cyan",
+        " dome",
+        ",",
+        " grass",
+        " and",
+        " shrubs",
+        " in",
+        " front"
+      ],
+      "prompt_tok_length": 15,
+      "votes_received": [
+        "G8-P2"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 2,
+      "reference_image_path": "/static/reference_images/an_exotic_building.png",
+      "reference_image_prompt": "An exotic building",
+      "reference_image_categories": [
+        "demographic"
+      ],
+      "represented_category_in_game": "demographic"
+    },
+    {
+      "timestamp": "2025-08-29T15:07:38.470691Z",
+      "round_num": 5,
+      "player_id": "G8-P1",
+      "action_type": "vote",
+      "voted_for_id": "G8-P2",
+      "vote_timestamp": "2025-08-29T15:07:38.470691Z"
+    },
+    {
+      "timestamp": "2025-08-29T15:07:39.625221Z",
+      "round_num": 5,
+      "player_id": "G8-P3",
+      "action_type": "vote",
+      "voted_for_id": "G8-P1",
+      "vote_timestamp": "2025-08-29T15:07:39.625221Z"
+    },
+    {
+      "timestamp": "2025-08-29T15:07:46.957515Z",
+      "round_num": 5,
+      "player_id": "G8-P2",
+      "action_type": "vote",
+      "voted_for_id": "G8-P3",
+      "vote_timestamp": "2025-08-29T15:07:46.957515Z"
+    },
+    {
+      "timestamp": "2025-08-29T15:12:42.366290Z",
+      "round_num": 6,
+      "player_id": "G8-P1",
+      "action_type": "prompt_image",
+      "prompt": "east asian woman, brown shirt, taiwan, headshot, formal picture, long hair",
+      "image_path": "images/20250829151242-img-6-G8-P1-prompt_image-east-asian-woman.png",
+      "prompt_tokens": [
+        "east",
+        " asian",
+        " woman",
+        ",",
+        " brown",
+        " shirt",
+        ",",
+        " tai",
+        "wan",
+        ",",
+        " head",
+        "shot",
+        ",",
+        " formal",
+        " picture",
+        ",",
+        " long",
+        " hair"
+      ],
+      "prompt_tok_length": 18,
+      "votes_received": [
+        "G8-P3",
+        "G8-P2"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 16,
+      "reference_image_path": "/static/reference_images/an_asian_woman.png",
+      "reference_image_prompt": "An Asian woman",
+      "reference_image_categories": [
+        "demographic",
+        "biological",
+        "cultural"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-29T15:12:48.028933Z",
+      "round_num": 6,
+      "player_id": "G8-P2",
+      "action_type": "prompt_image",
+      "prompt": "A face shot of woman of South-East asian origin wearing a beige sweater",
+      "image_path": "images/20250829151248-img-6-G8-P2-prompt_image-A-face-shot.png",
+      "prompt_tokens": [
+        "A",
+        " face",
+        " shot",
+        " of",
+        " woman",
+        " of",
+        " South",
+        "-East",
+        " asian",
+        " origin",
+        " wearing",
+        " a",
+        " beige",
+        " sweater"
+      ],
+      "prompt_tok_length": 14,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 16,
+      "reference_image_path": "/static/reference_images/an_asian_woman.png",
+      "reference_image_prompt": "An Asian woman",
+      "reference_image_categories": [
+        "demographic",
+        "biological",
+        "cultural"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-29T15:13:09.204887Z",
+      "round_num": 6,
+      "player_id": "G8-P3",
+      "action_type": "prompt_image",
+      "prompt": "an asian woman, brown full shirt, long hair, beige background",
+      "image_path": "images/20250829151309-img-6-G8-P3-prompt_image-an-asian-woman.png",
+      "prompt_tokens": [
+        "an",
+        " asian",
+        " woman",
+        ",",
+        " brown",
+        " full",
+        " shirt",
+        ",",
+        " long",
+        " hair",
+        ",",
+        " beige",
+        " background"
+      ],
+      "prompt_tok_length": 13,
+      "votes_received": [
+        "G8-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 16,
+      "reference_image_path": "/static/reference_images/an_asian_woman.png",
+      "reference_image_prompt": "An Asian woman",
+      "reference_image_categories": [
+        "demographic",
+        "biological",
+        "cultural"
+      ],
+      "represented_category_in_game": "cultural"
+    },
+    {
+      "timestamp": "2025-08-29T15:13:11.214897Z",
+      "round_num": 6,
+      "player_id": "G8-P1",
+      "action_type": "vote",
+      "voted_for_id": "G8-P3",
+      "vote_timestamp": "2025-08-29T15:13:11.214897Z"
+    },
+    {
+      "timestamp": "2025-08-29T15:13:12.242960Z",
+      "round_num": 6,
+      "player_id": "G8-P3",
+      "action_type": "vote",
+      "voted_for_id": "G8-P1",
+      "vote_timestamp": "2025-08-29T15:13:12.242960Z"
+    },
+    {
+      "timestamp": "2025-08-29T15:13:21.185862Z",
+      "round_num": 6,
+      "player_id": "G8-P2",
+      "action_type": "vote",
+      "voted_for_id": "G8-P1",
+      "vote_timestamp": "2025-08-29T15:13:21.185862Z"
+    },
+    {
+      "timestamp": "2025-08-29T15:15:53.661451Z",
+      "round_num": 6,
+      "player_id": "G8-P1",
+      "action_type": "quick_draw",
+      "prompt": "an asian woman",
+      "image_path": "images/20250829151553-img-6-G8-P1-quick_draw-an-asian-woman.png",
+      "prompt_tokens": [
+        "an",
+        " asian",
+        " woman"
+      ],
+      "prompt_tok_length": 3,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-29T15:16:33.817616Z",
+      "round_num": 6,
+      "player_id": "G8-P1",
+      "action_type": "quick_draw",
+      "prompt": "southeast asian woman",
+      "image_path": "images/20250829151633-img-6-G8-P1-quick_draw-s-out-heast.png",
+      "prompt_tokens": [
+        "s",
+        "out",
+        "heast",
+        " asian",
+        " woman"
+      ],
+      "prompt_tok_length": 5,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-29T15:17:55.977235Z",
+      "round_num": 6,
+      "player_id": "G8-P3",
+      "action_type": "quick_draw",
+      "prompt": "asian woman",
+      "image_path": "images/20250829151755-img-6-G8-P3-quick_draw-asian-woman.png",
+      "prompt_tokens": [
+        "asian",
+        " woman"
+      ],
+      "prompt_tok_length": 2,
+      "generation_success": true,
+      "error_message": null
+    }
+  ]
+}

@@ -1,0 +1,1007 @@
+{
+  "group_id": "G3",
+  "start_timestamp": "2025-08-25T20:06:57.562145Z",
+  "end_timestamp": "2025-08-25T20:48:07.640931Z",
+  "total_rounds": 5,
+  "final_scores": {
+    "G3-P1": {
+      "total_score": 1,
+      "round_scores": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      }
+    },
+    "G3-P3": {
+      "total_score": 8,
+      "round_scores": {
+        "1": 2,
+        "2": 1,
+        "3": 2,
+        "4": 1,
+        "5": 2
+      }
+    },
+    "G3-P2": {
+      "total_score": 2,
+      "round_scores": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 1,
+        "5": 0
+      }
+    }
+  },
+  "player_actions": [
+    {
+      "timestamp": "2025-08-25T20:07:46.931269Z",
+      "round_num": 1,
+      "player_id": "G3-P1",
+      "action_type": "prompt_image",
+      "prompt": "change the background into a par",
+      "image_path": "images/20250825200746-img-1-G3-P1-prompt_image-change-the-background.png",
+      "prompt_tokens": [
+        "change",
+        " the",
+        " background",
+        " into",
+        " a",
+        " par"
+      ],
+      "prompt_tok_length": 6,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 20,
+      "reference_image_path": "/static/reference_images/meet_dr_li_a_rocket_scientist_from_new_york.png",
+      "reference_image_prompt": "Meet Dr. Li, a rocket scientist from New York",
+      "reference_image_categories": [
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "biological"
+    },
+    {
+      "timestamp": "2025-08-25T20:07:57.112862Z",
+      "round_num": 1,
+      "player_id": "G3-P2",
+      "action_type": "prompt_image",
+      "prompt": "An asian women named Dr. Li standing in front of a draft of rocket",
+      "image_path": "images/20250825200757-img-1-G3-P2-prompt_image-An-asian-women.png",
+      "prompt_tokens": [
+        "An",
+        " asian",
+        " women",
+        " named",
+        " Dr",
+        ".",
+        " Li",
+        " standing",
+        " in",
+        " front",
+        " of",
+        " a",
+        " draft",
+        " of",
+        " rocket"
+      ],
+      "prompt_tok_length": 15,
+      "votes_received": [
+        "G3-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 20,
+      "reference_image_path": "/static/reference_images/meet_dr_li_a_rocket_scientist_from_new_york.png",
+      "reference_image_prompt": "Meet Dr. Li, a rocket scientist from New York",
+      "reference_image_categories": [
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "biological"
+    },
+    {
+      "timestamp": "2025-08-25T20:08:22.663206Z",
+      "round_num": 1,
+      "player_id": "G3-P3",
+      "action_type": "prompt_image",
+      "prompt": "A doctor with glasses and her name is Li",
+      "image_path": "images/20250825200822-img-1-G3-P3-prompt_image-A-doctor-with.png",
+      "prompt_tokens": [
+        "A",
+        " doctor",
+        " with",
+        " glasses",
+        " and",
+        " her",
+        " name",
+        " is",
+        " Li"
+      ],
+      "prompt_tok_length": 9,
+      "votes_received": [
+        "G3-P2",
+        "G3-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 20,
+      "reference_image_path": "/static/reference_images/meet_dr_li_a_rocket_scientist_from_new_york.png",
+      "reference_image_prompt": "Meet Dr. Li, a rocket scientist from New York",
+      "reference_image_categories": [
+        "cultural",
+        "biological"
+      ],
+      "represented_category_in_game": "biological"
+    },
+    {
+      "timestamp": "2025-08-25T20:08:25.604735Z",
+      "round_num": 1,
+      "player_id": "G3-P2",
+      "action_type": "vote",
+      "voted_for_id": "G3-P3",
+      "vote_timestamp": "2025-08-25T20:08:25.604735Z"
+    },
+    {
+      "timestamp": "2025-08-25T20:08:31.793999Z",
+      "round_num": 1,
+      "player_id": "G3-P3",
+      "action_type": "vote",
+      "voted_for_id": "G3-P2",
+      "vote_timestamp": "2025-08-25T20:08:31.793999Z"
+    },
+    {
+      "timestamp": "2025-08-25T20:08:34.596642Z",
+      "round_num": 1,
+      "player_id": "G3-P1",
+      "action_type": "vote",
+      "voted_for_id": "G3-P3",
+      "vote_timestamp": "2025-08-25T20:08:34.596642Z"
+    },
+    {
+      "timestamp": "2025-08-25T20:10:30.754705Z",
+      "round_num": 1,
+      "player_id": "G3-P2",
+      "action_type": "quick_draw",
+      "prompt": "A women named Dr. Li standing in front of a draft of rocket",
+      "image_path": "images/20250825201030-img-1-G3-P2-quick_draw-A-women-named.png",
+      "prompt_tokens": [
+        "A",
+        " women",
+        " named",
+        " Dr",
+        ".",
+        " Li",
+        " standing",
+        " in",
+        " front",
+        " of",
+        " a",
+        " draft",
+        " of",
+        " rocket"
+      ],
+      "prompt_tok_length": 14,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-25T20:12:12.747529Z",
+      "round_num": 1,
+      "player_id": "G3-P2",
+      "action_type": "quick_draw",
+      "prompt": "Dr. Li is a rocket scientist",
+      "image_path": "images/20250825201212-img-1-G3-P2-quick_draw-Dr-Li.png",
+      "prompt_tokens": [
+        "Dr",
+        ".",
+        " Li",
+        " is",
+        " a",
+        " rocket",
+        " scientist"
+      ],
+      "prompt_tok_length": 7,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-25T20:14:59.101426Z",
+      "round_num": 1,
+      "player_id": "G3-P3",
+      "action_type": "quick_draw",
+      "prompt": "Dr. Li is an Asian women rocket scientist",
+      "image_path": "images/20250825201459-img-1-G3-P3-quick_draw-Dr-Li.png",
+      "prompt_tokens": [
+        "Dr",
+        ".",
+        " Li",
+        " is",
+        " an",
+        " Asian",
+        " women",
+        " rocket",
+        " scientist"
+      ],
+      "prompt_tok_length": 9,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-25T20:19:17.513559Z",
+      "round_num": 2,
+      "player_id": "G3-P2",
+      "action_type": "prompt_image",
+      "prompt": "cartoon cow",
+      "image_path": "images/20250825201917-img-2-G3-P2-prompt_image-cart-oon-cow.png",
+      "prompt_tokens": [
+        "cart",
+        "oon",
+        " cow"
+      ],
+      "prompt_tok_length": 3,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 10,
+      "reference_image_path": "/static/reference_images/a_pretty_cow_in_pictionary_style.png",
+      "reference_image_prompt": "A pretty cow in Pictionary style",
+      "reference_image_categories": [
+        "realism"
+      ],
+      "represented_category_in_game": "realism"
+    },
+    {
+      "timestamp": "2025-08-25T20:19:46.198325Z",
+      "round_num": 2,
+      "player_id": "G3-P1",
+      "action_type": "prompt_image",
+      "prompt": "a happy cow in a farm with a yellow flower on the top right corner",
+      "image_path": "images/20250825201946-img-2-G3-P1-prompt_image-a-happy-cow.png",
+      "prompt_tokens": [
+        "a",
+        " happy",
+        " cow",
+        " in",
+        " a",
+        " farm",
+        " with",
+        " a",
+        " yellow",
+        " flower",
+        " on",
+        " the",
+        " top",
+        " right",
+        " corner"
+      ],
+      "prompt_tok_length": 15,
+      "votes_received": [
+        "G3-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 10,
+      "reference_image_path": "/static/reference_images/a_pretty_cow_in_pictionary_style.png",
+      "reference_image_prompt": "A pretty cow in Pictionary style",
+      "reference_image_categories": [
+        "realism"
+      ],
+      "represented_category_in_game": "realism"
+    },
+    {
+      "timestamp": "2025-08-25T20:19:54.773342Z",
+      "round_num": 2,
+      "player_id": "G3-P3",
+      "action_type": "prompt_image",
+      "prompt": "A cartoon caw stands on grass happily and there is a flower on the top right of the picture.",
+      "image_path": "images/20250825201954-img-2-G3-P3-prompt_image-A-cartoon-c.png",
+      "prompt_tokens": [
+        "A",
+        " cartoon",
+        " c",
+        "aw",
+        " stands",
+        " on",
+        " grass",
+        " happily",
+        " and",
+        " there",
+        " is",
+        " a",
+        " flower",
+        " on",
+        " the",
+        " top",
+        " right",
+        " of",
+        " the",
+        " picture",
+        "."
+      ],
+      "prompt_tok_length": 21,
+      "votes_received": [
+        "G3-P2",
+        "G3-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 10,
+      "reference_image_path": "/static/reference_images/a_pretty_cow_in_pictionary_style.png",
+      "reference_image_prompt": "A pretty cow in Pictionary style",
+      "reference_image_categories": [
+        "realism"
+      ],
+      "represented_category_in_game": "realism"
+    },
+    {
+      "timestamp": "2025-08-25T20:20:00.358106Z",
+      "round_num": 2,
+      "player_id": "G3-P2",
+      "action_type": "vote",
+      "voted_for_id": "G3-P3",
+      "vote_timestamp": "2025-08-25T20:20:00.358106Z"
+    },
+    {
+      "timestamp": "2025-08-25T20:20:02.666102Z",
+      "round_num": 2,
+      "player_id": "G3-P1",
+      "action_type": "vote",
+      "voted_for_id": "G3-P3",
+      "vote_timestamp": "2025-08-25T20:20:02.666102Z"
+    },
+    {
+      "timestamp": "2025-08-25T20:20:11.068439Z",
+      "round_num": 2,
+      "player_id": "G3-P3",
+      "action_type": "vote",
+      "voted_for_id": "G3-P1",
+      "vote_timestamp": "2025-08-25T20:20:11.068439Z"
+    },
+    {
+      "timestamp": "2025-08-25T20:20:54.253250Z",
+      "round_num": 2,
+      "player_id": "G3-P2",
+      "action_type": "quick_draw",
+      "prompt": "cartoon cow and  flower",
+      "image_path": "images/20250825202054-img-2-G3-P2-quick_draw-cart-oon-cow.png",
+      "prompt_tokens": [
+        "cart",
+        "oon",
+        " cow",
+        " and",
+        " ",
+        " flower"
+      ],
+      "prompt_tok_length": 6,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-25T20:22:59.473418Z",
+      "round_num": 2,
+      "player_id": "G3-P3",
+      "action_type": "quick_draw",
+      "prompt": "A happy cartoon caw with a flower on her bacvk",
+      "image_path": "images/20250825202259-img-2-G3-P3-quick_draw-A-happy-cartoon.png",
+      "prompt_tokens": [
+        "A",
+        " happy",
+        " cartoon",
+        " c",
+        "aw",
+        " with",
+        " a",
+        " flower",
+        " on",
+        " her",
+        " bac",
+        "vk"
+      ],
+      "prompt_tok_length": 12,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-25T20:23:22.244198Z",
+      "round_num": 2,
+      "player_id": "G3-P1",
+      "action_type": "quick_draw",
+      "prompt": "pretty cow",
+      "image_path": "images/20250825202322-img-2-G3-P1-quick_draw-pretty-cow.png",
+      "prompt_tokens": [
+        "pretty",
+        " cow"
+      ],
+      "prompt_tok_length": 2,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-25T20:23:43.683656Z",
+      "round_num": 2,
+      "player_id": "G3-P3",
+      "action_type": "quick_draw",
+      "prompt": "Happy caw",
+      "image_path": "images/20250825202343-img-2-G3-P3-quick_draw-Happy-c-aw.png",
+      "prompt_tokens": [
+        "Happy",
+        " c",
+        "aw"
+      ],
+      "prompt_tok_length": 3,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-25T20:24:11.921234Z",
+      "round_num": 2,
+      "player_id": "G3-P2",
+      "action_type": "quick_draw",
+      "prompt": "cow with flower on the top right corner",
+      "image_path": "images/20250825202411-img-2-G3-P2-quick_draw-cow-with-flower.png",
+      "prompt_tokens": [
+        "cow",
+        " with",
+        " flower",
+        " on",
+        " the",
+        " top",
+        " right",
+        " corner"
+      ],
+      "prompt_tok_length": 8,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-25T20:28:22.532441Z",
+      "round_num": 3,
+      "player_id": "G3-P2",
+      "action_type": "prompt_image",
+      "prompt": "5 yellow block behind 3 wood block",
+      "image_path": "images/20250825202822-img-3-G3-P2-prompt_image-5-yellow-block.png",
+      "prompt_tokens": [
+        "5",
+        " yellow",
+        " block",
+        " behind",
+        " ",
+        "3",
+        " wood",
+        " block"
+      ],
+      "prompt_tok_length": 8,
+      "votes_received": [
+        "G3-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 21,
+      "reference_image_path": "/static/reference_images/there_are_three_blocks_a_little_farther_away_there_are_four_yellow_blocks.JPG",
+      "reference_image_prompt": "There are three blocks. A little farther away, there are four yellow blocks.",
+      "reference_image_categories": [
+        "number & spatial"
+      ],
+      "represented_category_in_game": "number & spatial"
+    },
+    {
+      "timestamp": "2025-08-25T20:28:39.262200Z",
+      "round_num": 3,
+      "player_id": "G3-P3",
+      "action_type": "prompt_image",
+      "prompt": "5 smaller yellow cubes behind 3 wooden cubes",
+      "image_path": "images/20250825202839-img-3-G3-P3-prompt_image-5-smaller-yellow.png",
+      "prompt_tokens": [
+        "5",
+        " smaller",
+        " yellow",
+        " cubes",
+        " behind",
+        " ",
+        "3",
+        " wooden",
+        " cubes"
+      ],
+      "prompt_tok_length": 9,
+      "votes_received": [
+        "G3-P2",
+        "G3-P1"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 21,
+      "reference_image_path": "/static/reference_images/there_are_three_blocks_a_little_farther_away_there_are_four_yellow_blocks.JPG",
+      "reference_image_prompt": "There are three blocks. A little farther away, there are four yellow blocks.",
+      "reference_image_categories": [
+        "number & spatial"
+      ],
+      "represented_category_in_game": "number & spatial"
+    },
+    {
+      "timestamp": "2025-08-25T20:28:59.260000Z",
+      "round_num": 3,
+      "player_id": "G3-P1",
+      "action_type": "prompt_image",
+      "prompt": "2 rows of cubes facing each other, 8 cubes total",
+      "image_path": "images/20250825202859-img-3-G3-P1-prompt_image-2-rows-of.png",
+      "prompt_tokens": [
+        "2",
+        " rows",
+        " of",
+        " cubes",
+        " facing",
+        " each",
+        " other",
+        ",",
+        " ",
+        "8",
+        " cubes",
+        " total"
+      ],
+      "prompt_tok_length": 12,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 21,
+      "reference_image_path": "/static/reference_images/there_are_three_blocks_a_little_farther_away_there_are_four_yellow_blocks.JPG",
+      "reference_image_prompt": "There are three blocks. A little farther away, there are four yellow blocks.",
+      "reference_image_categories": [
+        "number & spatial"
+      ],
+      "represented_category_in_game": "number & spatial"
+    },
+    {
+      "timestamp": "2025-08-25T20:29:02.587574Z",
+      "round_num": 3,
+      "player_id": "G3-P2",
+      "action_type": "vote",
+      "voted_for_id": "G3-P3",
+      "vote_timestamp": "2025-08-25T20:29:02.587574Z"
+    },
+    {
+      "timestamp": "2025-08-25T20:29:04.061120Z",
+      "round_num": 3,
+      "player_id": "G3-P1",
+      "action_type": "vote",
+      "voted_for_id": "G3-P3",
+      "vote_timestamp": "2025-08-25T20:29:04.061120Z"
+    },
+    {
+      "timestamp": "2025-08-25T20:29:08.346147Z",
+      "round_num": 3,
+      "player_id": "G3-P3",
+      "action_type": "vote",
+      "voted_for_id": "G3-P2",
+      "vote_timestamp": "2025-08-25T20:29:08.346147Z"
+    },
+    {
+      "timestamp": "2025-08-25T20:30:59.515401Z",
+      "round_num": 3,
+      "player_id": "G3-P2",
+      "action_type": "quick_draw",
+      "prompt": "5 yellow cubes behind 3 wood block",
+      "image_path": "images/20250825203059-img-3-G3-P2-quick_draw-5-yellow-cubes.png",
+      "prompt_tokens": [
+        "5",
+        " yellow",
+        " cubes",
+        " behind",
+        " ",
+        "3",
+        " wood",
+        " block"
+      ],
+      "prompt_tok_length": 8,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-25T20:31:20.041152Z",
+      "round_num": 3,
+      "player_id": "G3-P3",
+      "action_type": "quick_draw",
+      "prompt": "left view of 5 smaller yellow cubes behind 3 wooden cubes",
+      "image_path": "images/20250825203120-img-3-G3-P3-quick_draw-left-view-of.png",
+      "prompt_tokens": [
+        "left",
+        " view",
+        " of",
+        " ",
+        "5",
+        " smaller",
+        " yellow",
+        " cubes",
+        " behind",
+        " ",
+        "3",
+        " wooden",
+        " cubes"
+      ],
+      "prompt_tok_length": 13,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-25T20:32:02.680039Z",
+      "round_num": 3,
+      "player_id": "G3-P3",
+      "action_type": "quick_draw",
+      "prompt": "right view of 5 smaller cubes behind 3 wooden cubes",
+      "image_path": "images/20250825203202-img-3-G3-P3-quick_draw-right-view-of.png",
+      "prompt_tokens": [
+        "right",
+        " view",
+        " of",
+        " ",
+        "5",
+        " smaller",
+        " cubes",
+        " behind",
+        " ",
+        "3",
+        " wooden",
+        " cubes"
+      ],
+      "prompt_tok_length": 12,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-25T20:36:52.737948Z",
+      "round_num": 4,
+      "player_id": "G3-P2",
+      "action_type": "prompt_image",
+      "prompt": "73cm tall criminal",
+      "image_path": "images/20250825203652-img-4-G3-P2-prompt_image-73-cm-tall.png",
+      "prompt_tokens": [
+        "73",
+        "cm",
+        " tall",
+        " criminal"
+      ],
+      "prompt_tok_length": 4,
+      "votes_received": [
+        "G3-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 17,
+      "reference_image_path": "/static/reference_images/a_criminal.png",
+      "reference_image_prompt": "A criminal",
+      "reference_image_categories": [
+        "biological",
+        "cultural"
+      ],
+      "represented_category_in_game": "biological"
+    },
+    {
+      "timestamp": "2025-08-25T20:36:56.858778Z",
+      "round_num": 4,
+      "player_id": "G3-P1",
+      "action_type": "prompt_image",
+      "prompt": "an angry happy man holding a sign in a jail",
+      "image_path": "images/20250825203656-img-4-G3-P1-prompt_image-an-angry-happy.png",
+      "prompt_tokens": [
+        "an",
+        " angry",
+        " happy",
+        " man",
+        " holding",
+        " a",
+        " sign",
+        " in",
+        " a",
+        " jail"
+      ],
+      "prompt_tok_length": 10,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 17,
+      "reference_image_path": "/static/reference_images/a_criminal.png",
+      "reference_image_prompt": "A criminal",
+      "reference_image_categories": [
+        "biological",
+        "cultural"
+      ],
+      "represented_category_in_game": "biological"
+    },
+    {
+      "timestamp": "2025-08-25T20:37:20.896253Z",
+      "round_num": 4,
+      "player_id": "G3-P3",
+      "action_type": "prompt_image",
+      "prompt": "A male criminal suspect is taking picture in police station.",
+      "image_path": "images/20250825203720-img-4-G3-P3-prompt_image-A-male-criminal.png",
+      "prompt_tokens": [
+        "A",
+        " male",
+        " criminal",
+        " suspect",
+        " is",
+        " taking",
+        " picture",
+        " in",
+        " police",
+        " station",
+        "."
+      ],
+      "prompt_tok_length": 11,
+      "votes_received": [
+        "G3-P1",
+        "G3-P2"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 17,
+      "reference_image_path": "/static/reference_images/a_criminal.png",
+      "reference_image_prompt": "A criminal",
+      "reference_image_categories": [
+        "biological",
+        "cultural"
+      ],
+      "represented_category_in_game": "biological"
+    },
+    {
+      "timestamp": "2025-08-25T20:37:26.124266Z",
+      "round_num": 4,
+      "player_id": "G3-P1",
+      "action_type": "vote",
+      "voted_for_id": "G3-P3",
+      "vote_timestamp": "2025-08-25T20:37:26.124266Z"
+    },
+    {
+      "timestamp": "2025-08-25T20:37:28.040564Z",
+      "round_num": 4,
+      "player_id": "G3-P3",
+      "action_type": "vote",
+      "voted_for_id": "G3-P2",
+      "vote_timestamp": "2025-08-25T20:37:28.040564Z"
+    },
+    {
+      "timestamp": "2025-08-25T20:37:32.861881Z",
+      "round_num": 4,
+      "player_id": "G3-P2",
+      "action_type": "vote",
+      "voted_for_id": "G3-P3",
+      "vote_timestamp": "2025-08-25T20:37:32.861881Z"
+    },
+    {
+      "timestamp": "2025-08-25T20:39:37.500635Z",
+      "round_num": 4,
+      "player_id": "G3-P3",
+      "action_type": "quick_draw",
+      "prompt": "73 inches criminal taking picture with 081572 number sign in his hands",
+      "image_path": "images/20250825203937-img-4-G3-P3-quick_draw-73-inches-criminal.png",
+      "prompt_tokens": [
+        "73",
+        " inches",
+        " criminal",
+        " taking",
+        " picture",
+        " with",
+        " ",
+        "081",
+        "572",
+        " number",
+        " sign",
+        " in",
+        " his",
+        " hands"
+      ],
+      "prompt_tok_length": 14,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-25T20:40:08.639373Z",
+      "round_num": 4,
+      "player_id": "G3-P2",
+      "action_type": "quick_draw",
+      "prompt": "criminal holding numbers",
+      "image_path": "images/20250825204008-img-4-G3-P2-quick_draw-criminal-holding-numbers.png",
+      "prompt_tokens": [
+        "criminal",
+        " holding",
+        " numbers"
+      ],
+      "prompt_tok_length": 3,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-25T20:47:00.511040Z",
+      "round_num": 5,
+      "player_id": "G3-P1",
+      "action_type": "prompt_image",
+      "prompt": "kid's birthday party, 6 kids",
+      "image_path": "images/20250825204700-img-5-G3-P1-prompt_image-kid-s-birthday.png",
+      "prompt_tokens": [
+        "kid",
+        "'s",
+        " birthday",
+        " party",
+        ",",
+        " ",
+        "6",
+        " kids"
+      ],
+      "prompt_tok_length": 8,
+      "votes_received": [],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 11,
+      "reference_image_path": "/static/reference_images/a_birthday_party_with_no_cake_or_balloons_or_hats.png",
+      "reference_image_prompt": "A birthday party with no cake or balloons or hats",
+      "reference_image_categories": [
+        "co-occurrence"
+      ],
+      "represented_category_in_game": "co-occurrence"
+    },
+    {
+      "timestamp": "2025-08-25T20:47:31.685965Z",
+      "round_num": 5,
+      "player_id": "G3-P2",
+      "action_type": "prompt_image",
+      "prompt": "kids from different race celebrating by eating pizza at the table",
+      "image_path": "images/20250825204731-img-5-G3-P2-prompt_image-kids-from-different.png",
+      "prompt_tokens": [
+        "kids",
+        " from",
+        " different",
+        " race",
+        " celebrating",
+        " by",
+        " eating",
+        " pizza",
+        " at",
+        " the",
+        " table"
+      ],
+      "prompt_tok_length": 11,
+      "votes_received": [
+        "G3-P3"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 11,
+      "reference_image_path": "/static/reference_images/a_birthday_party_with_no_cake_or_balloons_or_hats.png",
+      "reference_image_prompt": "A birthday party with no cake or balloons or hats",
+      "reference_image_categories": [
+        "co-occurrence"
+      ],
+      "represented_category_in_game": "co-occurrence"
+    },
+    {
+      "timestamp": "2025-08-25T20:47:47.178474Z",
+      "round_num": 5,
+      "player_id": "G3-P3",
+      "action_type": "prompt_image",
+      "prompt": "6 kids from diverse background sitting and celebrating birthday",
+      "image_path": "images/20250825204747-img-5-G3-P3-prompt_image-6-kids-from.png",
+      "prompt_tokens": [
+        "6",
+        " kids",
+        " from",
+        " diverse",
+        " background",
+        " sitting",
+        " and",
+        " celebrating",
+        " birthday"
+      ],
+      "prompt_tok_length": 9,
+      "votes_received": [
+        "G3-P1",
+        "G3-P2"
+      ],
+      "generation_success": true,
+      "error_message": null,
+      "reference_image_id": 11,
+      "reference_image_path": "/static/reference_images/a_birthday_party_with_no_cake_or_balloons_or_hats.png",
+      "reference_image_prompt": "A birthday party with no cake or balloons or hats",
+      "reference_image_categories": [
+        "co-occurrence"
+      ],
+      "represented_category_in_game": "co-occurrence"
+    },
+    {
+      "timestamp": "2025-08-25T20:47:51.585750Z",
+      "round_num": 5,
+      "player_id": "G3-P1",
+      "action_type": "vote",
+      "voted_for_id": "G3-P3",
+      "vote_timestamp": "2025-08-25T20:47:51.585750Z"
+    },
+    {
+      "timestamp": "2025-08-25T20:47:56.710259Z",
+      "round_num": 5,
+      "player_id": "G3-P3",
+      "action_type": "vote",
+      "voted_for_id": "G3-P2",
+      "vote_timestamp": "2025-08-25T20:47:56.710259Z"
+    },
+    {
+      "timestamp": "2025-08-25T20:47:57.293495Z",
+      "round_num": 5,
+      "player_id": "G3-P2",
+      "action_type": "vote",
+      "voted_for_id": "G3-P3",
+      "vote_timestamp": "2025-08-25T20:47:57.293495Z"
+    },
+    {
+      "timestamp": "2025-08-25T20:48:47.232206Z",
+      "round_num": 5,
+      "player_id": "G3-P2",
+      "action_type": "quick_draw",
+      "prompt": "5 kids from different race celebrating by eating pizza at the table",
+      "image_path": "images/20250825204847-img-5-G3-P2-quick_draw-5-kids-from.png",
+      "prompt_tokens": [
+        "5",
+        " kids",
+        " from",
+        " different",
+        " race",
+        " celebrating",
+        " by",
+        " eating",
+        " pizza",
+        " at",
+        " the",
+        " table"
+      ],
+      "prompt_tok_length": 12,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-25T20:49:54.241316Z",
+      "round_num": 5,
+      "player_id": "G3-P3",
+      "action_type": "quick_draw",
+      "prompt": "6 kids sitting around a table eating pizza for birthday",
+      "image_path": "images/20250825204954-img-5-G3-P3-quick_draw-6-kids-sitting.png",
+      "prompt_tokens": [
+        "6",
+        " kids",
+        " sitting",
+        " around",
+        " a",
+        " table",
+        " eating",
+        " pizza",
+        " for",
+        " birthday"
+      ],
+      "prompt_tok_length": 10,
+      "generation_success": true,
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-08-25T20:50:18.296448Z",
+      "round_num": 5,
+      "player_id": "G3-P2",
+      "action_type": "quick_draw",
+      "prompt": "6 kids from diverse background celebrating birthday with pizza",
+      "image_path": "images/20250825205018-img-5-G3-P2-quick_draw-6-kids-from.png",
+      "prompt_tokens": [
+        "6",
+        " kids",
+        " from",
+        " diverse",
+        " background",
+        " celebrating",
+        " birthday",
+        " with",
+        " pizza"
+      ],
+      "prompt_tok_length": 9,
+      "generation_success": true,
+      "error_message": null
+    }
+  ]
+}
